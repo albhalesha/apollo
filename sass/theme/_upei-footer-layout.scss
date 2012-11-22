@@ -1,4 +1,9 @@
 
+.footer-message {
+  @include adjust-font-size-to($font-size-sm);
+  text-align: right;
+}
+
 #main {
   @include padding-leader(1);
   @include padding-trailer(1);
