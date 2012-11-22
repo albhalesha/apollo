@@ -1,20 +1,29 @@
-# OS generated files #
-######################
-.DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
-._*
-
-# Vim generated files #
-######################
-*.un~
-
-# Sass #
-########
 .sass-cache
+Gemfile.lock
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
 
-# Custom Exclusion #
-####################
-css/fonts/iconic.glyphs
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
 
+sass-extensions/aether-grids/examples/.sass-cache/
+sass-extensions/aether-components/examples/.sass-cache/
+aether_subtheme/sass-extensions/aether-grids/examples/stylesheets/
+.sass-cache/
+.DS_Store
+sass/.DS_Store
+sass/tester.scss
+css/tester.css

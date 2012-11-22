@@ -1,0 +1,117 @@
+// Primary nav Ribbon
+
+%ribbon {
+  @include border-right-radius(5px);
+  margin-left: -1.6em;
+  position: relative;
+  &:before, &:after {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+  }
+}
+
+%ribbon-color-1 {
+  border: 1em solid #363636;
+  border-left-color: transparent;
+  border-right-width: 1.5em;
+}
+
+%ribbon-color-2 {
+  border: 1em solid #ccc;
+  border-left-color: transparent;
+  border-right-width: 1.5em;
+}
+
+%ribbon-text {
+  padding-left: 0.75em;
+}
+
+.main-menu-inner .main-menu {
+  @extend %ribbon-text;
+  @extend %ribbon;
+  @extend %ribbon-color-2;
+  li {
+    margin-top: -0.67em;
+  }
+  a {
+    @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+  }
+}
+
+// Secondary links get a default styling and must be in upper right region
+
+%round-bottom-menu {
+  background-color: #363636;
+  @include border-bottom-radius(5px);
+  padding: 0 $typographic-indent 6px $typographic-indent;
+  > li {
+    a {
+      text-transform: uppercase;
+      @include link-colors($link-color-alt, $link-color-hover-alt, $link-color-active-alt, $link-color-visited-alt, $link-color-hover-alt);
+      &.active { color: $link-color-active-alt }
+    }
+  }
+}
+
+#secondary {
+  float: right;
+  &.links {
+    @extend %round-bottom-menu;
+    margin: 0;
+  > li {
+      @include horizontal-list-container;
+      @include horizontal-list-item(10px, left);
+      @include adjust-font-size-to($font-size-sm, 0.4);
+      border-right: 1px solid $link-color-alt;
+      &.last {
+        border-right: 0px;
+      }
+    }
+  }
+  @include respond-below(tablet) {
+    float: none;
+  }
+}
+
+// Footer links
+.footer-columns, .footer-wrapper .footer {
+  @include padding-leader(1);
+  color: lighten($link-color-alt, 20);
+  h2 {
+    &.block-title, &.title {
+      padding-left: 10px;
+      background-color: #363636;
+      @include border-radius(5px);
+      @include adjust-font-size-to($font-size-md, 1);
+    }
+  }
+  a {
+    @include link-colors($link-color-alt, $hover: $link-color-hover-alt, $focus: $link-color-hover-alt, $visited: $link-color-visited-alt, $active: $link-color-active-alt);
+  }
+  ul {
+    padding-left: 10px;
+    li, li.leaf {
+      list-style: none;
+    }
+  }
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+  @include margin-leader(0);
+  @include margin-trailer(1);
+}
+
+.breadcrumb {
+  color: adjust-color($link-color-alt, $lightness: -10);
+  @include margin-leader(0);
+  @include margin-trailer(0);
+  margin-left: 0;
+  padding-left: 0;
+a {
+  @include link-colors($link-color-alt, $hover: $link-color-hover-alt, $focus: $link-color-hover-alt, $visited: $link-color-visited-alt, $active: $link-color-active-alt);
+  padding: 0;
+  }
+}

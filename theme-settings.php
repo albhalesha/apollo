@@ -10,10 +10,10 @@ include_once './' . drupal_get_path('theme', 'aether') . '/includes/template.the
  * @return
  *   A form array.
  */
-function ischolartheme_settings($saved_settings) {
+function apollo_settings($saved_settings) {
 
   // Get the default values from the .info file.
-  $defaults = aether_theme_get_default_settings('ischolartheme');
+  $defaults = aether_theme_get_default_settings('apollo');
 
   // Merge the saved variables and their default values.
   $settings = array_merge($defaults, $saved_settings);
@@ -23,14 +23,13 @@ function ischolartheme_settings($saved_settings) {
    */
   $form = array();
   /* -- Delete this line if you want to use this setting
-  $form['aether_subtheme_example'] = array(
+  $form['apollo_example'] = array(
     '#type'          => 'checkbox',
     '#title'         => t('Use this sample setting'),
-    '#default_value' => $settings['aether_subtheme_example'],
+    '#default_value' => $settings['apollo_example'],
     '#description'   => t("This option doesn't do anything; it's just an example."),
   );
-  //
-  */
+  // */
 
   // Add the base theme's settings.
   $form += aether_settings($saved_settings, $defaults);

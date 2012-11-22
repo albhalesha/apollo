@@ -7,7 +7,7 @@
 // curly brackets:
 //   @include mix-in-name;
 
-$legacy-support-for-ie6: true !default;
+$legacy-support-for-ie6: false !default;
 $legacy-support-for-ie7: true !default;
 
 
@@ -278,20 +278,20 @@ $legacy-support-for-ie7: true !default;
   @return mix(black, $color, $percent);
 }
 
-// Creates a block-list for easy touch access
+// Vertical align content with IE fallback.
+// Adapted from toolkit, and http://css-tricks.com/vertically-center-multi-lined-text/
+//
+// Takes no arguments.
 
-@mixin block-list($color: #ccc, $border-top: 1px, $border-bottom: 1px, $margin-left: 0, $padding: 0.5em, $margin: 0) {
-  list-style:none;
-  margin-left:0;
-  border-top-width:$border-top;
-  > li {
-    border:0 solid $color;
-    border-bottom-width:$border-bottom;
-    padding:$padding;
-    a {
-      display:block;
-      padding:$padding;
-      margin:$margin;
-    }
+@mixin center-vertically {
+  display: table-cell;
+  vertical-align: middle;
+  
+  @if $legacy-support-for-ie7 or $legacy-support-for-ie6 {
+    margin-top: inherit;
+    *clear: expression(
+    style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),
+    style.clear = "none", 0
+    );
   }
 }

@@ -23,8 +23,6 @@ $font-size-normal:             $base-font-size; // 1em
 $font-size-lg:                 unitless-em(18px) * $base-font-size; // 18px / 16px = 1.125em
 $font-size-xl:                 unitless-em(22px) * $base-font-size; // 22px / 16px = 1.375em
 $font-size-xxl:                unitless-em(26px) * $base-font-size; // 26px / 16px = 1.625em
-$font-size-xxxl:               unitless-em(28px) * $base-font-size; // 26px / 16px = 1.625em
-
 
 $font-size-h1: $font-size-xxl;
 $font-size-h2: $font-size-xl;
@@ -75,8 +73,6 @@ $link-color-hover-alt4:         adjust-color($link-color-alt4, $lightness: +5);
 $link-color-visited-alt4:       $link-color-alt4;
 $link-color-active-alt4:        adjust-color($link-color-hover-alt4, $lightness: -10);
 
-
-
 // Text Colors
 $text-color:                   #222;
 $text-color-light:             adjust-color($text-color, $lightness: 54);
@@ -100,8 +96,8 @@ $button-color-1:               #fff;
 $button-color-2:               adjust-lightness($button-color-1, -6);
 $button-color-3:               adjust-lightness($button-color-1, -13);
 $button-color-hover-1:         #fff;
-$button-color-hover-2:         adjust-lightness($button-color-hover-1, -8);
-$button-color-hover-3:         adjust-lightness($button-color-hover-1, -10);
+$button-color-hover-2:         adjust-lightness($button-color-hover-1, -13);
+$button-color-hover-3:         adjust-lightness($button-color-hover-1, -20);
 $button-color-active-1:        #fff;
 $button-color-active-2:        adjust-lightness($button-color-active-1, -13);
 $button-color-active-3:        adjust-lightness($button-color-active-1, -7);
@@ -123,7 +119,7 @@ $table-zebra-even:             #f9f9f9;
 $table-zebra-odd:              #f5f5f5;
 
 // Tab colors
-$tabs-container-bg: #f3f3f1;
+$tabs-container-bg: #fff;
 $tabs-border: #bbb;
 
 // Generates nested classes for use in fluid or hybrid mode
@@ -156,7 +152,7 @@ $aether-grid-width-handheld-landscape:428px; // http://gridcalculator.dk/#/428/1
 $aether-grid-width-handheld:          308px; // http://gridcalculator.dk/#/308/12/20/20
 
 // Grid overlay
-// Used by aether-grids to create a grid ging overlay.
+// Used by aether-grids to create a grid debugging overlay.
 $aether-show-grid-background:         false;
 $show-column-grid-backgrounds:        true;
 $show-baseline-grid-backgrounds:      false;
@@ -197,11 +193,9 @@ $aether-media-handheld:               "h";
 // Re-usable Layout utilities from Aether Grids
 @import "aether-grids";
 
+// Component mixins
+@import "aether-components";
+
 // Import base mixins which create no code unless used.
 @import "base/utilities";
 @import "base/mediaqueries";
-@import 'base/mixin-boxbg';
-@import 'base/mixin-pill'; // used in aether tabs.
-
-// External extensions
-@import "font-icons";

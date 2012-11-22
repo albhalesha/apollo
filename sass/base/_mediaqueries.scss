@@ -52,6 +52,25 @@
   }
 }
 
+@mixin respond-below($aether-device) {
+  // Used by visibility classes only
+  @if $aether-device == tablet {
+    @media only screen and (max-width: $aether-break-medium - 1) {
+      @content;
+    }
+  }
+  @if $aether-device == tablet-landscape {
+    @media only screen and (max-width: $aether-break-large - 1) {
+      @content;
+    }
+  }
+  @if $aether-device == desktop {
+    @media only screen and (max-width: $aether-break-wide - 1) {
+      @content;
+    }
+  }
+}
+
 @mixin respond-above($aether-device) {
   // Used by visibility classes only
   @if $aether-device == handheld {

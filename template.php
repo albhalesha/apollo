@@ -19,13 +19,13 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to ischolartheme_.
+ *   entirety and paste it here, changing the prefix from theme_ to apollo_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: ischolartheme_breadcrumb()
+ *     theme override: apollo_breadcrumb()
  *
- *   where ischolartheme is the name of your sub-theme. For example, the
+ *   where apollo is the name of your sub-theme. For example, the
  *   aether_classic theme would define a aether_classic_breadcrumb() function.
  *
  *   If you would like to override any of the theme functions used in aether core,
@@ -64,7 +64,7 @@
 /**
  * Implementation of HOOK_theme().
  */
-function ischolartheme_theme(&$existing, $type, $theme, $path) {
+function apollo_theme(&$existing, $type, $theme, $path) {
   $hooks = aether_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
@@ -72,13 +72,6 @@ function ischolartheme_theme(&$existing, $type, $theme, $path) {
   */
   // @TODO: Needs detailed comments. Patches welcome!
   return $hooks;
-}
-
-function ischolartheme_preprocess_page(&$vars, $hook) {
-
-  $vars['logo_img'] = $vars['logo'] ? '<img src="' . $vars['logo'] . '" alt="University of Prince Edward Island" id="logo" />' : '';
-  $vars['linked_logo_img'] = $vars['logo'] ? l($vars['logo_img'], 'http://www.upei.ca', array('attributes' => array('rel' => 'home', 'title' => 'University of Prince Edward Island'), 'html' => TRUE)) : '';
-
 }
 
 /**
@@ -90,7 +83,7 @@ function ischolartheme_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function ischolartheme_preprocess(&$vars, $hook) {
+function apollo_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -104,7 +97,7 @@ function ischolartheme_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ischolartheme_preprocess_page(&$vars, $hook) {
+function apollo_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // To remove a class from $classes_array, use array_diff().
@@ -121,11 +114,11 @@ function ischolartheme_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ischolartheme_preprocess_node(&$vars, $hook) {
+function apollo_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // ischolartheme_preprocess_node_page() or ischolartheme_preprocess_node_story().
+  // apollo_preprocess_node_page() or apollo_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $vars['node']->type;
   if (function_exists($function)) {
     $function($vars, $hook);
@@ -142,7 +135,7 @@ function ischolartheme_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ischolartheme_preprocess_comment(&$vars, $hook) {
+function apollo_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -156,7 +149,7 @@ function ischolartheme_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ischolartheme_preprocess_block(&$vars, $hook) {
+function apollo_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */

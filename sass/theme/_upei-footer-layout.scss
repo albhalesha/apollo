@@ -1,0 +1,80 @@
+
+#main {
+  @include padding-leader(1);
+  @include padding-trailer(1);
+}
+
+.footer-wrapper {
+  @include leader(-1);
+  @include trailer(0.5);
+}
+
+/* UPEI footer module */
+
+.upei-footer {
+    // Set the grid base to float
+    .bottom-links {
+      @include grid-item-base;
+    }
+    // IE6-8
+    .ie6-8 & {
+      .section {
+        @include span-columns(2);
+        &.bl-last {
+          margin-right: 0;
+        }
+      }
+    }
+    // Set the widths of each menu
+    @include respond-to(desktop) {
+      .section {
+        @include span-columns(2);
+        &.bl-last {
+          margin-right: 0;
+        }
+      }
+    }
+    @include respond-to(tablet-all) {
+      .section {
+        @include span-columns(4);
+        &:nth-child(3n+3) {
+          @include span-columns(4, last right);
+        }
+      }
+    }
+    @include respond-to(handheld-landscape) {
+      .section {
+        @include span-columns(6);
+        &:nth-child(2n+2) {
+          @include span-columns(6, last right);
+        }
+      }
+    }
+    @include respond-to(handheld) {
+      .section {
+        @include span-columns(12);
+      }
+    }
+  .footeraddress {
+    @include span-columns(12, first);
+    @include adjust-font-size-to($font-size-md, 1)
+  }
+}
+
+.block-upei_footer {
+  @include trailer(0.5);
+}
+
+.inner-footeraddress {
+  padding-top: 10px;
+  @include respond-above(handheld) {
+    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
+  }
+  color: $link-color-hover-alt;
+  @include adjust-font-size-to($font-size-md);
+}
+
+.links-last {
+  text-align: center;
+  @include leader(1);
+}
