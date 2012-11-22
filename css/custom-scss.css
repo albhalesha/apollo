@@ -558,6 +558,10 @@ footer .footer-columns, footer .footer {
   padding-bottom: 1.5em;
 }
 
+.content-wrapper {
+  margin-bottom: 1.5em;
+}
+
 .footer-wrapper {
   margin-top: -1.5em;
   margin-bottom: 0.75em;
