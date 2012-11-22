@@ -1,3 +1,18 @@
+// Search text color
+
+#search-theme-form input.form-text,
+#search-box input.form-text,
+#search-block-form input.form-text,
+#islandora-solr-simple-search-form input.form-text,
+#ilives-solr-simple-search-block-form input.form-text,
+#google-cse-searchbox-form input.form-text,
+#ilives-solr-search-block-form input.form-text {
+  color: #ccc;
+  &:focus {
+    color: #333;
+  }
+}
+
 // Primary nav Ribbon
 
 %ribbon {

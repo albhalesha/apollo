@@ -100,10 +100,6 @@ input[type=file] {
 .password,
 .email {
   @include aether-form("standard");
-  color: #CCCCCC;
-  &:focus {
-    color: #333;
-  }
 }
 
 form > div {

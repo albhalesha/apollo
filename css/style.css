@@ -1099,7 +1099,6 @@ input[type=file] {
   border-style: solid;
   border-width: 1px;
   color: #222222;
-  color: #CCCCCC;
 }
 .form-select:hover,
 .form-textarea:hover,
@@ -1174,13 +1173,6 @@ input[type=file] {
 .email::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
-}
-.form-select:focus,
-.form-textarea:focus,
-.form-text:focus,
-.password:focus,
-.email:focus {
-  color: #333;
 }
 
 form > div {

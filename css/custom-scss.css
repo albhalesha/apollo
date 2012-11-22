@@ -81,6 +81,25 @@ footer .footer-columns, footer .footer {
   border-radius: 5px;
 }
 
+#search-theme-form input.form-text,
+#search-box input.form-text,
+#search-block-form input.form-text,
+#islandora-solr-simple-search-form input.form-text,
+#ilives-solr-simple-search-block-form input.form-text,
+#google-cse-searchbox-form input.form-text,
+#ilives-solr-search-block-form input.form-text {
+  color: #ccc;
+}
+#search-theme-form input.form-text:focus,
+#search-box input.form-text:focus,
+#search-block-form input.form-text:focus,
+#islandora-solr-simple-search-form input.form-text:focus,
+#ilives-solr-simple-search-block-form input.form-text:focus,
+#google-cse-searchbox-form input.form-text:focus,
+#ilives-solr-search-block-form input.form-text:focus {
+  color: #333;
+}
+
 .main-menu-inner .main-menu {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
