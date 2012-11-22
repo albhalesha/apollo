@@ -9,6 +9,10 @@
   @include padding-trailer(1);
 }
 
+.content-wrapper {
+  @include trailer(1);
+}
+
 .footer-wrapper {
   @include leader(-1);
   @include trailer(0.5);
