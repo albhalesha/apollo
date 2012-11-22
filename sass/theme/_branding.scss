@@ -4,7 +4,24 @@
   @include grid-item-base;
 }
 
-.branding .logo {
+.logo {
+  img {
+    border-right: 1px solid #C7C7C7;
+    padding-right: 10px;
+  }
+  @include margin-trailer(0.5);
+  @include respond-to(handheld-landscape) {
+    padding-right: 0;
+    img {
+      width: 90%;
+    }
+  }
+  @include respond-to(handheld) {
+    border-left: 0;
+    padding-left: 2em;
+    padding-top: 0;
+    @include margin-trailer(0);
+  }
   @include respond-to(desktop) {
     @include span-columns(3);
     @include position(1);
@@ -38,6 +55,24 @@
 }
 
 .name-and-slogan{
+  color: #333;
+  &.with-logo {
+    padding: {
+      top: 5px;
+    }
+    margin-top: 5px;
+    @include respond-to(handheld-landscape) {
+      border-left: 0;
+      font-size: 80%;
+    }
+    @include respond-to(handheld) {
+      border-left: 0;
+      font-size: 90%;
+      margin-top: 0;
+      padding-top: 0 !important;
+      text-align: left;
+    }
+  }
   @include respond-to(desktop) {
     @include span-columns(4);
     @include position(3);
@@ -98,49 +133,9 @@
   }
 }
 
-.branding .name-and-slogan {
-  color: #333;
-  &.with-logo {
-    padding: {
-      top: 5px;
-    }
-    margin-top: 5px;
-    @include respond-to(handheld-landscape) {
-      border-left: 0;
-      font-size: 80%;
-    }
-    @include respond-to(handheld) {
-      border-left: 0;
-      font-size: 90%;
-      margin-top: 0;
-      padding-top: 0 !important;
-      text-align: left;
-    }
-  }
-}
 
-.branding .logo {
-  img {
-    border-right: 1px solid #C7C7C7;
-    padding-right: 10px;
-  }
-  @include margin-trailer(0.5);
-  @include respond-to(handheld-landscape) {
-    padding-right: 0;
-    img {
-      width: 90%;
-    }
-  }
-  @include respond-to(handheld) {
-    border-left: 0;
-    padding-left: 2em;
-    padding-top: 0;
-    @include margin-trailer(0);
-  }
-}
-
-.branding .site-name {
-  @include adjust-font-size-to($font-size-xxl,0.8);
+.site-name {
+//  @include adjust-font-size-to($font-size-xxl,0.8);
   // Target webkit because of font size difference with small-caps
   @include margin-leader(0);
   @include margin-trailer(0.3, $font-size-xxl);
@@ -160,7 +155,7 @@
   text-transform: lowercase;
 }
 
-.branding .site-slogan {
+.site-slogan {
   @extend %uppercase;
   @media screen and (-webkit-min-device-pixel-ratio:0) {
     @include adjust-font-size-to($font-size-xxl,0.8);
