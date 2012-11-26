@@ -1,36 +1,58 @@
-@mixin respond-to($aether-device) {
+$aether-mq-selector: false !default;
+
+@mixin respond-to($aether-device, $mq-selector: $aether-mq-selector) {
   // Used by visibility classes only
   @if $aether-device == handheld {
     @media only screen and (max-width: $aether-break-small - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == handheld-landscape {
     @media only screen and (min-width: $aether-break-small) and (max-width: $aether-break-medium - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet {
     @media only screen and (min-width: $aether-break-medium) and (max-width: $aether-break-large - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet-landscape {
     @media only screen and (min-width: $aether-break-large) and (max-width: $aether-break-wide - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet-all {
     @media only screen and (min-width: $aether-break-medium) and (max-width: $aether-break-wide - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
@@ -38,64 +60,96 @@
   // Used by visibility classes only
   @if $aether-device == desktop {
     @media only screen and (min-width: $aether-break-wide) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
 }
 
-@mixin respond-below($aether-device) {
+@mixin respond-below($aether-device, $mq-selector: $aether-mq-selector) {
   // Used by visibility classes only
   @if $aether-device == tablet {
     @media only screen and (max-width: $aether-break-medium - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet-landscape {
     @media only screen and (max-width: $aether-break-large - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == desktop {
     @media only screen and (max-width: $aether-break-wide - 1) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
 }
 
-@mixin respond-above($aether-device) {
+@mixin respond-above($aether-device, $mq-selector: $aether-mq-selector) {
   // Used by visibility classes only
   @if $aether-device == handheld {
     @media only screen and (min-width: $aether-break-small) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == handheld-landscape {
     @media only screen and (min-width: $aether-break-medium) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet {
     @media only screen and (min-width: $aether-break-large) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
   }
   @if $aether-device == tablet-landscape {
     @media only screen and (min-width: $aether-break-wide) {
-      .responsive {
+      @if $aether-mq-selector {
+        .#{responsive} & {
+          @content;
+        }
+      } @else {
         @content;
       }
     }
