@@ -61,7 +61,6 @@ stylesheets[all][] = system-menus-rtl.css
 ; --------------------------------------------------------------------------------
 ; Add our stylesheets.
 ; --------------------------------------------------------------------------------
-stylesheets[all][] = css/layout/layout-responsive.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/custom-scss.css
 
@@ -119,11 +118,9 @@ settings[grid_prefix3] = g-t-
 settings[grid_prefix4] = g-hl-
 settings[grid_prefix5] = g-h-
 
-; Enable all 5 media queries, '0' for off, '1' for on.
-settings[layout_options][] = '1'
-
-; Enable navigation to grid, '0' for off, '2' for on.
-settings[layout_options][] = '0'
+; Enable additional layout options.
+settings[layout_options][] = resp_layout
+settings[layout_options][] = navgrid
 
 ; Grid debugging css, '0' for off, '1' for on.
 settings[grid_background][] = '0'
