@@ -68,7 +68,6 @@ stylesheets[all][] = css/custom-scss.css
 ; --------------------------------------------------------------------------------
 ; Optionally add some JavaScripts to your theme.
 ; --------------------------------------------------------------------------------
-scripts[] = js/ios-orientationchange-fix.js
 scripts[] = js/jquery_example/jquery.example.min.js
 scripts[] = js/searchtext.js
 
@@ -93,6 +92,15 @@ settings[aether_breadcrumb_separator] = ' » '
 settings[aether_breadcrumb_home]      = 1
 settings[aether_breadcrumb_trailing]  = 0
 settings[aether_breadcrumb_title]     = 0
+
+; Responsive javascript.
+settings[aether_polyfills][] = respond
+settings[aether_polyfills][] = html5
+settings[aether_polyfills][] = meta
+settings[aether_polyfills][] = selectivizr
+settings[aether_polyfills][] = imgsizer
+settings[aether_polyfills][] = responsive_tables
+settings[aether_polyfills][] = ios_orientation_fix
 
 ; Amount of media queries to use, must equal 5 for now.
 settings[media_queries] = '5'

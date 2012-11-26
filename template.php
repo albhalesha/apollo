@@ -60,7 +60,6 @@
  *   and http://drupal.org/node/190815#template-suggestions
  */
 
-
 /**
  * Implementation of HOOK_theme().
  */
