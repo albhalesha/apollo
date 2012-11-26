@@ -26,7 +26,7 @@
       @include grid-item-base;
     }
     // IE6-8
-    .ie6-8 & {
+    .ie6-8 &, .not-responsive & {
       .section {
         @include span-columns(2);
         &.bl-last {
@@ -77,6 +77,9 @@
 .inner-footeraddress {
   padding-top: 10px;
   @include respond-above(handheld) {
+    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
+  }
+  .not-responsive & {
     background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
   }
   color: $link-color-hover-alt;

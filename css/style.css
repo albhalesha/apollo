@@ -1290,11 +1290,10 @@ table td.menu-disabled {
 
 /* Responsive Tables */
 @media only screen and (max-width: 767px) {
-  table.responsive {
+  .responsive table.responsive {
     margin-bottom: 0;
   }
-
-  .pinned {
+  .responsive .pinned {
     background: white;
     border-left: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
@@ -1305,49 +1304,41 @@ table td.menu-disabled {
     top: 0;
     width: 35%;
   }
-
-  .pinned table {
+  .responsive .pinned table {
     border-left: none;
     border-right: none;
     width: 100%;
   }
-
-  .pinned table th,
-  .pinned table td {
+  .responsive .pinned table th,
+  .responsive .pinned table td {
     white-space: nowrap;
   }
-
-  .pinned td:last-child {
+  .responsive .pinned td:last-child {
     border-bottom: 0;
   }
-
-  div.table-wrapper {
+  .responsive div.table-wrapper {
     border-right: 1px solid #dddddd;
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
   }
-
-  div.table-wrapper div.scrollable table {
+  .responsive div.table-wrapper div.scrollable table {
     margin-left: 35%;
   }
-
-  div.table-wrapper div.scrollable {
+  .responsive div.table-wrapper div.scrollable {
     overflow: scroll;
     overflow-y: hidden;
   }
-
-  table.responsive td,
-  table.responsive th {
+  .responsive table.responsive td,
+  .responsive table.responsive th {
     overflow: hidden;
     position: relative;
     white-space: nowrap;
   }
-
-  table.responsive th:first-child,
-  table.responsive td:first-child,
-  table.responsive td:first-child,
-  table.responsive.pinned td {
+  .responsive table.responsive th:first-child,
+  .responsive table.responsive td:first-child,
+  .responsive table.responsive td:first-child,
+  .responsive table.responsive.pinned td {
     display: none;
   }
 }

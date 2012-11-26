@@ -18,147 +18,129 @@
 
 /* Only handheld portrait */
 @media only screen and (max-width: 479px) {
-  .desktop-visible,
-  .tablet-visible,
-  .tablet-landscape-visible,
-  .handheld-landscape-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-visible,
+  .responsive .tablet-landscape-visible,
+  .responsive .handheld-landscape-visible {
     display: none !important;
   }
-
-  .handheld-visible {
+  .responsive .handheld-visible {
     display: block !important;
   }
-
-  a.handheld-visible, abbr.handheld-visible, acronym.handheld-visible, audio.handheld-visible, b.handheld-visible, basefont.handheld-visible, bdo.handheld-visible, big.handheld-visible, br.handheld-visible, canvas.handheld-visible, cite.handheld-visible, code.handheld-visible, command.handheld-visible, datalist.handheld-visible, dfn.handheld-visible, em.handheld-visible, embed.handheld-visible, font.handheld-visible, i.handheld-visible, img.handheld-visible, input.handheld-visible, keygen.handheld-visible, kbd.handheld-visible, label.handheld-visible, mark.handheld-visible, meter.handheld-visible, output.handheld-visible, progress.handheld-visible, q.handheld-visible, rp.handheld-visible, rt.handheld-visible, ruby.handheld-visible, s.handheld-visible, samp.handheld-visible, select.handheld-visible, small.handheld-visible, span.handheld-visible, strike.handheld-visible, strong.handheld-visible, sub.handheld-visible, sup.handheld-visible, textarea.handheld-visible, time.handheld-visible, tt.handheld-visible, u.handheld-visible, var.handheld-visible, video.handheld-visible, wbr.handheld-visible {
+  .responsive a.handheld-visible, .responsive abbr.handheld-visible, .responsive acronym.handheld-visible, .responsive audio.handheld-visible, .responsive b.handheld-visible, .responsive basefont.handheld-visible, .responsive bdo.handheld-visible, .responsive big.handheld-visible, .responsive br.handheld-visible, .responsive canvas.handheld-visible, .responsive cite.handheld-visible, .responsive code.handheld-visible, .responsive command.handheld-visible, .responsive datalist.handheld-visible, .responsive dfn.handheld-visible, .responsive em.handheld-visible, .responsive embed.handheld-visible, .responsive font.handheld-visible, .responsive i.handheld-visible, .responsive img.handheld-visible, .responsive input.handheld-visible, .responsive keygen.handheld-visible, .responsive kbd.handheld-visible, .responsive label.handheld-visible, .responsive mark.handheld-visible, .responsive meter.handheld-visible, .responsive output.handheld-visible, .responsive progress.handheld-visible, .responsive q.handheld-visible, .responsive rp.handheld-visible, .responsive rt.handheld-visible, .responsive ruby.handheld-visible, .responsive s.handheld-visible, .responsive samp.handheld-visible, .responsive select.handheld-visible, .responsive small.handheld-visible, .responsive span.handheld-visible, .responsive strike.handheld-visible, .responsive strong.handheld-visible, .responsive sub.handheld-visible, .responsive sup.handheld-visible, .responsive textarea.handheld-visible, .responsive time.handheld-visible, .responsive tt.handheld-visible, .responsive u.handheld-visible, .responsive var.handheld-visible, .responsive video.handheld-visible, .responsive wbr.handheld-visible {
     display: inline !important;
   }
 }
 /* Only handheld landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .desktop-visible,
-  .tablet-visible,
-  .tablet-landscape-visible,
-  .handheld-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-visible,
+  .responsive .tablet-landscape-visible,
+  .responsive .handheld-visible {
     display: none !important;
   }
-
-  .handheld-landscape-visible {
+  .responsive .handheld-landscape-visible {
     display: block !important;
   }
-
-  a.handheld-landscape-visible, abbr.handheld-landscape-visible, acronym.handheld-landscape-visible, audio.handheld-landscape-visible, b.handheld-landscape-visible, basefont.handheld-landscape-visible, bdo.handheld-landscape-visible, big.handheld-landscape-visible, br.handheld-landscape-visible, canvas.handheld-landscape-visible, cite.handheld-landscape-visible, code.handheld-landscape-visible, command.handheld-landscape-visible, datalist.handheld-landscape-visible, dfn.handheld-landscape-visible, em.handheld-landscape-visible, embed.handheld-landscape-visible, font.handheld-landscape-visible, i.handheld-landscape-visible, img.handheld-landscape-visible, input.handheld-landscape-visible, keygen.handheld-landscape-visible, kbd.handheld-landscape-visible, label.handheld-landscape-visible, mark.handheld-landscape-visible, meter.handheld-landscape-visible, output.handheld-landscape-visible, progress.handheld-landscape-visible, q.handheld-landscape-visible, rp.handheld-landscape-visible, rt.handheld-landscape-visible, ruby.handheld-landscape-visible, s.handheld-landscape-visible, samp.handheld-landscape-visible, select.handheld-landscape-visible, small.handheld-landscape-visible, span.handheld-landscape-visible, strike.handheld-landscape-visible, strong.handheld-landscape-visible, sub.handheld-landscape-visible, sup.handheld-landscape-visible, textarea.handheld-landscape-visible, time.handheld-landscape-visible, tt.handheld-landscape-visible, u.handheld-landscape-visible, var.handheld-landscape-visible, video.handheld-landscape-visible, wbr.handheld-landscape-visible {
+  .responsive a.handheld-landscape-visible, .responsive abbr.handheld-landscape-visible, .responsive acronym.handheld-landscape-visible, .responsive audio.handheld-landscape-visible, .responsive b.handheld-landscape-visible, .responsive basefont.handheld-landscape-visible, .responsive bdo.handheld-landscape-visible, .responsive big.handheld-landscape-visible, .responsive br.handheld-landscape-visible, .responsive canvas.handheld-landscape-visible, .responsive cite.handheld-landscape-visible, .responsive code.handheld-landscape-visible, .responsive command.handheld-landscape-visible, .responsive datalist.handheld-landscape-visible, .responsive dfn.handheld-landscape-visible, .responsive em.handheld-landscape-visible, .responsive embed.handheld-landscape-visible, .responsive font.handheld-landscape-visible, .responsive i.handheld-landscape-visible, .responsive img.handheld-landscape-visible, .responsive input.handheld-landscape-visible, .responsive keygen.handheld-landscape-visible, .responsive kbd.handheld-landscape-visible, .responsive label.handheld-landscape-visible, .responsive mark.handheld-landscape-visible, .responsive meter.handheld-landscape-visible, .responsive output.handheld-landscape-visible, .responsive progress.handheld-landscape-visible, .responsive q.handheld-landscape-visible, .responsive rp.handheld-landscape-visible, .responsive rt.handheld-landscape-visible, .responsive ruby.handheld-landscape-visible, .responsive s.handheld-landscape-visible, .responsive samp.handheld-landscape-visible, .responsive select.handheld-landscape-visible, .responsive small.handheld-landscape-visible, .responsive span.handheld-landscape-visible, .responsive strike.handheld-landscape-visible, .responsive strong.handheld-landscape-visible, .responsive sub.handheld-landscape-visible, .responsive sup.handheld-landscape-visible, .responsive textarea.handheld-landscape-visible, .responsive time.handheld-landscape-visible, .responsive tt.handheld-landscape-visible, .responsive u.handheld-landscape-visible, .responsive var.handheld-landscape-visible, .responsive video.handheld-landscape-visible, .responsive wbr.handheld-landscape-visible {
     display: inline !important;
   }
 }
 /* Only tablet portrait */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-  .desktop-visible,
-  .tablet-landscape-visible,
-  .handheld-landscape-visible,
-  .handheld-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-landscape-visible,
+  .responsive .handheld-landscape-visible,
+  .responsive .handheld-visible {
     display: none !important;
   }
-
-  .tablet-visible {
+  .responsive .tablet-visible {
     display: block !important;
   }
-
-  a.tablet-visible, abbr.tablet-visible, acronym.tablet-visible, audio.tablet-visible, b.tablet-visible, basefont.tablet-visible, bdo.tablet-visible, big.tablet-visible, br.tablet-visible, canvas.tablet-visible, cite.tablet-visible, code.tablet-visible, command.tablet-visible, datalist.tablet-visible, dfn.tablet-visible, em.tablet-visible, embed.tablet-visible, font.tablet-visible, i.tablet-visible, img.tablet-visible, input.tablet-visible, keygen.tablet-visible, kbd.tablet-visible, label.tablet-visible, mark.tablet-visible, meter.tablet-visible, output.tablet-visible, progress.tablet-visible, q.tablet-visible, rp.tablet-visible, rt.tablet-visible, ruby.tablet-visible, s.tablet-visible, samp.tablet-visible, select.tablet-visible, small.tablet-visible, span.tablet-visible, strike.tablet-visible, strong.tablet-visible, sub.tablet-visible, sup.tablet-visible, textarea.tablet-visible, time.tablet-visible, tt.tablet-visible, u.tablet-visible, var.tablet-visible, video.tablet-visible, wbr.tablet-visible {
+  .responsive a.tablet-visible, .responsive abbr.tablet-visible, .responsive acronym.tablet-visible, .responsive audio.tablet-visible, .responsive b.tablet-visible, .responsive basefont.tablet-visible, .responsive bdo.tablet-visible, .responsive big.tablet-visible, .responsive br.tablet-visible, .responsive canvas.tablet-visible, .responsive cite.tablet-visible, .responsive code.tablet-visible, .responsive command.tablet-visible, .responsive datalist.tablet-visible, .responsive dfn.tablet-visible, .responsive em.tablet-visible, .responsive embed.tablet-visible, .responsive font.tablet-visible, .responsive i.tablet-visible, .responsive img.tablet-visible, .responsive input.tablet-visible, .responsive keygen.tablet-visible, .responsive kbd.tablet-visible, .responsive label.tablet-visible, .responsive mark.tablet-visible, .responsive meter.tablet-visible, .responsive output.tablet-visible, .responsive progress.tablet-visible, .responsive q.tablet-visible, .responsive rp.tablet-visible, .responsive rt.tablet-visible, .responsive ruby.tablet-visible, .responsive s.tablet-visible, .responsive samp.tablet-visible, .responsive select.tablet-visible, .responsive small.tablet-visible, .responsive span.tablet-visible, .responsive strike.tablet-visible, .responsive strong.tablet-visible, .responsive sub.tablet-visible, .responsive sup.tablet-visible, .responsive textarea.tablet-visible, .responsive time.tablet-visible, .responsive tt.tablet-visible, .responsive u.tablet-visible, .responsive var.tablet-visible, .responsive video.tablet-visible, .responsive wbr.tablet-visible {
     display: inline !important;
   }
 }
 /* Only handhelds */
 @media only screen and (max-width: 767px) {
-  .desktop-visible,
-  .tablet-landscape-visible,
-  .tablet-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-landscape-visible,
+  .responsive .tablet-visible {
     display: none !important;
   }
-
-  .below-tablet-visible {
+  .responsive .below-tablet-visible {
     display: block !important;
   }
-
-  a.below-tablet-visible, abbr.below-tablet-visible, acronym.below-tablet-visible, audio.below-tablet-visible, b.below-tablet-visible, basefont.below-tablet-visible, bdo.below-tablet-visible, big.below-tablet-visible, br.below-tablet-visible, canvas.below-tablet-visible, cite.below-tablet-visible, code.below-tablet-visible, command.below-tablet-visible, datalist.below-tablet-visible, dfn.below-tablet-visible, em.below-tablet-visible, embed.below-tablet-visible, font.below-tablet-visible, i.below-tablet-visible, img.below-tablet-visible, input.below-tablet-visible, keygen.below-tablet-visible, kbd.below-tablet-visible, label.below-tablet-visible, mark.below-tablet-visible, meter.below-tablet-visible, output.below-tablet-visible, progress.below-tablet-visible, q.below-tablet-visible, rp.below-tablet-visible, rt.below-tablet-visible, ruby.below-tablet-visible, s.below-tablet-visible, samp.below-tablet-visible, select.below-tablet-visible, small.below-tablet-visible, span.below-tablet-visible, strike.below-tablet-visible, strong.below-tablet-visible, sub.below-tablet-visible, sup.below-tablet-visible, textarea.below-tablet-visible, time.below-tablet-visible, tt.below-tablet-visible, u.below-tablet-visible, var.below-tablet-visible, video.below-tablet-visible, wbr.below-tablet-visible {
+  .responsive a.below-tablet-visible, .responsive abbr.below-tablet-visible, .responsive acronym.below-tablet-visible, .responsive audio.below-tablet-visible, .responsive b.below-tablet-visible, .responsive basefont.below-tablet-visible, .responsive bdo.below-tablet-visible, .responsive big.below-tablet-visible, .responsive br.below-tablet-visible, .responsive canvas.below-tablet-visible, .responsive cite.below-tablet-visible, .responsive code.below-tablet-visible, .responsive command.below-tablet-visible, .responsive datalist.below-tablet-visible, .responsive dfn.below-tablet-visible, .responsive em.below-tablet-visible, .responsive embed.below-tablet-visible, .responsive font.below-tablet-visible, .responsive i.below-tablet-visible, .responsive img.below-tablet-visible, .responsive input.below-tablet-visible, .responsive keygen.below-tablet-visible, .responsive kbd.below-tablet-visible, .responsive label.below-tablet-visible, .responsive mark.below-tablet-visible, .responsive meter.below-tablet-visible, .responsive output.below-tablet-visible, .responsive progress.below-tablet-visible, .responsive q.below-tablet-visible, .responsive rp.below-tablet-visible, .responsive rt.below-tablet-visible, .responsive ruby.below-tablet-visible, .responsive s.below-tablet-visible, .responsive samp.below-tablet-visible, .responsive select.below-tablet-visible, .responsive small.below-tablet-visible, .responsive span.below-tablet-visible, .responsive strike.below-tablet-visible, .responsive strong.below-tablet-visible, .responsive sub.below-tablet-visible, .responsive sup.below-tablet-visible, .responsive textarea.below-tablet-visible, .responsive time.below-tablet-visible, .responsive tt.below-tablet-visible, .responsive u.below-tablet-visible, .responsive var.below-tablet-visible, .responsive video.below-tablet-visible, .responsive wbr.below-tablet-visible {
     display: inline !important;
   }
 }
 /* Only tablet landscape */
 @media only screen and (min-width: 980px) and (max-width: 1159px) {
-  .desktop-visible,
-  .tablet-visible,
-  .handheld-landscape-visible,
-  .handheld-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-visible,
+  .responsive .handheld-landscape-visible,
+  .responsive .handheld-visible {
     display: none !important;
   }
-
-  .tablet-landscape-visible {
+  .responsive .tablet-landscape-visible {
     display: block !important;
   }
-
-  a.tablet-landscape-visible, abbr.tablet-landscape-visible, acronym.tablet-landscape-visible, audio.tablet-landscape-visible, b.tablet-landscape-visible, basefont.tablet-landscape-visible, bdo.tablet-landscape-visible, big.tablet-landscape-visible, br.tablet-landscape-visible, canvas.tablet-landscape-visible, cite.tablet-landscape-visible, code.tablet-landscape-visible, command.tablet-landscape-visible, datalist.tablet-landscape-visible, dfn.tablet-landscape-visible, em.tablet-landscape-visible, embed.tablet-landscape-visible, font.tablet-landscape-visible, i.tablet-landscape-visible, img.tablet-landscape-visible, input.tablet-landscape-visible, keygen.tablet-landscape-visible, kbd.tablet-landscape-visible, label.tablet-landscape-visible, mark.tablet-landscape-visible, meter.tablet-landscape-visible, output.tablet-landscape-visible, progress.tablet-landscape-visible, q.tablet-landscape-visible, rp.tablet-landscape-visible, rt.tablet-landscape-visible, ruby.tablet-landscape-visible, s.tablet-landscape-visible, samp.tablet-landscape-visible, select.tablet-landscape-visible, small.tablet-landscape-visible, span.tablet-landscape-visible, strike.tablet-landscape-visible, strong.tablet-landscape-visible, sub.tablet-landscape-visible, sup.tablet-landscape-visible, textarea.tablet-landscape-visible, time.tablet-landscape-visible, tt.tablet-landscape-visible, u.tablet-landscape-visible, var.tablet-landscape-visible, video.tablet-landscape-visible, wbr.tablet-landscape-visible {
+  .responsive a.tablet-landscape-visible, .responsive abbr.tablet-landscape-visible, .responsive acronym.tablet-landscape-visible, .responsive audio.tablet-landscape-visible, .responsive b.tablet-landscape-visible, .responsive basefont.tablet-landscape-visible, .responsive bdo.tablet-landscape-visible, .responsive big.tablet-landscape-visible, .responsive br.tablet-landscape-visible, .responsive canvas.tablet-landscape-visible, .responsive cite.tablet-landscape-visible, .responsive code.tablet-landscape-visible, .responsive command.tablet-landscape-visible, .responsive datalist.tablet-landscape-visible, .responsive dfn.tablet-landscape-visible, .responsive em.tablet-landscape-visible, .responsive embed.tablet-landscape-visible, .responsive font.tablet-landscape-visible, .responsive i.tablet-landscape-visible, .responsive img.tablet-landscape-visible, .responsive input.tablet-landscape-visible, .responsive keygen.tablet-landscape-visible, .responsive kbd.tablet-landscape-visible, .responsive label.tablet-landscape-visible, .responsive mark.tablet-landscape-visible, .responsive meter.tablet-landscape-visible, .responsive output.tablet-landscape-visible, .responsive progress.tablet-landscape-visible, .responsive q.tablet-landscape-visible, .responsive rp.tablet-landscape-visible, .responsive rt.tablet-landscape-visible, .responsive ruby.tablet-landscape-visible, .responsive s.tablet-landscape-visible, .responsive samp.tablet-landscape-visible, .responsive select.tablet-landscape-visible, .responsive small.tablet-landscape-visible, .responsive span.tablet-landscape-visible, .responsive strike.tablet-landscape-visible, .responsive strong.tablet-landscape-visible, .responsive sub.tablet-landscape-visible, .responsive sup.tablet-landscape-visible, .responsive textarea.tablet-landscape-visible, .responsive time.tablet-landscape-visible, .responsive tt.tablet-landscape-visible, .responsive u.tablet-landscape-visible, .responsive var.tablet-landscape-visible, .responsive video.tablet-landscape-visible, .responsive wbr.tablet-landscape-visible {
     display: inline !important;
   }
 }
 /* Only tablet portrait and below */
 @media only screen and (max-width: 979px) {
-  .desktop-visible,
-  .tablet-landscape-visible {
+  .responsive .desktop-visible,
+  .responsive .tablet-landscape-visible {
     display: none !important;
   }
-
-  .below-tablet-landscape-visible {
+  .responsive .below-tablet-landscape-visible {
     display: block !important;
   }
-
-  a.below-tablet-landscape-visible, abbr.below-tablet-landscape-visible, acronym.below-tablet-landscape-visible, audio.below-tablet-landscape-visible, b.below-tablet-landscape-visible, basefont.below-tablet-landscape-visible, bdo.below-tablet-landscape-visible, big.below-tablet-landscape-visible, br.below-tablet-landscape-visible, canvas.below-tablet-landscape-visible, cite.below-tablet-landscape-visible, code.below-tablet-landscape-visible, command.below-tablet-landscape-visible, datalist.below-tablet-landscape-visible, dfn.below-tablet-landscape-visible, em.below-tablet-landscape-visible, embed.below-tablet-landscape-visible, font.below-tablet-landscape-visible, i.below-tablet-landscape-visible, img.below-tablet-landscape-visible, input.below-tablet-landscape-visible, keygen.below-tablet-landscape-visible, kbd.below-tablet-landscape-visible, label.below-tablet-landscape-visible, mark.below-tablet-landscape-visible, meter.below-tablet-landscape-visible, output.below-tablet-landscape-visible, progress.below-tablet-landscape-visible, q.below-tablet-landscape-visible, rp.below-tablet-landscape-visible, rt.below-tablet-landscape-visible, ruby.below-tablet-landscape-visible, s.below-tablet-landscape-visible, samp.below-tablet-landscape-visible, select.below-tablet-landscape-visible, small.below-tablet-landscape-visible, span.below-tablet-landscape-visible, strike.below-tablet-landscape-visible, strong.below-tablet-landscape-visible, sub.below-tablet-landscape-visible, sup.below-tablet-landscape-visible, textarea.below-tablet-landscape-visible, time.below-tablet-landscape-visible, tt.below-tablet-landscape-visible, u.below-tablet-landscape-visible, var.below-tablet-landscape-visible, video.below-tablet-landscape-visible, wbr.below-tablet-landscape-visible {
+  .responsive a.below-tablet-landscape-visible, .responsive abbr.below-tablet-landscape-visible, .responsive acronym.below-tablet-landscape-visible, .responsive audio.below-tablet-landscape-visible, .responsive b.below-tablet-landscape-visible, .responsive basefont.below-tablet-landscape-visible, .responsive bdo.below-tablet-landscape-visible, .responsive big.below-tablet-landscape-visible, .responsive br.below-tablet-landscape-visible, .responsive canvas.below-tablet-landscape-visible, .responsive cite.below-tablet-landscape-visible, .responsive code.below-tablet-landscape-visible, .responsive command.below-tablet-landscape-visible, .responsive datalist.below-tablet-landscape-visible, .responsive dfn.below-tablet-landscape-visible, .responsive em.below-tablet-landscape-visible, .responsive embed.below-tablet-landscape-visible, .responsive font.below-tablet-landscape-visible, .responsive i.below-tablet-landscape-visible, .responsive img.below-tablet-landscape-visible, .responsive input.below-tablet-landscape-visible, .responsive keygen.below-tablet-landscape-visible, .responsive kbd.below-tablet-landscape-visible, .responsive label.below-tablet-landscape-visible, .responsive mark.below-tablet-landscape-visible, .responsive meter.below-tablet-landscape-visible, .responsive output.below-tablet-landscape-visible, .responsive progress.below-tablet-landscape-visible, .responsive q.below-tablet-landscape-visible, .responsive rp.below-tablet-landscape-visible, .responsive rt.below-tablet-landscape-visible, .responsive ruby.below-tablet-landscape-visible, .responsive s.below-tablet-landscape-visible, .responsive samp.below-tablet-landscape-visible, .responsive select.below-tablet-landscape-visible, .responsive small.below-tablet-landscape-visible, .responsive span.below-tablet-landscape-visible, .responsive strike.below-tablet-landscape-visible, .responsive strong.below-tablet-landscape-visible, .responsive sub.below-tablet-landscape-visible, .responsive sup.below-tablet-landscape-visible, .responsive textarea.below-tablet-landscape-visible, .responsive time.below-tablet-landscape-visible, .responsive tt.below-tablet-landscape-visible, .responsive u.below-tablet-landscape-visible, .responsive var.below-tablet-landscape-visible, .responsive video.below-tablet-landscape-visible, .responsive wbr.below-tablet-landscape-visible {
     display: inline !important;
   }
 }
 /* Only tablets */
 @media only screen and (min-width: 768px) and (max-width: 1159px) {
-  .desktop-visible,
-  .handheld-landscape-visible,
-  .handheld-visible {
+  .responsive .desktop-visible,
+  .responsive .handheld-landscape-visible,
+  .responsive .handheld-visible {
     display: none !important;
   }
-
-  .tablet-all-visible {
+  .responsive .tablet-all-visible {
     display: block !important;
   }
-
-  a.tablet-all-visible, abbr.tablet-all-visible, acronym.tablet-all-visible, audio.tablet-all-visible, b.tablet-all-visible, basefont.tablet-all-visible, bdo.tablet-all-visible, big.tablet-all-visible, br.tablet-all-visible, canvas.tablet-all-visible, cite.tablet-all-visible, code.tablet-all-visible, command.tablet-all-visible, datalist.tablet-all-visible, dfn.tablet-all-visible, em.tablet-all-visible, embed.tablet-all-visible, font.tablet-all-visible, i.tablet-all-visible, img.tablet-all-visible, input.tablet-all-visible, keygen.tablet-all-visible, kbd.tablet-all-visible, label.tablet-all-visible, mark.tablet-all-visible, meter.tablet-all-visible, output.tablet-all-visible, progress.tablet-all-visible, q.tablet-all-visible, rp.tablet-all-visible, rt.tablet-all-visible, ruby.tablet-all-visible, s.tablet-all-visible, samp.tablet-all-visible, select.tablet-all-visible, small.tablet-all-visible, span.tablet-all-visible, strike.tablet-all-visible, strong.tablet-all-visible, sub.tablet-all-visible, sup.tablet-all-visible, textarea.tablet-all-visible, time.tablet-all-visible, tt.tablet-all-visible, u.tablet-all-visible, var.tablet-all-visible, video.tablet-all-visible, wbr.tablet-all-visible {
+  .responsive a.tablet-all-visible, .responsive abbr.tablet-all-visible, .responsive acronym.tablet-all-visible, .responsive audio.tablet-all-visible, .responsive b.tablet-all-visible, .responsive basefont.tablet-all-visible, .responsive bdo.tablet-all-visible, .responsive big.tablet-all-visible, .responsive br.tablet-all-visible, .responsive canvas.tablet-all-visible, .responsive cite.tablet-all-visible, .responsive code.tablet-all-visible, .responsive command.tablet-all-visible, .responsive datalist.tablet-all-visible, .responsive dfn.tablet-all-visible, .responsive em.tablet-all-visible, .responsive embed.tablet-all-visible, .responsive font.tablet-all-visible, .responsive i.tablet-all-visible, .responsive img.tablet-all-visible, .responsive input.tablet-all-visible, .responsive keygen.tablet-all-visible, .responsive kbd.tablet-all-visible, .responsive label.tablet-all-visible, .responsive mark.tablet-all-visible, .responsive meter.tablet-all-visible, .responsive output.tablet-all-visible, .responsive progress.tablet-all-visible, .responsive q.tablet-all-visible, .responsive rp.tablet-all-visible, .responsive rt.tablet-all-visible, .responsive ruby.tablet-all-visible, .responsive s.tablet-all-visible, .responsive samp.tablet-all-visible, .responsive select.tablet-all-visible, .responsive small.tablet-all-visible, .responsive span.tablet-all-visible, .responsive strike.tablet-all-visible, .responsive strong.tablet-all-visible, .responsive sub.tablet-all-visible, .responsive sup.tablet-all-visible, .responsive textarea.tablet-all-visible, .responsive time.tablet-all-visible, .responsive tt.tablet-all-visible, .responsive u.tablet-all-visible, .responsive var.tablet-all-visible, .responsive video.tablet-all-visible, .responsive wbr.tablet-all-visible {
     display: inline !important;
   }
 }
 /* Only widescreens */
 @media only screen and (min-width: 1160px) {
-  .tablet-visible,
-  .tablet-landscape-visible,
-  .handheld-landscape-visible,
-  .handheld-visible {
+  .responsive .tablet-visible,
+  .responsive .tablet-landscape-visible,
+  .responsive .handheld-landscape-visible,
+  .responsive .handheld-visible {
     display: none !important;
   }
-
-  .desktop-visible {
+  .responsive .desktop-visible {
     display: block !important;
   }
-
-  a.desktop-visible, abbr.desktop-visible, acronym.desktop-visible, audio.desktop-visible, b.desktop-visible, basefont.desktop-visible, bdo.desktop-visible, big.desktop-visible, br.desktop-visible, canvas.desktop-visible, cite.desktop-visible, code.desktop-visible, command.desktop-visible, datalist.desktop-visible, dfn.desktop-visible, em.desktop-visible, embed.desktop-visible, font.desktop-visible, i.desktop-visible, img.desktop-visible, input.desktop-visible, keygen.desktop-visible, kbd.desktop-visible, label.desktop-visible, mark.desktop-visible, meter.desktop-visible, output.desktop-visible, progress.desktop-visible, q.desktop-visible, rp.desktop-visible, rt.desktop-visible, ruby.desktop-visible, s.desktop-visible, samp.desktop-visible, select.desktop-visible, small.desktop-visible, span.desktop-visible, strike.desktop-visible, strong.desktop-visible, sub.desktop-visible, sup.desktop-visible, textarea.desktop-visible, time.desktop-visible, tt.desktop-visible, u.desktop-visible, var.desktop-visible, video.desktop-visible, wbr.desktop-visible {
+  .responsive a.desktop-visible, .responsive abbr.desktop-visible, .responsive acronym.desktop-visible, .responsive audio.desktop-visible, .responsive b.desktop-visible, .responsive basefont.desktop-visible, .responsive bdo.desktop-visible, .responsive big.desktop-visible, .responsive br.desktop-visible, .responsive canvas.desktop-visible, .responsive cite.desktop-visible, .responsive code.desktop-visible, .responsive command.desktop-visible, .responsive datalist.desktop-visible, .responsive dfn.desktop-visible, .responsive em.desktop-visible, .responsive embed.desktop-visible, .responsive font.desktop-visible, .responsive i.desktop-visible, .responsive img.desktop-visible, .responsive input.desktop-visible, .responsive keygen.desktop-visible, .responsive kbd.desktop-visible, .responsive label.desktop-visible, .responsive mark.desktop-visible, .responsive meter.desktop-visible, .responsive output.desktop-visible, .responsive progress.desktop-visible, .responsive q.desktop-visible, .responsive rp.desktop-visible, .responsive rt.desktop-visible, .responsive ruby.desktop-visible, .responsive s.desktop-visible, .responsive samp.desktop-visible, .responsive select.desktop-visible, .responsive small.desktop-visible, .responsive span.desktop-visible, .responsive strike.desktop-visible, .responsive strong.desktop-visible, .responsive sub.desktop-visible, .responsive sup.desktop-visible, .responsive textarea.desktop-visible, .responsive time.desktop-visible, .responsive tt.desktop-visible, .responsive u.desktop-visible, .responsive var.desktop-visible, .responsive video.desktop-visible, .responsive wbr.desktop-visible {
     display: inline !important;
   }
 }
 /* Only below widescreens */
 @media only screen and (max-width: 1159px) {
-  .desktop-visible {
+  .responsive .desktop-visible {
     display: none !important;
   }
-
-  .below-desktop-visible {
+  .responsive .below-desktop-visible {
     display: block !important;
   }
-
-  a.below-desktop-visible, abbr.below-desktop-visible, acronym.below-desktop-visible, audio.below-desktop-visible, b.below-desktop-visible, basefont.below-desktop-visible, bdo.below-desktop-visible, big.below-desktop-visible, br.below-desktop-visible, canvas.below-desktop-visible, cite.below-desktop-visible, code.below-desktop-visible, command.below-desktop-visible, datalist.below-desktop-visible, dfn.below-desktop-visible, em.below-desktop-visible, embed.below-desktop-visible, font.below-desktop-visible, i.below-desktop-visible, img.below-desktop-visible, input.below-desktop-visible, keygen.below-desktop-visible, kbd.below-desktop-visible, label.below-desktop-visible, mark.below-desktop-visible, meter.below-desktop-visible, output.below-desktop-visible, progress.below-desktop-visible, q.below-desktop-visible, rp.below-desktop-visible, rt.below-desktop-visible, ruby.below-desktop-visible, s.below-desktop-visible, samp.below-desktop-visible, select.below-desktop-visible, small.below-desktop-visible, span.below-desktop-visible, strike.below-desktop-visible, strong.below-desktop-visible, sub.below-desktop-visible, sup.below-desktop-visible, textarea.below-desktop-visible, time.below-desktop-visible, tt.below-desktop-visible, u.below-desktop-visible, var.below-desktop-visible, video.below-desktop-visible, wbr.below-desktop-visible {
+  .responsive a.below-desktop-visible, .responsive abbr.below-desktop-visible, .responsive acronym.below-desktop-visible, .responsive audio.below-desktop-visible, .responsive b.below-desktop-visible, .responsive basefont.below-desktop-visible, .responsive bdo.below-desktop-visible, .responsive big.below-desktop-visible, .responsive br.below-desktop-visible, .responsive canvas.below-desktop-visible, .responsive cite.below-desktop-visible, .responsive code.below-desktop-visible, .responsive command.below-desktop-visible, .responsive datalist.below-desktop-visible, .responsive dfn.below-desktop-visible, .responsive em.below-desktop-visible, .responsive embed.below-desktop-visible, .responsive font.below-desktop-visible, .responsive i.below-desktop-visible, .responsive img.below-desktop-visible, .responsive input.below-desktop-visible, .responsive keygen.below-desktop-visible, .responsive kbd.below-desktop-visible, .responsive label.below-desktop-visible, .responsive mark.below-desktop-visible, .responsive meter.below-desktop-visible, .responsive output.below-desktop-visible, .responsive progress.below-desktop-visible, .responsive q.below-desktop-visible, .responsive rp.below-desktop-visible, .responsive rt.below-desktop-visible, .responsive ruby.below-desktop-visible, .responsive s.below-desktop-visible, .responsive samp.below-desktop-visible, .responsive select.below-desktop-visible, .responsive small.below-desktop-visible, .responsive span.below-desktop-visible, .responsive strike.below-desktop-visible, .responsive strong.below-desktop-visible, .responsive sub.below-desktop-visible, .responsive sup.below-desktop-visible, .responsive textarea.below-desktop-visible, .responsive time.below-desktop-visible, .responsive tt.below-desktop-visible, .responsive u.below-desktop-visible, .responsive var.below-desktop-visible, .responsive video.below-desktop-visible, .responsive wbr.below-desktop-visible {
     display: inline !important;
   }
 }
