@@ -22,23 +22,23 @@
 // length of line for a single-column" ~
 // http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/
 
-html {
-  @include respond-to(desktop){
+//html {
+//  @include breakpoint($break-desktop){
 //    font-size: 145%;
-  }
-  @include respond-to(tablet-landscape){
+//  }
+//  @include breakpoint($break-tablet-landscape){
 //    font-size: 120%;
-  }
-  @include respond-to(tablet){
+//  }
+//  @include breakpoint($break-tablet){
 //    font-size: 98%;
-  }
-  @include respond-to(handheld-landscape){
+//  }
+//  @include breakpoint($break-handheld-landscape){
 //    font-size: 95%;
-  }
-  @include respond-to(handheld){
+//  }
+//  @include breakpoint($break-handheld){
 //    font-size: 92%;
-  }
-}
+//  }
+//}
 
 /* Headings/small */
 // Addresses font sizes and margins set differently in IE6/7

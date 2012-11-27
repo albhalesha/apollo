@@ -1,5 +1,6 @@
 // Import base utilities which create no code unless used.
 @import 'base/utilities';
+@import 'breakpoint';
 
 // Legacy IE support
 $legacy-support-for-ie6: false;
@@ -136,13 +137,13 @@ $aether-grid-type-tablet:             hybrid;
 $aether-grid-type-handheld-landscape: hybrid;
 $aether-grid-type-handheld:           hybrid;
 
-// Used by aether-grid/mediaqueries and aether-grid/visibility.
+// Used by aether-grid/mediaqueries and media-visibility.
 // Media Query Breakpoints, also used to create margins in fluid mode. 
-$aether-break-wide:                   1160px;
-$aether-break-large:                  980px;
-$aether-break-medium:                 768px;
-$aether-break-small:                  480px;
-$aether-break-smallest:               400px; // Only used in fluid mode to create a margin on handhelds.
+$break-wide:                          1160px;
+$break-large:                         980px;
+$break-medium:                        768px;
+$break-small:                         480px;
+$break-smallest:                      400px; // Only used in fluid mode to create a margin on handhelds.
 
 // Fixed and hybrid width layouts
 $aether-grid-width-desktop:           1148px; // http://gridcalculator.dk/#/1148/12/20/20

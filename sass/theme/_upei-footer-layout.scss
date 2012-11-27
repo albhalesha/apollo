@@ -35,7 +35,7 @@
       }
     }
     // Set the widths of each menu
-    @include respond-to(desktop) {
+    @include breakpoint($break-desktop) {
       .section {
         @include span-columns(2);
         &.bl-last {
@@ -43,7 +43,7 @@
         }
       }
     }
-    @include respond-to(tablet-all) {
+    @include breakpoint($break-tablet-all) {
       .section {
         @include span-columns(4);
         &:nth-child(3n+3) {
@@ -51,7 +51,7 @@
         }
       }
     }
-    @include respond-to(handheld-landscape) {
+    @include breakpoint($break-handheld-landscape) {
       .section {
         @include span-columns(6);
         &:nth-child(2n+2) {
@@ -59,7 +59,7 @@
         }
       }
     }
-    @include respond-to(handheld) {
+    @include breakpoint($break-handheld) {
       .section {
         @include span-columns(12);
       }
@@ -76,11 +76,11 @@
 
 .inner-footeraddress {
   padding-top: 10px;
-  @include respond-above(handheld) {
-    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
+  background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
+  @include breakpoint($break-handheld-all) {
+    background: none;
   }
   .not-responsive & {
-    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
   }
   color: $link-color-hover-alt;
   @include adjust-font-size-to($font-size-md);

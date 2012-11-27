@@ -277,21 +277,3 @@ $legacy-support-for-ie7: true !default;
 @function shade($color, $percent){
   @return mix(black, $color, $percent);
 }
-
-// Vertical align content with IE fallback.
-// Adapted from toolkit, and http://css-tricks.com/vertically-center-multi-lined-text/
-//
-// Takes no arguments.
-
-@mixin center-vertically {
-  display: table-cell;
-  vertical-align: middle;
-  
-  @if $legacy-support-for-ie7 or $legacy-support-for-ie6 {
-    margin-top: inherit;
-    *clear: expression(
-    style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),
-    style.clear = "none", 0
-    );
-  }
-}

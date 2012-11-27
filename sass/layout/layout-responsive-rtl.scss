@@ -5,7 +5,7 @@
 $aether-float-direction: right;
 
 /* Handheld */
-@include respond-to(handheld) {
+@include breakpoint($break-handheld) {
   $aether-grid-type: $aether-grid-type-handheld;
   $aether-columns: $aether-columns-handheld;
   $aether-grid-width: $aether-grid-width-handheld;
@@ -15,7 +15,7 @@ $aether-float-direction: right;
 }
 
 /* Handheld Landscape */
-@include respond-to(handheld-landscape) {
+@include breakpoint($break-handheld-landscape) {
   $aether-grid-type: $aether-grid-type-handheld-landscape;
   $aether-columns: $aether-columns-handheld;
   $aether-grid-width: $aether-grid-width-handheld-landscape;
@@ -25,7 +25,7 @@ $aether-float-direction: right;
 }
 
 /* Tablet */
-@include respond-to(tablet)  {
+@include breakpoint($break-tablet)  {
   $aether-grid-type: $aether-grid-type-tablet;
   $aether-columns: $aether-columns-tablet;
   $aether-grid-width: $aether-grid-width-tablet;
@@ -35,7 +35,7 @@ $aether-float-direction: right;
 }
 
 /* Tablet Landscape */
-@include respond-to(tablet-landscape) {
+@include breakpoint($break-tablet-landscape) {
   $aether-grid-type: $aether-grid-type-tablet-landscape;
   $aether-columns: $aether-columns-tablet;
   $aether-grid-width: $aether-grid-width-tablet-landscape;
@@ -45,7 +45,7 @@ $aether-float-direction: right;
 }
 
 /* Desktop */
-@include respond-to(desktop) {
+@include breakpoint($break-desktop) {
   $aether-grid-type: $aether-grid-type-desktop;
   $aether-columns: $aether-columns-desktop;
   $aether-grid-width: $aether-grid-width-desktop;

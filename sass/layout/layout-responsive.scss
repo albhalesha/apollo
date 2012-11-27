@@ -6,8 +6,8 @@ html {
   overflow-x:hidden;
 }
 
-@include respond-to(handheld) {
-  $aether-break: $aether-break-smallest;
+@include breakpoint($break-handheld) {
+  $aether-break: $break-smallest;
   $aether-grid-numbers-top: 110px;
   $aether-constraint: min;
   $aether-constraint: false;
@@ -19,14 +19,14 @@ html {
   @include aether-grid-classes;
 }
 
-@include respond-to(handheld-landscape) {
+@include breakpoint($break-handheld-landscape) {
 
   html {
     -ms-text-size-adjust:none;
     -webkit-text-size-adjust: none;
   }
 
-  $aether-break: $aether-break-small;
+  $aether-break: $break-small;
   $aether-grid-numbers-top: 110px;
   $aether-constraint: false;
   $aether-grid-type: $aether-grid-type-handheld-landscape;
@@ -37,8 +37,8 @@ html {
   @include aether-grid-classes;
 }
 
-@include respond-to(tablet)  {
-  $aether-break: $aether-break-medium;
+@include breakpoint($break-tablet)  {
+  $aether-break: $break-medium;
   $aether-grid-numbers-top: 88px;
   $aether-constraint: false;
   $aether-grid-type: $aether-grid-type-tablet;
@@ -49,8 +49,8 @@ html {
   @include aether-grid-classes;
 }
 
-@include respond-to(tablet-landscape) {
-  $aether-break: $aether-break-large;
+@include breakpoint($break-tablet-landscape) {
+  $aether-break: $break-large;
   $aether-grid-numbers-top: 70px;
   $aether-constraint: false;
   $aether-grid-type: $aether-grid-type-tablet-landscape;
@@ -61,8 +61,8 @@ html {
   @include aether-grid-classes;
 }
 
-@include respond-to(desktop) {
-  $aether-break: $aether-break-wide;
+@include breakpoint($break-desktop) {
+  $aether-break: $break-wide;
   $aether-grid-numbers-top: 70px;
   $aether-constraint: max;
   $aether-grid-type: $aether-grid-type-desktop;

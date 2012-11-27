@@ -1289,7 +1289,7 @@ table td.menu-disabled {
 }
 
 /* Responsive Tables */
-@media only screen and (max-width: 767px) {
+@media (min-width: 61.25em) {
   table.responsive {
     margin-bottom: 0;
   }
@@ -1814,30 +1814,24 @@ ul li.leaf {
 }
 
 /* Header */
-.name-and-slogan {
-  display: table-cell;
+.branding .name-and-slogan {
+  display: -moz-inline-stack;
+  display: inline-block;
   vertical-align: middle;
-  margin-top: inherit;
-  *clear: expression(style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),     style.clear = "none", 0     );
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
 }
-.ie7 .name-and-slogan {
-  display: inline;
-  float: left;
-}
-
-.logo {
-  display: table-cell;
+.branding .logo {
+  display: -moz-inline-stack;
+  display: inline-block;
   vertical-align: middle;
-  margin-top: inherit;
-  *clear: expression(style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),     style.clear = "none", 0     );
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
   padding: 0 10px 0 0;
 }
-.ie7 .logo {
-  display: inline;
-  float: left;
-}
-
-.site-name {
+.branding .site-name {
   font-size: 1.625em;
   line-height: 0.92308em;
   margin-top: 0em;
@@ -1845,24 +1839,23 @@ ul li.leaf {
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
   font-weight: bold;
 }
-.site-name a {
+.branding .site-name a {
   color: #222222;
   text-decoration: none;
 }
-.site-name a:visited {
+.branding .site-name a:visited {
   color: #222222;
 }
-.site-name a:focus {
+.branding .site-name a:focus {
   color: #222222;
 }
-.site-name a:hover {
+.branding .site-name a:hover {
   color: #222222;
 }
-.site-name a:active {
+.branding .site-name a:active {
   color: #222222;
 }
-
-.site-slogan {
+.branding .site-slogan {
   font-size: 1.375em;
   line-height: 1.09091em;
 }

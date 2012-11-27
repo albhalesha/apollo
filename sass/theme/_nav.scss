@@ -84,7 +84,7 @@
       }
     }
   }
-  @include respond-below(tablet) {
+  @include breakpoint($break-handheld-all) {
     float: none;
   }
 }

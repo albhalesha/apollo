@@ -19,7 +19,7 @@
 }
 
 /* Only handheld portrait */
-@include respond-to(handheld) {
+@include breakpoint($break-handheld) {
   .desktop-visible,
   .tablet-visible,
   .tablet-landscape-visible,
@@ -37,7 +37,7 @@
 }
 
 /* Only handheld landscape */
-@include respond-to(handheld-landscape) {
+@include breakpoint($break-handheld-landscape) {
   .desktop-visible,
   .tablet-visible,
   .tablet-landscape-visible,
@@ -55,7 +55,7 @@
 }
 
 /* Only tablet portrait */
-@include respond-to(tablet) {
+@include breakpoint($break-tablet) {
   .desktop-visible,
   .tablet-landscape-visible,
   .handheld-landscape-visible,
@@ -72,25 +72,8 @@
   }
 }
 
-/* Only handhelds */
-@include respond-below(tablet) {
-  .desktop-visible,
-  .tablet-landscape-visible,
-  .tablet-visible {
-    display: none !important;
-  }
-  .below-tablet-visible {
-    display: block !important;
-  }
-  #{elements-of-type(inline)} {
-    &.below-tablet-visible {
-      display: inline !important;
-    }
-  }
-}
-
 /* Only tablet landscape */
-@include respond-to(tablet-landscape) {
+@include breakpoint($break-tablet-landscape) {
   .desktop-visible,
   .tablet-visible,
   .handheld-landscape-visible,
@@ -107,8 +90,26 @@
   }
 }
 
-/* Only tablet portrait and below */
-@include respond-below(tablet-landscape) {
+/* Handhelds */
+@include breakpoint($break-handheld-all) {
+  .desktop-visible,
+  .tablet-landscape-visible,
+  .tablet-visible {
+    display: none !important;
+  }
+  .below-tablet-visible {
+    display: block !important;
+  }
+  #{elements-of-type(inline)} {
+    &.below-tablet-visible {
+      display: inline !important;
+    }
+  }
+}
+
+
+/* Only below tablet landscape */
+@include breakpoint(max-width $break-large) {
   .desktop-visible,
   .tablet-landscape-visible {
     display: none !important;
@@ -124,7 +125,7 @@
 }
 
 /* Only tablets */
-@include respond-to(tablet-all) {
+@include breakpoint($break-tablet-all) {
   .desktop-visible,
   .handheld-landscape-visible,
   .handheld-visible {
@@ -141,7 +142,7 @@
 }
 
 /* Only widescreens */
-@include respond-to(desktop) {
+@include breakpoint(min-width $break-desktop) {
   .tablet-visible,
   .tablet-landscape-visible,
   .handheld-landscape-visible,
@@ -159,7 +160,7 @@
 }
 
 /* Only below widescreens */
-@include respond-below(desktop) {
+@include breakpoint(max-width $break-wide) {
   .desktop-visible {
     display: none !important;
   }

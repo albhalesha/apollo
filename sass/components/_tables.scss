@@ -82,7 +82,7 @@ table { // See type.scss for vertical rhythm
 // Derived from Zurb's responsive tables https://github.com/zurb/responsive-tables
 // Just add the .responsive class to your tables to make them responsive
 
-@include respond-below(tablet) {
+@include breakpoint($break-large) {
   
   table.responsive {
     margin-bottom: 0;

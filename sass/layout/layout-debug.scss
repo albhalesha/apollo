@@ -8,7 +8,7 @@ $aether-show-grid-background: true;
 }
 
 // Handheld
-@include respond-to(handheld) {
+@include breakpoint($break-handheld) {
   .#{$aether-gridprefix}-all-row {
     @include aether-grid-background($aether-columns-handheld, $aether-grid-width-handheld);
     body.toolbar & {
@@ -19,7 +19,7 @@ $aether-show-grid-background: true;
   }
 }
 // Handheld-Landscape
-@include respond-to(handheld-landscape) {
+@include breakpoint($break-handheld-landscape) {
   .#{$aether-gridprefix}-all-row {
     @include aether-grid-background($aether-columns-handheld, $aether-grid-width-handheld-landscape);
     body.toolbar & {
@@ -30,7 +30,7 @@ $aether-show-grid-background: true;
   }
 }
 // Tablet
-@include respond-to(tablet)  {
+@include breakpoint($break-tablet)  {
   .#{$aether-gridprefix}-all-row {
     @include aether-grid-background($aether-columns-tablet, $aether-grid-width-tablet);
     body.toolbar & {
@@ -41,7 +41,7 @@ $aether-show-grid-background: true;
   }
 }
 // Tablet-Landscape
-@include respond-to(tablet-landscape) {
+@include breakpoint($break-tablet-landscape) {
   .#{$aether-gridprefix}-all-row {
     @include aether-grid-background($aether-columns-tablet, $aether-grid-width-tablet-landscape);
     body.toolbar & {
@@ -52,7 +52,7 @@ $aether-show-grid-background: true;
   }
 }
 // Default
-@include respond-to(desktop) {
+@include breakpoint($break-desktop) {
   .#{$aether-gridprefix}-all-row {
     @include aether-grid-background($aether-columns-desktop, $aether-grid-width-desktop);
     body.toolbar & {

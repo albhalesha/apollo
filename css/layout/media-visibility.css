@@ -17,7 +17,7 @@
 }
 
 /* Only handheld portrait */
-@media only screen and (max-width: 479px) {
+@media (max-width: 29.9375em) {
   .desktop-visible,
   .tablet-visible,
   .tablet-landscape-visible,
@@ -34,7 +34,7 @@
   }
 }
 /* Only handheld landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 30em) and (max-width: 47.9375em) {
   .desktop-visible,
   .tablet-visible,
   .tablet-landscape-visible,
@@ -51,7 +51,7 @@
   }
 }
 /* Only tablet portrait */
-@media only screen and (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 48em) and (max-width: 61.1875em) {
   .desktop-visible,
   .tablet-landscape-visible,
   .handheld-landscape-visible,
@@ -67,24 +67,8 @@
     display: inline !important;
   }
 }
-/* Only handhelds */
-@media only screen and (max-width: 767px) {
-  .desktop-visible,
-  .tablet-landscape-visible,
-  .tablet-visible {
-    display: none !important;
-  }
-
-  .below-tablet-visible {
-    display: block !important;
-  }
-
-  a.below-tablet-visible, abbr.below-tablet-visible, acronym.below-tablet-visible, audio.below-tablet-visible, b.below-tablet-visible, basefont.below-tablet-visible, bdo.below-tablet-visible, big.below-tablet-visible, br.below-tablet-visible, canvas.below-tablet-visible, cite.below-tablet-visible, code.below-tablet-visible, command.below-tablet-visible, datalist.below-tablet-visible, dfn.below-tablet-visible, em.below-tablet-visible, embed.below-tablet-visible, font.below-tablet-visible, i.below-tablet-visible, img.below-tablet-visible, input.below-tablet-visible, keygen.below-tablet-visible, kbd.below-tablet-visible, label.below-tablet-visible, mark.below-tablet-visible, meter.below-tablet-visible, output.below-tablet-visible, progress.below-tablet-visible, q.below-tablet-visible, rp.below-tablet-visible, rt.below-tablet-visible, ruby.below-tablet-visible, s.below-tablet-visible, samp.below-tablet-visible, select.below-tablet-visible, small.below-tablet-visible, span.below-tablet-visible, strike.below-tablet-visible, strong.below-tablet-visible, sub.below-tablet-visible, sup.below-tablet-visible, textarea.below-tablet-visible, time.below-tablet-visible, tt.below-tablet-visible, u.below-tablet-visible, var.below-tablet-visible, video.below-tablet-visible, wbr.below-tablet-visible {
-    display: inline !important;
-  }
-}
 /* Only tablet landscape */
-@media only screen and (min-width: 980px) and (max-width: 1159px) {
+@media (min-width: 61.25em) and (max-width: 72.4375em) {
   .desktop-visible,
   .tablet-visible,
   .handheld-landscape-visible,
@@ -100,8 +84,24 @@
     display: inline !important;
   }
 }
-/* Only tablet portrait and below */
-@media only screen and (max-width: 979px) {
+/* Handhelds */
+@media (max-width: 47.9375em) {
+  .desktop-visible,
+  .tablet-landscape-visible,
+  .tablet-visible {
+    display: none !important;
+  }
+
+  .below-tablet-visible {
+    display: block !important;
+  }
+
+  a.below-tablet-visible, abbr.below-tablet-visible, acronym.below-tablet-visible, audio.below-tablet-visible, b.below-tablet-visible, basefont.below-tablet-visible, bdo.below-tablet-visible, big.below-tablet-visible, br.below-tablet-visible, canvas.below-tablet-visible, cite.below-tablet-visible, code.below-tablet-visible, command.below-tablet-visible, datalist.below-tablet-visible, dfn.below-tablet-visible, em.below-tablet-visible, embed.below-tablet-visible, font.below-tablet-visible, i.below-tablet-visible, img.below-tablet-visible, input.below-tablet-visible, keygen.below-tablet-visible, kbd.below-tablet-visible, label.below-tablet-visible, mark.below-tablet-visible, meter.below-tablet-visible, output.below-tablet-visible, progress.below-tablet-visible, q.below-tablet-visible, rp.below-tablet-visible, rt.below-tablet-visible, ruby.below-tablet-visible, s.below-tablet-visible, samp.below-tablet-visible, select.below-tablet-visible, small.below-tablet-visible, span.below-tablet-visible, strike.below-tablet-visible, strong.below-tablet-visible, sub.below-tablet-visible, sup.below-tablet-visible, textarea.below-tablet-visible, time.below-tablet-visible, tt.below-tablet-visible, u.below-tablet-visible, var.below-tablet-visible, video.below-tablet-visible, wbr.below-tablet-visible {
+    display: inline !important;
+  }
+}
+/* Only below tablet landscape */
+@media (max-width: 61.25em) {
   .desktop-visible,
   .tablet-landscape-visible {
     display: none !important;
@@ -116,7 +116,7 @@
   }
 }
 /* Only tablets */
-@media only screen and (min-width: 768px) and (max-width: 1159px) {
+@media (min-width: 48em) and (max-width: 72.4375em) {
   .desktop-visible,
   .handheld-landscape-visible,
   .handheld-visible {
@@ -132,7 +132,7 @@
   }
 }
 /* Only widescreens */
-@media only screen and (min-width: 1160px) {
+@media (min-width: min-width 1160px) {
   .tablet-visible,
   .tablet-landscape-visible,
   .handheld-landscape-visible,
@@ -149,7 +149,7 @@
   }
 }
 /* Only below widescreens */
-@media only screen and (max-width: 1159px) {
+@media (max-width: 72.5em) {
   .desktop-visible {
     display: none !important;
   }

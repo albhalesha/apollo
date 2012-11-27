@@ -216,8 +216,8 @@ footer .footer-columns, footer .footer {
 #secondary.links > li.last {
   border-right: 0px;
 }
-@media only screen and (max-width: 767px) {
-  .responsive #secondary {
+@media (max-width: 47.9375em) {
+  #secondary {
     float: none;
   }
 }
@@ -307,24 +307,24 @@ footer .footer-columns, footer .footer {
   border-right: 1px solid #C7C7C7;
   padding-right: 10px;
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .logo {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .logo {
     padding-right: 0;
   }
-  .responsive .logo img {
+  .logo img {
     width: 90%;
   }
 }
-@media only screen and (max-width: 479px) {
-  .responsive .logo {
+@media (max-width: 29.9375em) {
+  .logo {
     border-left: 0;
     padding-left: 2em;
     padding-top: 0;
     margin-bottom: 0em;
   }
 }
-@media only screen and (min-width: 1160px) {
-  .responsive .logo {
+@media (min-width: 72.5em) {
+  .logo {
     margin-right: 1.80505%;
     width: 23.64621%;
     margin-left: 0%;
@@ -337,39 +337,39 @@ footer .footer-columns, footer .footer {
   margin-left: 0%;
   margin-right: -100%;
 }
-@media only screen and (min-width: 980px) and (max-width: 1159px) {
-  .responsive .logo {
+@media (min-width: 61.25em) and (max-width: 72.4375em) {
+  .logo {
     margin-right: 1.80505%;
     width: 23.64621%;
     margin-left: 0%;
     margin-right: -100%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .responsive .logo {
+@media (min-width: 48em) and (max-width: 61.1875em) {
+  .logo {
     margin-right: 1.80505%;
     width: 32.12996%;
     margin-left: 0%;
     margin-right: -100%;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .logo {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .logo {
     margin-right: 1.80505%;
     width: 49.09747%;
     margin-left: 0%;
     margin-right: -100%;
   }
-  .responsive .logo img {
+  .logo img {
     border-right: 0 !important;
   }
 }
-@media only screen and (max-width: 479px) {
-  .responsive .logo {
+@media (max-width: 29.9375em) {
+  .logo {
     margin-right: 1.80505%;
     width: 100%;
   }
-  .responsive .logo img {
+  .logo img {
     border-right: 0 !important;
   }
 }
@@ -381,14 +381,14 @@ footer .footer-columns, footer .footer {
   padding-top: 5px;
   margin-top: 5px;
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .name-and-slogan.with-logo {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .name-and-slogan.with-logo {
     border-left: 0;
     font-size: 80%;
   }
 }
-@media only screen and (max-width: 479px) {
-  .responsive .name-and-slogan.with-logo {
+@media (max-width: 29.9375em) {
+  .name-and-slogan.with-logo {
     border-left: 0;
     font-size: 90%;
     margin-top: 0;
@@ -396,14 +396,14 @@ footer .footer-columns, footer .footer {
     text-align: left;
   }
 }
-@media only screen and (min-width: 1160px) {
-  .responsive .name-and-slogan {
+@media (min-width: 72.5em) {
+  .name-and-slogan {
     margin-right: 1.80505%;
     width: 32.12996%;
     margin-left: 16.96751%;
     margin-right: -100%;
   }
-  .responsive .name-and-slogan .site-name, .responsive .name-and-slogan .site-slogan {
+  .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 12px;
   }
 }
@@ -416,42 +416,42 @@ footer .footer-columns, footer .footer {
 .ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan {
   padding-left: 12px;
 }
-@media only screen and (min-width: 980px) and (max-width: 1159px) {
-  .responsive .name-and-slogan {
+@media (min-width: 61.25em) and (max-width: 72.4375em) {
+  .name-and-slogan {
     margin-right: 1.80505%;
     width: 32.12996%;
     margin-left: 16.96751%;
     margin-right: -100%;
   }
-  .responsive .name-and-slogan .site-name, .responsive .name-and-slogan .site-slogan {
+  .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 45px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .responsive .name-and-slogan {
+@media (min-width: 48em) and (max-width: 61.1875em) {
+  .name-and-slogan {
     margin-right: 1.80505%;
     width: 40.61372%;
     margin-left: 25.45126%;
     margin-right: -100%;
   }
-  .responsive .name-and-slogan .site-name, .responsive .name-and-slogan .site-slogan {
+  .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 20px;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .name-and-slogan {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .name-and-slogan {
     margin-right: 1.80505%;
     width: 57.58123%;
     margin-left: 42.41877%;
     margin-right: -100%;
   }
-  .responsive .name-and-slogan .site-name, .responsive .name-and-slogan .site-slogan {
+  .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 20px;
   }
 }
 
-@media only screen and (min-width: 1160px) {
-  .responsive .region-header {
+@media (min-width: 72.5em) {
+  .region-header {
     margin-right: 1.80505%;
     width: 49.09747%;
     margin-left: 50.90253%;
@@ -464,24 +464,24 @@ footer .footer-columns, footer .footer {
   margin-left: 50.90253%;
   margin-right: -100%;
 }
-@media only screen and (min-width: 980px) and (max-width: 1159px) {
-  .responsive .region-header {
+@media (min-width: 61.25em) and (max-width: 72.4375em) {
+  .region-header {
     margin-right: 1.80505%;
     width: 49.09747%;
     margin-left: 50.90253%;
     margin-right: -100%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .responsive .region-header {
+@media (min-width: 48em) and (max-width: 61.1875em) {
+  .region-header {
     margin-right: 1.80505%;
     width: 40.61372%;
     margin-left: 59.38628%;
     margin-right: -100%;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .region-header {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .region-header {
     clear: left;
     width: 100%;
     margin-left: 0%;
@@ -581,21 +581,21 @@ footer .footer-columns, footer .footer {
 .ie6-8 .upei-footer .section.bl-last, .not-responsive .upei-footer .section.bl-last {
   margin-right: 0;
 }
-@media only screen and (min-width: 1160px) {
-  .responsive .upei-footer .section {
+@media (min-width: 72.5em) {
+  .upei-footer .section {
     margin-right: 1.80505%;
     width: 15.16245%;
   }
-  .responsive .upei-footer .section.bl-last {
+  .upei-footer .section.bl-last {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1159px) {
-  .responsive .upei-footer .section {
+@media (min-width: 48em) and (max-width: 72.4375em) {
+  .upei-footer .section {
     margin-right: 1.80505%;
     width: 32.12996%;
   }
-  .responsive .upei-footer .section:nth-child(3n+3) {
+  .upei-footer .section:nth-child(3n+3) {
     clear: right;
     margin-right: 0;
     #margin-right: -1em;
@@ -603,12 +603,12 @@ footer .footer-columns, footer .footer {
     width: 32.12996%;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .responsive .upei-footer .section {
+@media (min-width: 30em) and (max-width: 47.9375em) {
+  .upei-footer .section {
     margin-right: 1.80505%;
     width: 49.09747%;
   }
-  .responsive .upei-footer .section:nth-child(2n+2) {
+  .upei-footer .section:nth-child(2n+2) {
     clear: right;
     margin-right: 0;
     #margin-right: -1em;
@@ -616,8 +616,8 @@ footer .footer-columns, footer .footer {
     width: 49.09747%;
   }
 }
-@media only screen and (max-width: 479px) {
-  .responsive .upei-footer .section {
+@media (max-width: 29.9375em) {
+  .upei-footer .section {
     margin-right: 1.80505%;
     width: 100%;
   }
@@ -635,17 +635,15 @@ footer .footer-columns, footer .footer {
 
 .inner-footeraddress {
   padding-top: 10px;
+  background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
   color: #c6c6c6;
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-@media only screen and (min-width: 480px) {
-  .responsive .inner-footeraddress {
-    background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
+@media (max-width: 47.9375em) {
+  .inner-footeraddress {
+    background: none;
   }
-}
-.not-responsive .inner-footeraddress {
-  background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
 }
 
 .links-last {
