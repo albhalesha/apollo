@@ -906,7 +906,7 @@ nav ol {
   list-style-image: none;
 }
 
-.form-submit[type="submit"] {
+[type="submit"] {
   margin-right: 0.3em;
   font-size: 12px;
   padding: 7px 1em;
@@ -930,22 +930,22 @@ nav ol {
   text-shadow: white 0 1px 0;
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 }
-.form-submit[type="submit"]:hover {
+[type="submit"]:hover {
   text-decoration: none;
 }
-.form-submit[type="submit"]:hover {
+[type="submit"]:hover {
   background-color: #d6d6d6;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(50%, #d6d6d6), color-stop(100%, #c2c2c2));
   background: -webkit-linear-gradient(#fafafa, #d6d6d6 50%, #c2c2c2);
   background: -moz-linear-gradient(#fafafa, #d6d6d6 50%, #c2c2c2);
   background: linear-gradient(#fafafa, #d6d6d6 50%, #c2c2c2);
 }
-.form-submit[type="submit"]:active {
+[type="submit"]:active {
   -webkit-box-shadow: #c2c2c2 0 1px 2px inset;
   -moz-box-shadow: #c2c2c2 0 1px 2px inset;
   box-shadow: #c2c2c2 0 1px 2px inset;
 }
-.form-submit[type="submit"].disabled, .form-submit[type="submit"][disabled] {
+[type="submit"].disabled, [type="submit"][disabled] {
   opacity: 0.6;
   background: #d6d6d6;
   cursor: default;
@@ -953,12 +953,12 @@ nav ol {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-.form-submit[type="submit"]::-moz-focus-inner {
+[type="submit"]::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
 
-.ie7 .form-submit[type="submit"] {
+.ie7 [type="submit"] {
   padding: 0.54em 0.5em;
 }
 
