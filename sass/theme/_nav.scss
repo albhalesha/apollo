@@ -84,7 +84,7 @@
       }
     }
   }
-  @include breakpoint($break-handheld-all) {
+  @include breakpoint-at($break-handheld-all) {
     float: none;
   }
 }

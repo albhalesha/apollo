@@ -1,0 +1,14 @@
+// Base loads mixins, variables, functions & page structure
+// Base files should produce no css
+@import "base";
+
+// Components, patterns and page partials
+@import "components/patterns";
+
+$breakpoint-mq-wrapper: 'responsive';
+
+// Theme imports
+@import 'theme/backgrounds';
+@import 'theme/nav';
+@import 'theme/branding';
+@import 'theme/upei-footer-layout';

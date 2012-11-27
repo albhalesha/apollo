@@ -6,7 +6,6 @@ project = "Apollo"
 engine = phptemplate
 base theme = aether
 
-
 ; --------------------------------------------------------------------------------
 ; Regions
 ; --------------------------------------------------------------------------------
@@ -62,7 +61,7 @@ stylesheets[all][] = system-menus-rtl.css
 ; Add our stylesheets.
 ; --------------------------------------------------------------------------------
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/custom-scss.css
+stylesheets[all][] = css/theme.css
 
 ; --------------------------------------------------------------------------------
 ; Optionally add some JavaScripts to your theme.
