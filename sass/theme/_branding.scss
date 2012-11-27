@@ -137,7 +137,6 @@
 .site-name {
 //  @include adjust-font-size-to($font-size-xxl,0.8);
   // Target webkit because of font size difference with small-caps
-  color: #8B2004;
   @include margin-leader(0);
   @include margin-trailer(0.3, $font-size-xxl);
   font-family: $site-name-font-family;
