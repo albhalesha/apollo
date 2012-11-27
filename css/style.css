@@ -1061,6 +1061,10 @@ tr.even .form-item {
   white-space: nowrap;
 }
 
+#user-login-form {
+  text-align: left;
+}
+
 /* Responsive forms */
 #edit-basic .form-item input {
   width: 75%;
