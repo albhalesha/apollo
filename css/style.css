@@ -1840,20 +1840,7 @@ ul li.leaf {
   font-weight: bold;
 }
 .branding .site-name a {
-  color: #222222;
   text-decoration: none;
-}
-.branding .site-name a:visited {
-  color: #222222;
-}
-.branding .site-name a:focus {
-  color: #222222;
-}
-.branding .site-name a:hover {
-  color: #222222;
-}
-.branding .site-name a:active {
-  color: #222222;
 }
 .branding .site-slogan {
   font-size: 1.375em;
