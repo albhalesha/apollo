@@ -45,30 +45,27 @@
 
 /* Header */
 
-.branding {
-
-  .name-and-slogan {
-    @include inline-block;
-  }
-
-  .logo {
-    @include inline-block;
-    padding: 0 10px 0 0;
-  }
-
-  .site-name {
-    @include adjust-font-size-to($font-size-xxl,1);
-    @include margin-leader(0);
-    @include margin-trailer(0.31, $font-size-xxl);
-    font-family: $header-font-family;
-    font-weight: bold;
-    a {
-      text-decoration: none;
-    }
-  }
-
-  .site-slogan {
-    @include adjust-font-size-to($font-size-xl,1);
-  }
-
+.name-and-slogan {
+  @include inline-block;
 }
+
+.logo {
+  @include inline-block;
+  padding: 0 10px 0 0;
+}
+
+.site-name {
+  @include adjust-font-size-to($font-size-xxl,1);
+  @include margin-leader(0);
+  @include margin-trailer(0.31, $font-size-xxl);
+  font-family: $header-font-family;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-slogan {
+  @include adjust-font-size-to($font-size-xl,1);
+}
+

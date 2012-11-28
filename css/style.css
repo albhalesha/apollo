@@ -75,6 +75,7 @@ audio:not([controls]) {
 
 body {
   margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 }
 
 img,
@@ -1075,6 +1076,10 @@ input[type=file] {
 }
 
 /* Form styling */
+.form-item label {
+  font-weight: normal;
+}
+
 .form-select,
 .form-textarea,
 .form-text,
@@ -1818,7 +1823,7 @@ ul li.leaf {
 }
 
 /* Header */
-.branding .name-and-slogan {
+.name-and-slogan {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -1826,7 +1831,8 @@ ul li.leaf {
   zoom: 1;
   *display: inline;
 }
-.branding .logo {
+
+.logo {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -1835,7 +1841,8 @@ ul li.leaf {
   *display: inline;
   padding: 0 10px 0 0;
 }
-.branding .site-name {
+
+.site-name {
   font-size: 1.625em;
   line-height: 0.92308em;
   margin-top: 0em;
@@ -1843,10 +1850,11 @@ ul li.leaf {
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
   font-weight: bold;
 }
-.branding .site-name a {
+.site-name a {
   text-decoration: none;
 }
-.branding .site-slogan {
+
+.site-slogan {
   font-size: 1.375em;
   line-height: 1.09091em;
 }
