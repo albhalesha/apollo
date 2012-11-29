@@ -173,6 +173,6 @@
 .branding .name-and-slogan,
 .branding .name-and-slogan.with-logo,
 .branding .logo {
-  @include padding-leader(0.5);
+  @include padding-leader(1);
 }
 
