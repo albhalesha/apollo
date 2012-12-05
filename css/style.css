@@ -994,8 +994,8 @@ fieldset {
 
 .form-item,
 .form-actions {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .container-inline .form-actions,
@@ -1085,6 +1085,7 @@ input[type=file] {
 .form-text,
 .password,
 .email {
+  max-width: 100%;
   font-size: 16px;
   padding: 0.25em 2px;
   -webkit-background-clip: padding;

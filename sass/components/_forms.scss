@@ -16,8 +16,8 @@ fieldset {
 
 .form-item,
 .form-actions {
-  @include margin-leader(1, $font-size-normal);
-  @include margin-trailer(1, $font-size-normal);
+  @include margin-leader(0.5);
+  @include margin-trailer(0.5);
 }
 
 // system.theme.css override
@@ -107,6 +107,7 @@ input[type=file] {
 .form-text,
 .password,
 .email {
+  max-width: 100%;
   @include aether-form("standard");
 }
 
