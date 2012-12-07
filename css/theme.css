@@ -446,45 +446,6 @@ footer .footer-columns, footer .footer {
   }
 }
 
-@media (min-width: 72.5em) {
-  .responsive .region-header {
-    margin-right: 1.80505%;
-    width: 49.09747%;
-    margin-left: 50.90253%;
-    margin-right: -100%;
-  }
-}
-.ie6-8 .region-header {
-  margin-right: 1.80505%;
-  width: 49.09747%;
-  margin-left: 50.90253%;
-  margin-right: -100%;
-}
-@media (min-width: 61.25em) and (max-width: 72.4375em) {
-  .responsive .region-header {
-    margin-right: 1.80505%;
-    width: 49.09747%;
-    margin-left: 50.90253%;
-    margin-right: -100%;
-  }
-}
-@media (min-width: 48em) and (max-width: 61.1875em) {
-  .responsive .region-header {
-    margin-right: 1.80505%;
-    width: 40.61372%;
-    margin-left: 59.38628%;
-    margin-right: -100%;
-  }
-}
-@media (min-width: 30em) and (max-width: 47.9375em) {
-  .responsive .region-header {
-    clear: left;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: -100%;
-  }
-}
-
 .site-name {
   margin-top: 0em;
   margin-bottom: 0.27692em;

@@ -110,28 +110,28 @@
   }
 }
 
-.region-header {
-  @include breakpoint-at($break-desktop) {
-    @include span-columns(6);
-    @include position(7);
-  }
-  .ie6-8 & {
-    @include span-columns(6);
-    @include position(7);
-  }
-  @include breakpoint-at($break-tablet-landscape) {
-    @include span-columns(6);
-    @include position(7);
-  }
-  @include breakpoint-at($break-tablet) {
-    @include span-columns(5);
-    @include position(8);
-  }
-  @include breakpoint-at($break-handheld-landscape) {
-    @include span-columns(12, first);
-    @include position(1);
-  }
-}
+//.region-header {
+//  @include breakpoint-at($break-desktop) {
+//    @include span-columns(6);
+//    @include position(7);
+//  }
+//  .ie6-8 & {
+//    @include span-columns(6);
+//    @include position(7);
+//  }
+//  @include breakpoint-at($break-tablet-landscape) {
+//    @include span-columns(6);
+//    @include position(7);
+//  }
+//  @include breakpoint-at($break-tablet) {
+//    @include span-columns(5);
+//    @include position(8);
+//  }
+//  @include breakpoint-at($break-handheld-landscape) {
+//    @include span-columns(12, first);
+//    @include position(1);
+//  }
+//}
 
 
 .site-name {
