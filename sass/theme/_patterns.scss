@@ -1,0 +1,15 @@
+.margin-top {
+  @include leader(1);
+}
+
+.margin-bottom {
+  @include trailer(1);
+}
+
+.padding-top {
+  @include padding-leader(1);
+}
+
+.padding-bottom {
+  @include padding-trailer(1);
+}
