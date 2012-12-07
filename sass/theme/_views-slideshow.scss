@@ -67,13 +67,12 @@
     top: 235px;
   }
   @include breakpoint-at($break-handheld-landscape) {
-    top: 138px;
+    top: 151px;
     font-size: 90%;
   }
   @include breakpoint-at($break-handheld) {
-    top: 50px;
     font-size: 90%;
-    top: 151px;
+    top: 110px;
   }
   div {
     position: absolute !important;
@@ -109,7 +108,7 @@
     height: 80px;
   }
   @include breakpoint-at($break-handheld) {
-    height: 30px;
+    height: 50px;
   }
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;

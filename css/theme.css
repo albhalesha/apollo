@@ -834,16 +834,15 @@ footer .footer-columns, footer .footer {
 @media (min-width: 30em) and (max-width: 47.9375em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay, .responsive
   .scholar-slideshow-wrapper {
-    top: 138px;
+    top: 151px;
     font-size: 90%;
   }
 }
 @media (max-width: 29.9375em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay, .responsive
   .scholar-slideshow-wrapper {
-    top: 50px;
     font-size: 90%;
-    top: 151px;
+    top: 110px;
   }
 }
 .views_slideshow_singleframe_main .scholar-slideshow-overlay div,
@@ -891,7 +890,7 @@ footer .footer-columns, footer .footer {
 }
 @media (max-width: 29.9375em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay {
-    height: 30px;
+    height: 50px;
   }
 }
 
