@@ -768,12 +768,12 @@ footer .footer-columns, footer .footer {
 
 @media (min-width: 72.5em) {
   .responsive .view-front-feature-image .view-content {
-    height: 360px;
+    height: 480px;
   }
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
   .responsive .view-front-feature-image .view-content {
-    height: 350px;
+    height: 400px;
   }
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
