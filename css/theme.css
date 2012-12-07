@@ -64,12 +64,22 @@
   margin-bottom: 1.5em;
 }
 
-.padding-top {
-  padding-top: 1.5em;
+.margin-half-top {
+  margin-top: 0.75em;
 }
 
-.padding-bottom {
-  padding-bottom: 1.5em;
+.margin-half-bottom {
+  margin-bottom: 0.75em;
+}
+
+.pull-left {
+  display: inline;
+  float: left;
+}
+
+.pull-right {
+  display: inline;
+  float: right;
 }
 
 /* Backgrounds */
@@ -304,7 +314,7 @@ footer .footer-columns, footer .footer {
 .region-header-first,
 .region-header-second,
 .region-header-third {
-  margin-top: 1.5em;
+  margin-top: 0.75em;
 }
 
 .logo, .name-and-slogan {

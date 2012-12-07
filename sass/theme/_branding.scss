@@ -3,7 +3,7 @@
 .region-header-first,
 .region-header-second,
 .region-header-third {
-  @include leader(1);
+  @include leader(0.5);
 }
 
 .logo, .name-and-slogan {

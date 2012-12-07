@@ -6,10 +6,18 @@
   @include trailer(1);
 }
 
-.padding-top {
-  @include padding-leader(1);
+.margin-half-top {
+  @include leader(0.5);
 }
 
-.padding-bottom {
-  @include padding-trailer(1);
+.margin-half-bottom {
+  @include trailer(0.5);
+}
+
+.pull-left {
+  @include float(left);
+}
+
+.pull-right {
+  @include float(right);
 }
