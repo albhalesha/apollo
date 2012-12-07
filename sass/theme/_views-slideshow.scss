@@ -19,13 +19,13 @@
 
 .view-front-feature-image .view-content {
   @include breakpoint-at($break-desktop) {
-    height: 400px;
+    height: 360px;
   }
   @include breakpoint-at($break-tablet-landscape) {
     height: 350px;
   }
   @include breakpoint-at($break-tablet) {
-    height: 270px;
+    height: 300px;
   }
   @include breakpoint-at($break-handheld-landscape) {
     height: 225px;

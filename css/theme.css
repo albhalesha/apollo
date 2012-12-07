@@ -768,7 +768,7 @@ footer .footer-columns, footer .footer {
 
 @media (min-width: 72.5em) {
   .responsive .view-front-feature-image .view-content {
-    height: 400px;
+    height: 360px;
   }
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
@@ -778,7 +778,7 @@ footer .footer-columns, footer .footer {
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
   .responsive .view-front-feature-image .view-content {
-    height: 270px;
+    height: 300px;
   }
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
