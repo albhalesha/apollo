@@ -58,13 +58,13 @@
 .views_slideshow_singleframe_main .scholar-slideshow-overlay,
 .scholar-slideshow-wrapper {
   @include breakpoint-at($break-desktop) {
-    top: 230px;
+    top: 415px;
   }
   @include breakpoint-at($break-tablet-landscape) {
-    top: 265px;
+    top: 335px;
   }
   @include breakpoint-at($break-tablet) {
-    top: 185px;
+    top: 235px;
   }
   @include breakpoint-at($break-handheld-landscape) {
     top: 138px;
@@ -73,7 +73,7 @@
   @include breakpoint-at($break-handheld) {
     top: 50px;
     font-size: 90%;
-    top: 120px;
+    top: 151px;
   }
   div {
     position: absolute !important;

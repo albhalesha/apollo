@@ -816,19 +816,19 @@ footer .footer-columns, footer .footer {
 @media (min-width: 72.5em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay, .responsive
   .scholar-slideshow-wrapper {
-    top: 230px;
+    top: 415px;
   }
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay, .responsive
   .scholar-slideshow-wrapper {
-    top: 265px;
+    top: 335px;
   }
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
   .responsive .views_slideshow_singleframe_main .scholar-slideshow-overlay, .responsive
   .scholar-slideshow-wrapper {
-    top: 185px;
+    top: 235px;
   }
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
@@ -843,7 +843,7 @@ footer .footer-columns, footer .footer {
   .scholar-slideshow-wrapper {
     top: 50px;
     font-size: 90%;
-    top: 120px;
+    top: 151px;
   }
 }
 .views_slideshow_singleframe_main .scholar-slideshow-overlay div,
