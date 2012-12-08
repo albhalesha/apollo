@@ -100,6 +100,15 @@ video {
 // Automatically scales images larger than the container. Consider this first: http://unstoppablerobotninja.com/entry/fluid-images/
 }
 
+/* Override max-width 100% for map displays */
+.gmap img,
+.view-gmap img,
+.openlayers-map img,
+#getlocations_map_canvas img {
+  max-width: none;
+}
+
+
 // IE6 doesn't support max-width, so we just use width.
 // If the image is larger than the container, use this.
 // If it is smaller than the container, change the 100% value to an absolute one.

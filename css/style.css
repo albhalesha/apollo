@@ -85,6 +85,14 @@ video {
   height: auto;
 }
 
+/* Override max-width 100% for map displays */
+.gmap img,
+.view-gmap img,
+.openlayers-map img,
+#getlocations_map_canvas img {
+  max-width: none;
+}
+
 img {
   height: auto;
   border: 0;
