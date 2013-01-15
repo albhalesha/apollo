@@ -92,12 +92,36 @@ body {
 
 // Embedded content
 
-img,
-object,
-video {
+// Responsive video
+// http://www.tjkdesign.com/articles/how-to-resize-videos-on-the-fly.asp
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Responsive images
+img {
   max-width: 100%;
   height: auto;
-// Automatically scales images larger than the container. Consider this first: http://unstoppablerobotninja.com/entry/fluid-images/
+  border: 0; // Improve IE's resizing of images: css-tricks.com/ie-fix-bicubic-scaling-for-images
+  .ie6-7 & {
+    -ms-interpolation-mode: bicubic;
+  }
+  .ie8 & {
+    width: auto;
+  }
 }
 
 /* Override max-width 100% for map displays */
@@ -108,33 +132,6 @@ video {
   max-width: none;
 }
 
-
-// IE6 doesn't support max-width, so we just use width.
-// If the image is larger than the container, use this.
-// If it is smaller than the container, change the 100% value to an absolute one.
-@if $legacy-support-for-ie6 {
-  @media only screen and (max-width: 768px) {
-    .ie6 #main img {
-      width: 100%;
-    }
-  }
-}
-
-img {
-  height: auto;
-  border: 0;
-  // Improve IE's resizing of images: css-tricks.com/ie-fix-bicubic-scaling-for-images
-  .ie6-7 & {
-    -ms-interpolation-mode: bicubic;
-  }
-  // Workaround for responsive images in ie6, only resize in sidebars.
-  @if $legacy-support-for-ie6 {
-    .ie6 .region-sidebar-first &,
-    .ie6 .region-sidebar-second & {
-      width: 100%;
-    }
-  }
-}
 
 // Corrects overflow displayed oddly in IE9.
 
