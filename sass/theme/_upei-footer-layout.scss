@@ -21,49 +21,64 @@
 /* UPEI footer module */
 
 .upei-footer {
-    // Set the grid base to float
+  // IE6-8
+  .ie6-8 &, .not-responsive & {
     .bottom-links {
-      @include grid-item-base;
-    }
-    // IE6-8
-    .ie6-8 &, .not-responsive & {
-      .section {
-        @include span-columns(2);
-        &.bl-last {
-          margin-right: 0;
-        }
+      @include span-columns(2);
+      &.menu-05 {
+        margin-right: 0;
       }
     }
-    // Set the widths of each menu
-    @include breakpoint-at($break-desktop) {
-      .section {
-        @include span-columns(2);
-        &.bl-last {
-          margin-right: 0;
-        }
+  }
+
+  // Set the grid base to float
+  .bottom-links {
+    @include grid-item-base;
+  }
+  // Set the widths of each menu
+  @include breakpoint-at($break-desktop) {
+    .bottom-links {
+      @include span-columns(3,15);
+      &.menu-05 {
+        margin-right: 0;
       }
     }
-    @include breakpoint-at($break-tablet-all) {
-      .section {
-        @include span-columns(4);
-        &:nth-child(3n+3) {
-          @include span-columns(4, last right);
-        }
+  }
+  @include breakpoint-at($break-tablet-landscape) {
+    .bottom-links {
+      @include span-columns(3,15);
+      &.menu-05 {
+        margin-right: 0;
       }
     }
-    @include breakpoint-at($break-handheld-landscape) {
-      .section {
-        @include span-columns(6);
-        &:nth-child(2n+2) {
-          @include span-columns(6, last right);
-        }
-      }
+  }
+  @include breakpoint-at($break-tablet) {
+    .menu-03, .menu-04, .menu-05 {
+      @include span-columns(5,15);
     }
-    @include breakpoint-at($break-handheld) {
-      .section {
-        @include span-columns(12);
-      }
+    .menu-01, .menu-02 {
+      @include span-columns(6);
     }
+    .menu-02, .menu-05 {
+      margin-right: 0;
+    }
+  }
+  @include breakpoint-at($break-handheld-landscape) {
+    .bottom-links {
+      @include span-columns(6);
+    }
+    .menu-02, .menu-04 {
+      margin-right: 0;
+    }
+    .menu-05 {
+      @include span-columns(6);
+    }
+  }
+  @include breakpoint-at($break-handheld) {
+    .bottom-links {
+      @include span-columns(12);
+    }
+  }
   .footeraddress {
     @include span-columns(12, first);
     @include adjust-font-size-to($font-size-md, 1)
