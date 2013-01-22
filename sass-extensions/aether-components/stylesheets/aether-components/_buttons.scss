@@ -57,7 +57,6 @@ $ab-ie-support: true !default;
 @mixin aether-button($gradient-style: $ab-gradient-style, $border-radius: $ab-border-radius, $font-size: $ab-font-size, $first-color: $ab-base-color, $second-color: $ab-second-color, $text-color: $ab-text-color, $text-style: $ab-text-style, $padding: $ab-padding, $auto-states: $ab-pseudo-states, $ie: $ab-ie-support) {
   @include aether-button-structure($border-radius, $font-size, $padding);
   @include aether-button-gradient($gradient-style, $first-color, $second-color, $text-color, $text-style, $auto-states, $ie);
-  @include aether-button-firefox-fix;
 }
 
 // Structure for a sassy button.
@@ -66,6 +65,7 @@ $ab-ie-support: true !default;
   padding: $padding;
   @include aether-button-default-structure;
   @include border-radius($border-radius);
+  @include aether-button-firefox-fix;
 }
 
 // Fix for the Firefox padding issue.

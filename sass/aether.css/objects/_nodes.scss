@@ -1,0 +1,18 @@
+/*
+ * ==================================================
+ * Node Styling
+ * ==================================================
+ */
+
+// Node wrapper
+.node {
+  .submitted {
+    color: $text-color-light;
+  }
+}
+
+.node-teaser {
+  .node-title {
+    @include trailer(0.25);
+  }
+}

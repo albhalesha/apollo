@@ -5,61 +5,19 @@
  */
 /* Lists */
 dd {
-  margin: 0 26px 0 0;
+  margin: 0 1.625em 0 0;
 }
 
 menu,
 ol,
 ul,
 .item-list ul {
-  padding: 0 26px 0 0;
-}
-
-blockquote {
-  border-left: 0;
-  border-right: 1px solid #dddddd;
-  padding-left: 0;
-  padding-right: 26px;
+  padding: 0 1.625em 0 0;
 }
 
 dl dd {
   margin-left: 0;
-  margin-right: 13px;
-}
-
-/*
- * ==================================================
- * Forms RTL
- * ==================================================
- */
-input[type="radio"],
-input[type="checkbox"] {
-  margin-left: 3px;
-}
-
-button,
-input[type="reset"],
-input[type="submit"],
-input[type="button"] {
-  margin-left: 3px;
-}
-
-textarea,
-select,
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="email"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"] {
-  text-align: right;
+  margin-right: 0.8125em;
 }
 
 /*

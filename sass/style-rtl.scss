@@ -1,13 +1,5 @@
-// Base mixins, variables, functions & page structure
-// Base files should produce no css
-@import "base";
+// Loads vars and aether.css framework.
+@import "variables";
+@import "aether.css/aether-rtl";
 
-// Base normalize
-@import "base/rtl/normalize-rtl";
-@import "base/rtl/formalize-rtl";
-
-// components, patterns and page partials
-@import "components/rtl/tables-rtl";
-@import "components/rtl/tabs-rtl";
-@import "components/rtl/navigation-rtl";
-@import "components/rtl/page-rtl";
+// Place your RTL style imports here.

@@ -1,30 +1,9 @@
-// Base loads mixins, variables, functions & page structure
-// Base files should produce no css
-@import "base";
+// Loads vars and aether.css framework.
+@import "variables";
+@import "aether.css/aether";
 
-// Base normalize
-@import "base/normalize";
-@import "base/formalize";
-
-// Components, patterns and page partials
-@import "components/patterns";
-@import "components/type";
-@import "components/links";
-@import "components/headings";
-@import "components/blockquotes";
-@import "components/code";
-@import "components/lists";
-@import "components/buttons";
-@import "components/forms";
-@import "components/tables";
-@import "components/tabs";
-@import "components/navigation";
-@import "components/blocks";
-@import "components/page";
-@import "components/nodes";
-@import "components/messages";
-@import "components/comments";
-@import "components/views";
-
-// Global states
-@import "states";
+// Place your style imports here.
+@import "style/page";
+@import "style/buttons";
+@import "style/fields";
+@import "style/links";
