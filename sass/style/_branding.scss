@@ -3,7 +3,7 @@
 .region-header-first,
 .region-header-second,
 .region-header-third {
-  @include leader(0.5);
+  @include padding-leader(0.5);
 }
 
 .logo, .name-and-slogan {
@@ -153,10 +153,14 @@
   }
 }
 
-
-.branding .name-and-slogan,
-.branding .name-and-slogan.with-logo,
-.branding .logo {
-  @include padding-leader(1);
+.branding nav.menu {
+  padding-bottom: 1em;
 }
 
+.no-secondary-menu {
+  .name-and-slogan,
+  .name-and-slogan.with-logo,
+  .logo {
+    @include padding-leader(1);
+  }
+}

@@ -77,14 +77,12 @@
  * Normalize
  * ==================================================
  */
-/* line 14, ../sass/aether.css/common/_normalize.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 36, ../sass/aether.css/common/_normalize.scss */
 article,
 aside,
 details,
@@ -101,28 +99,23 @@ summary {
   display: block;
 }
 
-/* line 47, ../sass/aether.css/common/_normalize.scss */
 a:hover, a:active {
   outline: 0;
 }
-/* line 51, ../sass/aether.css/common/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 61, ../sass/aether.css/common/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* line 70, ../sass/aether.css/common/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 77, ../sass/aether.css/common/_normalize.scss */
 pre {
   overflow: auto;
   white-space: pre;
@@ -130,7 +123,6 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 88, ../sass/aether.css/common/_normalize.scss */
 audio,
 canvas,
 video {
@@ -139,22 +131,18 @@ video {
   *zoom: 1;
 }
 
-/* line 96, ../sass/aether.css/common/_normalize.scss */
 audio:not([controls]) {
   display: none;
 }
 
-/* line 102, ../sass/aether.css/common/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 106, ../sass/aether.css/common/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 114, ../sass/aether.css/common/_normalize.scss */
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -162,7 +150,6 @@ body {
   overflow: hidden;
 }
 
-/* line 123, ../sass/aether.css/common/_normalize.scss */
 .video iframe,
 .video object,
 .video embed {
@@ -173,23 +160,19 @@ body {
   height: 100%;
 }
 
-/* line 134, ../sass/aether.css/common/_normalize.scss */
 img {
   border: 0;
 }
 
-/* line 140, ../sass/aether.css/common/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 151, ../sass/aether.css/common/_normalize.scss */
 .ie6-7 table button,
 .ie6-7 table input {
   overflow: auto;
 }
 
-/* line 160, ../sass/aether.css/common/_normalize.scss */
 sub {
   font-size: 0.625em;
   line-height: 0em;
@@ -198,7 +181,6 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 167, ../sass/aether.css/common/_normalize.scss */
 sup {
   font-size: 0.625em;
   line-height: 0em;
@@ -208,14 +190,12 @@ sup {
 }
 
 /* Figures */
-/* line 176, ../sass/aether.css/common/_normalize.scss */
 figure {
   margin: 0;
 }
 
 /* Print styles */
 @media print {
-  /* line 185, ../sass/aether.css/common/_normalize.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -224,35 +204,28 @@ figure {
     -ms-filter: none !important;
   }
 
-  /* line 194, ../sass/aether.css/common/_normalize.scss */
   a {
     text-decoration: underline;
   }
-  /* line 196, ../sass/aether.css/common/_normalize.scss */
   a:visited {
     text-decoration: underline;
   }
-  /* line 199, ../sass/aether.css/common/_normalize.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 203, ../sass/aether.css/common/_normalize.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 209, ../sass/aether.css/common/_normalize.scss */
   a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
-  /* line 214, ../sass/aether.css/common/_normalize.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 218, ../sass/aether.css/common/_normalize.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -262,7 +235,6 @@ figure {
     margin: 0.5cm;
 }
 
-  /* line 226, ../sass/aether.css/common/_normalize.scss */
   p,
   h2,
   h3 {
@@ -270,7 +242,6 @@ figure {
     widows: 3;
   }
 
-  /* line 231, ../sass/aether.css/common/_normalize.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -281,19 +252,16 @@ figure {
  * Formalize
  * ==================================================
  */
-/* line 15, ../sass/aether.css/common/_formalize.scss */
 form {
   margin: 0;
 }
 
-/* line 21, ../sass/aether.css/common/_formalize.scss */
 input.form-checkbox,
 input.form-radio {
   vertical-align: middle;
 }
 
 /* UI Consistency */
-/* line 29, ../sass/aether.css/common/_formalize.scss */
 label,
 input,
 button {
@@ -301,7 +269,6 @@ button {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 31, ../sass/aether.css/common/_formalize.scss */
 label::-moz-focus-inner,
 input::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -310,25 +277,21 @@ button::-moz-focus-inner {
   margin: 0;
 }
 
-/* line 36, ../sass/aether.css/common/_formalize.scss */
 label {
   display: block;
   font-weight: bold;
 }
-/* line 39, ../sass/aether.css/common/_formalize.scss */
 label.option {
   display: inline;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 46, ../sass/aether.css/common/_formalize.scss */
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 1024px) {
-  /* line 53, ../sass/aether.css/common/_formalize.scss */
   input[type="radio"],
   input[type="checkbox"] {
     vertical-align: baseline;
@@ -336,7 +299,6 @@ input[type="search"]::-webkit-search-decoration {
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1024px) {
-  /* line 62, ../sass/aether.css/common/_formalize.scss */
   input[type="radio"],
   input[type="checkbox"] {
     vertical-align: baseline;
@@ -344,7 +306,6 @@ input[type="search"]::-webkit-search-decoration {
   }
 }
 @media (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 480px) {
-  /* line 71, ../sass/aether.css/common/_formalize.scss */
   input[type="radio"],
   input[type="checkbox"] {
     vertical-align: baseline;
@@ -352,14 +313,12 @@ input[type="search"]::-webkit-search-decoration {
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
-  /* line 80, ../sass/aether.css/common/_formalize.scss */
   input[type="radio"],
   input[type="checkbox"] {
     vertical-align: baseline;
     top: 0;
   }
 }
-/* line 87, ../sass/aether.css/common/_formalize.scss */
 textarea {
   height: auto;
   min-height: 40px;
@@ -367,14 +326,12 @@ textarea {
   resize: vertical;
 }
 
-/* line 94, ../sass/aether.css/common/_formalize.scss */
 optgroup {
   color: black;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 105, ../sass/aether.css/common/_formalize.scss */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -383,7 +340,6 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 112, ../sass/aether.css/common/_formalize.scss */
 input,
 button,
 select,
@@ -392,7 +348,6 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 121, ../sass/aether.css/common/_formalize.scss */
 input[type="file"]:focus, input[type="file"]:active,
 input[type="radio"]:focus,
 input[type="radio"]:active,
@@ -403,7 +358,6 @@ input[type="checkbox"]:active {
   box-shadow: none;
 }
 
-/* line 128, ../sass/aether.css/common/_formalize.scss */
 textarea,
 select[size],
 select[multiple] {
@@ -411,7 +365,6 @@ select[multiple] {
 }
 
 @media (-webkit-min-device-pixel-ratio: 0) {
-  /* line 134, ../sass/aether.css/common/_formalize.scss */
   select {
     background-image: url('../images/select_arrow.gif?1358872694');
     background-repeat: no-repeat;
@@ -419,14 +372,12 @@ select[multiple] {
     padding-right: 26px;
   }
 
-  /* line 141, ../sass/aether.css/common/_formalize.scss */
   select[size],
   select[multiple] {
     background-image: none;
     padding: 0;
   }
 
-  /* line 146, ../sass/aether.css/common/_formalize.scss */
   ::-webkit-validation-bubble-message {
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
     box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
@@ -443,7 +394,6 @@ select[multiple] {
     text-shadow: rgba(0, 0, 0, 0) 0 0 1px;
   }
 
-  /* line 162, ../sass/aether.css/common/_formalize.scss */
   ::-webkit-validation-bubble-arrow,
   ::-webkit-validation-bubble-top-outer-arrow,
   ::-webkit-validation-bubble-top-inner-arrow {
@@ -460,42 +410,35 @@ select[multiple] {
  * Pattern classes to extend into other stylesheets.
  * ==================================================
  */
-/* line 17, ../sass/aether.css/common/_patterns.scss */
 .no-bullet {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 22, ../sass/aether.css/common/_patterns.scss */
 .no-bullets {
   list-style: none;
 }
-/* line 11, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .no-bullets li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 26, ../sass/aether.css/common/_patterns.scss */
 .pull-right, blockquote.pull-right {
   display: inline;
   float: right;
 }
 
-/* line 30, ../sass/aether.css/common/_patterns.scss */
 .pull-left {
   display: inline;
   float: left;
 }
 
-/* line 34, ../sass/aether.css/common/_patterns.scss */
 .muted {
   color: #acacac;
 }
 
-/* line 38, ../sass/aether.css/common/_patterns.scss */
 .element-invisible {
   height: 1px;
   overflow: hidden;
@@ -505,7 +448,6 @@ select[multiple] {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 42, ../sass/aether.css/common/_patterns.scss */
 .element-focusable {
   height: 1px;
   overflow: hidden;
@@ -514,7 +456,6 @@ select[multiple] {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, ../sass/aether.css/common/_utilities.scss */
 .element-focusable:active, .element-focusable:focus {
   clip: auto;
   height: auto;
@@ -529,7 +470,6 @@ select[multiple] {
  * Shared
  * ==================================================
  */
-/* line 32, ../sass/aether.css/html-base/_shared.scss */
 p, blockquote, q, pre,
 address, code, samp,
 dl, ol, ul,
@@ -547,7 +487,6 @@ button, hgroup,
 .islet {
   margin-bottom: 1.5em;
 }
-/* line 34, ../sass/aether.css/html-base/_shared.scss */
 .islet p, .islet blockquote, .islet q, .islet pre, .islet
 address, .islet code, .islet samp, .islet
 dl, .islet ol, .islet ul, .islet
@@ -566,17 +505,14 @@ button, .islet hgroup, .islet
   margin-bottom: 0.75em;
 }
 
-/* line 40, ../sass/aether.css/html-base/_shared.scss */
 .landmark {
   margin-bottom: 3em;
 }
 
-/* line 46, ../sass/aether.css/html-base/_shared.scss */
 hr {
   margin-bottom: 1.47em;
 }
 
-/* line 52, ../sass/aether.css/html-base/_shared.scss */
 ul, ol, dd {
   margin-left: 26px;
 }
@@ -586,18 +522,15 @@ ul, ol, dd {
  * Main
  * ==================================================
  */
-/* line 61, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
 }
 
-/* line 9, ../sass/aether.css/html-base/_main.scss */
 html {
   overflow-y: scroll;
   min-height: 100%;
@@ -608,27 +541,22 @@ html {
  * Images
  * ==================================================
  */
-/* line 9, ../sass/aether.css/html-base/_images.scss */
 img {
   max-width: 100%;
   height: auto;
 }
-/* line 13, ../sass/aether.css/html-base/_images.scss */
 .ie6-7 img {
   -ms-interpolation-mode: bicubic;
 }
-/* line 16, ../sass/aether.css/html-base/_images.scss */
 .ie8 img {
   width: auto;
 }
 
 /* Override max-width 100% for map displays */
-/* line 23, ../sass/aether.css/html-base/_images.scss */
 .gmap img, .view-gmap img, .openlayers-map img, #getlocations_map_canvas img {
   max-width: none;
 }
 
-/* line 30, ../sass/aether.css/html-base/_images.scss */
 figure > img {
   display: block;
 }
@@ -639,7 +567,6 @@ figure > img {
  * ==================================================
  */
 /* Headings/small */
-/* line 14, ../sass/aether.css/html-base/_headings.scss */
 h1,
 h2,
 h3,
@@ -652,7 +579,6 @@ h6 {
   margin-top: 0em;
 }
 
-/* line 24, ../sass/aether.css/html-base/_headings.scss */
 h3,
 h4,
 h5,
@@ -660,42 +586,36 @@ h6 {
   font-weight: 700;
 }
 
-/* line 30, ../sass/aether.css/html-base/_headings.scss */
 h1, .alpha {
   font-size: 1.625em;
   line-height: 1.10769em;
   margin-bottom: 0.73846em;
 }
 
-/* line 35, ../sass/aether.css/html-base/_headings.scss */
 h2, .beta {
   font-size: 1.375em;
   line-height: 1.2em;
   margin-bottom: 0.98182em;
 }
 
-/* line 40, ../sass/aether.css/html-base/_headings.scss */
 h3, .gamma {
   font-size: 1.125em;
   line-height: 1.33333em;
   margin-bottom: 1.33333em;
 }
 
-/* line 45, ../sass/aether.css/html-base/_headings.scss */
 h4, .delta {
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
 
-/* line 50, ../sass/aether.css/html-base/_headings.scss */
 h5, .epsilon {
   font-size: 0.875em;
   line-height: 1.71429em;
   margin-bottom: 1.71429em;
 }
 
-/* line 55, ../sass/aether.css/html-base/_headings.scss */
 h6, .zeta {
   font-size: 0.75em;
   line-height: 2em;
@@ -703,13 +623,11 @@ h6, .zeta {
   color: #acacac;
 }
 
-/* line 61, ../sass/aether.css/html-base/_headings.scss */
 small {
   margin-bottom: 2.18182em;
   font-size: 0.6875em;
 }
 
-/* line 72, ../sass/aether.css/html-base/_headings.scss */
 h1 small,
 h2 small,
 h3 small,
@@ -720,7 +638,6 @@ h6 small {
   color: #acacac;
 }
 
-/* line 79, ../sass/aether.css/html-base/_headings.scss */
 h2.element-invisible {
   line-height: 0;
 }
@@ -731,7 +648,6 @@ h2.element-invisible {
  * ==================================================
  */
 /* Quotes */
-/* line 11, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote,
 q,
 cite {
@@ -739,62 +655,50 @@ cite {
   quotes: none;
 }
 
-/* line 17, ../sass/aether.css/html-base/_blockquotes.scss */
 q {
   quotes: "‘" "’" "“" "”";
 }
-/* line 20, ../sass/aether.css/html-base/_blockquotes.scss */
 q:before {
   content: "‘";
   content: open-quote;
 }
-/* line 24, ../sass/aether.css/html-base/_blockquotes.scss */
 q:after {
   content: "’";
   content: close-quote;
 }
-/* line 29, ../sass/aether.css/html-base/_blockquotes.scss */
 q q:before {
   content: "“";
   content: open-quote;
 }
-/* line 33, ../sass/aether.css/html-base/_blockquotes.scss */
 q q:after {
   content: "”";
   content: close-quote;
 }
 
-/* line 39, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote {
   quotes: "“" "”";
 }
-/* line 42, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote p:before {
   content: "“";
   content: open-quote;
 }
-/* line 46, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote p:after {
   content: "";
   content: no-close-quote;
 }
-/* line 50, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote p:last-of-type:after {
   content: "”";
   content: close-quote;
 }
-/* line 55, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote q:before {
   content: "‘";
   content: open-quote;
 }
-/* line 59, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote q:after {
   content: "’";
   content: close-quote;
 }
 
-/* line 71, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote {
   border-left: 5px solid #dddddd;
   margin-top: 0em;
@@ -802,26 +706,21 @@ blockquote {
   margin-left: 0;
   padding-left: 26px;
 }
-/* line 77, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote > p {
   padding: 0;
 }
-/* line 79, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote > p:last-of-type {
   margin-bottom: 0;
 }
-/* line 83, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote small {
   display: block;
   color: #acacac;
   margin-bottom: 0;
   font-style: normal;
 }
-/* line 88, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
-/* line 94, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote.pull-right {
   padding-left: 0;
   padding-right: 26px;
@@ -829,7 +728,6 @@ blockquote.pull-right {
   border-right: 5px solid #dddddd;
   margin-right: 0;
 }
-/* line 102, ../sass/aether.css/html-base/_blockquotes.scss */
 blockquote.pull-right p,
 blockquote.pull-right small {
   text-align: right;
@@ -840,14 +738,12 @@ blockquote.pull-right small {
  * Code
  * ==================================================
  */
-/* line 8, ../sass/aether.css/html-base/_code.scss */
 pre, code, samp, kbd {
   font-size: 0.75em;
   line-height: 2em;
   font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 }
 
-/* line 13, ../sass/aether.css/html-base/_code.scss */
 pre mark {
   background: none;
   border-bottom: 1px solid;
@@ -860,38 +756,31 @@ pre mark {
  * ==================================================
  */
 /* Links */
-/* line 9, ../sass/aether.css/html-base/_links.scss */
 a {
   text-decoration: none;
 }
-/* line 14, ../sass/aether.css/html-base/_links.scss */
 a:hover, a:active, a:focus, a.active {
   text-decoration: underline;
 }
 
 /* Drupal inline Links */
-/* line 21, ../sass/aether.css/html-base/_links.scss */
 ul.links {
   border: 0 none;
   margin: 0;
   padding: 0;
 }
-/* line 25, ../sass/aether.css/html-base/_links.scss */
 ul.links.inline {
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 20, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 ul.links.inline:before, ul.links.inline:after {
   content: " ";
   display: table;
 }
-/* line 24, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 ul.links.inline:after {
   clear: both;
 }
-/* line 27, ../sass/aether.css/html-base/_links.scss */
 ul.links.inline li {
   list-style-image: none;
   list-style-type: none;
@@ -902,35 +791,28 @@ ul.links.inline li {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.links.inline li:first-child, ul.links.inline li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.links.inline li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.links.inline li.last {
   padding-right: 0;
 }
 
-/* line 33, ../sass/aether.css/html-base/_links.scss */
 ul.action-links {
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 20, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 ul.action-links:before, ul.action-links:after {
   content: " ";
   display: table;
 }
-/* line 24, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 ul.action-links:after {
   clear: both;
 }
-/* line 35, ../sass/aether.css/html-base/_links.scss */
 ul.action-links li {
   list-style-image: none;
   list-style-type: none;
@@ -941,15 +823,12 @@ ul.action-links li {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.action-links li:first-child, ul.action-links li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.action-links li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 ul.action-links li.last {
   padding-right: 0;
 }
@@ -960,18 +839,15 @@ ul.action-links li.last {
  * ==================================================
  */
 /* Lists */
-/* line 12, ../sass/aether.css/html-base/_lists.scss */
 li > ul,
 li > ol {
   margin: 0;
 }
-/* line 14, ../sass/aether.css/html-base/_lists.scss */
 .item-list li > ul, .item-list
 li > ol {
   margin: 0;
 }
 
-/* line 23, ../sass/aether.css/html-base/_lists.scss */
 menu,
 ol,
 ul,
@@ -982,23 +858,19 @@ ul,
 }
 
 /* Description Lists */
-/* line 31, ../sass/aether.css/html-base/_lists.scss */
 dl {
   margin-bottom: 1.5em;
 }
 
-/* line 35, ../sass/aether.css/html-base/_lists.scss */
 dd {
   /* LTR */
   margin: 0 0 0 26px;
 }
 
-/* line 40, ../sass/aether.css/html-base/_lists.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 45, ../sass/aether.css/html-base/_lists.scss */
 dt,
 dd {
   line-height: 1.5em;
@@ -1013,44 +885,37 @@ dd {
 /**
  * Markup generated by theme_tablesort_indicator().
  */
-/* line 12, ../sass/aether.css/html-base/_tables.scss */
 th.active img {
   display: inline;
 }
 
-/* line 15, ../sass/aether.css/html-base/_tables.scss */
 td.active {
   background-color: #ddd;
 }
 
-/* line 19, ../sass/aether.css/html-base/_tables.scss */
 .draggable a.tabledrag-handle {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 21, ../sass/aether.css/html-base/_tables.scss */
 .draggable a.tabledrag-handle .handle {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 }
 
 /* Default table styling */
-/* line 29, ../sass/aether.css/html-base/_tables.scss */
 table {
   border-collapse: collapse;
   padding: 0;
   width: 100%;
 }
-/* line 34, ../sass/aether.css/html-base/_tables.scss */
 table th,
 table td {
   padding-left: 26px;
   padding-right: 26px;
   text-align: left;
 }
-/* line 39, ../sass/aether.css/html-base/_tables.scss */
 table th {
   border-bottom-style: solid;
   border-bottom-width: 0.0625em;
@@ -1060,7 +925,6 @@ table th {
   font-weight: bold;
   vertical-align: middle;
 }
-/* line 46, ../sass/aether.css/html-base/_tables.scss */
 table td {
   border-top-style: solid;
   border-top-width: 0.0625em;
@@ -1069,7 +933,6 @@ table td {
   border-color: #dddddd;
   vertical-align: top;
 }
-/* line 53, ../sass/aether.css/html-base/_tables.scss */
 table tbody th {
   border-top-style: solid;
   border-top-width: 0.0625em;
@@ -1077,34 +940,28 @@ table tbody th {
   border-color: #dddddd;
   vertical-align: top;
 }
-/* line 59, ../sass/aether.css/html-base/_tables.scss */
 table tr.even {
   background-color: transparent;
 }
-/* line 62, ../sass/aether.css/html-base/_tables.scss */
 table tr.odd {
   background-color: transparent;
 }
-/* line 66, ../sass/aether.css/html-base/_tables.scss */
 table td.menu-disabled {
   background: #eeeeee;
 }
 
-/* line 72, ../sass/aether.css/html-base/_tables.scss */
 .table--condensed td {
   border-top-style: solid;
   border-top-width: 0.0625em;
   padding-top: 0.3125em;
   padding-bottom: 0.375em;
 }
-/* line 76, ../sass/aether.css/html-base/_tables.scss */
 .table--condensed th {
   border-bottom-style: solid;
   border-bottom-width: 0.0625em;
   padding-bottom: 0.3125em;
   padding-top: 0.375em;
 }
-/* line 80, ../sass/aether.css/html-base/_tables.scss */
 .table--condensed tbody th {
   border-top-style: solid;
   border-top-width: 0.0625em;
@@ -1112,7 +969,6 @@ table td.menu-disabled {
 }
 
 /* Bordered-table */
-/* line 88, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered {
   border: 1px solid #dddddd;
   border-collapse: separate;
@@ -1122,13 +978,11 @@ table td.menu-disabled {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 97, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered th + th,
 .table--bordered td + td,
 .table--bordered th + td {
   border-left: 1px solid #dddddd;
 }
-/* line 101, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered thead tr:first-child th:first-child,
 .table--bordered tbody tr:first-child td:first-child {
   -webkit-border-radius: 4px 0 0 0;
@@ -1136,7 +990,6 @@ table td.menu-disabled {
   -ms-border-radius: 4px 0 0 0;
   border-radius: 4px 0 0 0;
 }
-/* line 105, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered thead tr:first-child th:last-child,
 .table--bordered tbody tr:first-child td:last-child {
   -webkit-border-radius: 0 4px 0 0;
@@ -1144,61 +997,51 @@ table td.menu-disabled {
   -ms-border-radius: 0 4px 0 0;
   border-radius: 0 4px 0 0;
 }
-/* line 108, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered tbody tr:last-child td:first-child {
   -webkit-border-radius: 0 0 0 4px;
   -moz-border-radius: 0 0 0 4px;
   -ms-border-radius: 0 0 0 4px;
   border-radius: 0 0 0 4px;
 }
-/* line 111, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered tbody tr:last-child td:last-child {
   -webkit-border-radius: 0 0 4px 0;
   -moz-border-radius: 0 0 4px 0;
   -ms-border-radius: 0 0 4px 0;
   border-radius: 0 0 4px 0;
 }
-/* line 114, ../sass/aether.css/html-base/_tables.scss */
 .table--bordered th {
   border-bottom: 0;
 }
 
-/* line 121, ../sass/aether.css/html-base/_tables.scss */
 .ie7 .table--bordered {
   /* IE7, collapse table to remove spacing */
   border-collapse: collapse;
 }
 
 /* Zebra table */
-/* line 134, ../sass/aether.css/html-base/_tables.scss */
 .table--striped tbody tr:nth-child(even),
 .table--striped tbody tr.even {
   background-color: #f9f9f9;
 }
-/* line 137, ../sass/aether.css/html-base/_tables.scss */
 .table--striped tbody tr:hover {
   background-color: whitesmoke;
 }
 
 /* Responsive Tables */
 @media (min-width: 61.25em) {
-  /* line 149, ../sass/aether.css/html-base/_tables.scss */
   table.table--responsive {
     margin-bottom: 0;
   }
-  /* line 151, ../sass/aether.css/html-base/_tables.scss */
   table.table--responsive td, table.table--responsive th {
     overflow: hidden;
     position: relative;
     white-space: nowrap;
   }
-  /* line 158, ../sass/aether.css/html-base/_tables.scss */
   table.table--responsive th:first-child,
   table.table--responsive td:first-child, table.table--responsive.pinned td {
     display: none;
   }
 
-  /* line 163, ../sass/aether.css/html-base/_tables.scss */
   .pinned {
     background: white;
     border-left: 1px solid #dddddd;
@@ -1210,34 +1053,28 @@ table td.menu-disabled {
     top: 0;
     width: 35%;
   }
-  /* line 173, ../sass/aether.css/html-base/_tables.scss */
   .pinned table {
     border-left: none;
     border-right: none;
     width: 100%;
   }
-  /* line 177, ../sass/aether.css/html-base/_tables.scss */
   .pinned table th, .pinned table td {
     white-space: nowrap;
   }
-  /* line 180, ../sass/aether.css/html-base/_tables.scss */
   .pinned table td:last-child {
     border-bottom: 0;
   }
 
-  /* line 186, ../sass/aether.css/html-base/_tables.scss */
   div.table-wrapper {
     border-right: 1px solid #dddddd;
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
   }
-  /* line 191, ../sass/aether.css/html-base/_tables.scss */
   div.table-wrapper div.scrollable {
     overflow: scroll;
     overflow-y: hidden;
   }
-  /* line 194, ../sass/aether.css/html-base/_tables.scss */
   div.table-wrapper div.scrollable table {
     margin-left: 35%;
   }
@@ -1247,17 +1084,14 @@ table td.menu-disabled {
  *
  * @see tabledrag.js
  */
-/* line 208, ../sass/aether.css/html-base/_tables.scss */
 tr.drag {
   background-color: #fffff0;
 }
 
-/* line 212, ../sass/aether.css/html-base/_tables.scss */
 tr.drag-previous {
   background-color: #ffd;
 }
 
-/* line 216, ../sass/aether.css/html-base/_tables.scss */
 .tabledrag-toggle-weight {
   font-size: 0.875em;
 }
@@ -1267,18 +1101,15 @@ tr.drag-previous {
  *
  * @see tableselect.js
  */
-/* line 226, ../sass/aether.css/html-base/_tables.scss */
 tr.selected td {
   background: #ffc;
 }
 
 /* Override system.base.css to adjust throbber position */
-/* line 3, ../sass/aether.css/html-base/_forms.scss */
 html.js input.form-autocomplete {
   background-position: 100% 6px;
 }
 
-/* line 7, ../sass/aether.css/html-base/_forms.scss */
 html.js input.throbbing {
   background-position: 100% -13px;
 }
@@ -1288,7 +1119,6 @@ html.js input.throbbing {
  *
  * @see autocomplete.js
  */
-/* line 17, ../sass/aether.css/html-base/_forms.scss */
 #autocomplete .selected {
   /* Suggestion list */
   background: #0072b9;
@@ -1296,7 +1126,6 @@ html.js input.throbbing {
 }
 
 /* Overlay */
-/* line 25, ../sass/aether.css/html-base/_forms.scss */
 .overlay #header,
 .overlay #navigation {
   display: none;
@@ -1307,7 +1136,6 @@ html.js input.throbbing {
  *
  * @see collapse.js
  */
-/* line 36, ../sass/aether.css/html-base/_forms.scss */
 html.js .collapsible .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
   *background-image: url(../images/menu-expanded.png);
@@ -1317,7 +1145,6 @@ html.js .collapsible .fieldset-legend {
   padding-left: 15px;
   /* LTR */
 }
-/* line 45, ../sass/aether.css/html-base/_forms.scss */
 html.js .collapsed .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC');
   /* LTR */
@@ -1326,14 +1153,12 @@ html.js .collapsed .fieldset-legend {
   background-position: 5px 50%;
   /* LTR */
 }
-/* line 53, ../sass/aether.css/html-base/_forms.scss */
 .fieldset-legend .summary {
   color: #999;
   font-size: 0.9em;
   margin-left: 0.5em;
 }
 
-/* line 62, ../sass/aether.css/html-base/_forms.scss */
 fieldset {
   border-color: #b9b9b9;
   margin: 0 2px;
@@ -1342,7 +1167,6 @@ fieldset {
   padding: 0.9125em;
 }
 
-/* line 81, ../sass/aether.css/html-base/_forms.scss */
 .form-type-textfield,
 .form-type-date,
 .form-type-select,
@@ -1359,7 +1183,6 @@ fieldset {
   margin-bottom: 1.5em;
 }
 
-/* line 93, ../sass/aether.css/html-base/_forms.scss */
 .container-inline .form-actions,
 .container-inline.form-actions,
 .container-inline .form-type-select,
@@ -1372,7 +1195,6 @@ input.password-field {
   margin-bottom: 0em;
 }
 
-/* line 98, ../sass/aether.css/html-base/_forms.scss */
 div.form-item div.password-suggestions {
   margin-top: 3em;
   padding-top: 0em;
@@ -1380,19 +1202,16 @@ div.form-item div.password-suggestions {
   margin-bottom: 0em;
 }
 
-/* line 103, ../sass/aether.css/html-base/_forms.scss */
 .form-type-radio .description,
 .form-type-checkbox .description {
   margin-left: 26px;
 }
 
-/* line 107, ../sass/aether.css/html-base/_forms.scss */
 .form-item .password-strength {
   float: none;
   width: 17em;
 }
 
-/* line 113, ../sass/aether.css/html-base/_forms.scss */
 tr.odd .form-item,
 tr.even .form-item {
   margin-top: 0;
@@ -1401,7 +1220,6 @@ tr.even .form-item {
 }
 
 /* Drupal form overrides */
-/* line 121, ../sass/aether.css/html-base/_forms.scss */
 form > div {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1409,24 +1227,20 @@ form > div {
   border-radius: 3px;
 }
 
-/* line 126, ../sass/aether.css/html-base/_forms.scss */
 .form-item .description {
   color: #6f6f6f;
 }
 
-/* line 132, ../sass/aether.css/html-base/_forms.scss */
 .marker,
 .form-required {
   color: #f00;
 }
 
-/* line 136, ../sass/aether.css/html-base/_forms.scss */
 .form-item .description {
   font-size: 0.85em;
 }
 
 /* Login form */
-/* line 142, ../sass/aether.css/html-base/_forms.scss */
 #user-login-form .item-list ul {
   list-style: none;
   margin: 0;
@@ -1434,16 +1248,13 @@ form > div {
 }
 
 /* Responsive forms */
-/* line 152, ../sass/aether.css/html-base/_forms.scss */
 #search-form .form-item label.label-edit-keys {
   display: block;
 }
-/* line 153, ../sass/aether.css/html-base/_forms.scss */
 #search-form .form-item #edit-keys {
   width: 70%;
 }
 
-/* line 160, ../sass/aether.css/html-base/_forms.scss */
 .form-select,
 .form-textarea,
 .form-text,
@@ -1458,36 +1269,30 @@ form > div {
  * ==================================================
  */
 /* Responsive Typography */
-/* line 38, ../sass/aether.css/html-base/_type.scss */
 html {
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 }
 
-/* line 61, ../sass/aether.css/common/_utilities.scss */
 ::-webkit-selection {
   color: #dddddd;
   background: #222222;
 }
 
-/* line 61, ../sass/aether.css/common/_utilities.scss */
 ::-moz-selection {
   color: #dddddd;
   background: #222222;
 }
 
-/* line 61, ../sass/aether.css/common/_utilities.scss */
 ::-o-selection {
   color: #dddddd;
   background: #222222;
 }
 
-/* line 61, ../sass/aether.css/common/_utilities.scss */
 ::selection {
   color: #dddddd;
   background: #222222;
 }
 
-/* line 49, ../sass/aether.css/html-base/_type.scss */
 hr {
   height: 1px;
   border: 1px solid #666;
@@ -1495,7 +1300,6 @@ hr {
 }
 
 /* Abbreviations */
-/* line 58, ../sass/aether.css/html-base/_type.scss */
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted;
@@ -1504,36 +1308,30 @@ dfn[title] {
 }
 
 /* Marked/inserted/deleted text */
-/* line 66, ../sass/aether.css/html-base/_type.scss */
 mark {
   background: yellow;
 }
 
-/* line 70, ../sass/aether.css/html-base/_type.scss */
 ins {
   background: #ffff99;
   text-decoration: none;
 }
 
-/* line 75, ../sass/aether.css/html-base/_type.scss */
 del {
   text-decoration: line-through;
 }
 
 /* Others */
-/* line 83, ../sass/aether.css/html-base/_type.scss */
 strong,
 b,
 dt {
   font-weight: bold;
 }
 
-/* line 87, ../sass/aether.css/html-base/_type.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 92, ../sass/aether.css/html-base/_type.scss */
 var,
 address {
   font-style: normal;
@@ -1545,7 +1343,6 @@ address {
  * Buttons
  * ==================================================
  */
-/* line 7, ../sass/aether.css/objects/_buttons.scss */
 .form-submit[type="submit"] {
   margin-bottom: 1.5em;
   margin-right: 0.3em;
@@ -1559,33 +1356,27 @@ address {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 73, ../sass-extensions/aether-components/stylesheets/aether-components/_buttons.scss */
 .form-submit[type="submit"]::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
 
-/* line 17, ../sass/aether.css/objects/_buttons.scss */
 .ie7 .form-submit[type="submit"] {
   padding: 0.54em 0.5em;
 }
 
-/* line 24, ../sass/aether.css/objects/_buttons.scss */
 input[type="file"] {
   height: 28px;
   line-height: 28px;
 }
 
-/* line 31, ../sass/aether.css/objects/_buttons.scss */
 .form-managed-file .form-file {
   margin-right: 0.3em;
 }
-/* line 32, ../sass/aether.css/objects/_buttons.scss */
 .form-managed-file .form-submit {
   margin-bottom: 0em;
 }
 
-/* line 35, ../sass/aether.css/objects/_buttons.scss */
 .container-inline .form-submit {
   margin-bottom: 0em;
 }
@@ -1596,7 +1387,6 @@ input[type="file"] {
  * ==================================================
  */
 /* Basic positioning styles for tabs. */
-/* line 10, ../sass/aether.css/objects/_tabs.scss */
 .primary,
 .secondary {
   border-bottom-style: solid;
@@ -1607,25 +1397,21 @@ input[type="file"] {
   margin-left: 0;
   white-space: nowrap;
 }
-/* line 20, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 .primary:before, .primary:after,
 .secondary:before,
 .secondary:after {
   content: " ";
   display: table;
 }
-/* line 24, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 .primary:after,
 .secondary:after {
   clear: both;
 }
-/* line 17, ../sass/aether.css/objects/_tabs.scss */
 .primary li,
 .secondary li {
   float: left;
   margin-left: 3px;
 }
-/* line 21, ../sass/aether.css/objects/_tabs.scss */
 .primary a,
 .secondary a {
   display: block;
@@ -1633,13 +1419,11 @@ input[type="file"] {
 }
 
 /* Primary tabs */
-/* line 29, ../sass/aether.css/objects/_tabs.scss */
 .primary {
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
   margin-top: -1px;
   padding: 0 2px;
 }
-/* line 33, ../sass/aether.css/objects/_tabs.scss */
 .primary li {
   font-size: 0.75em;
   line-height: 1.8em;
@@ -1654,12 +1438,10 @@ input[type="file"] {
   border-style: solid;
   border-width: 1px 1px 0 1px;
 }
-/* line 41, ../sass/aether.css/objects/_tabs.scss */
 .primary li.active {
   border-bottom: 1px solid white;
   margin-bottom: -1px;
 }
-/* line 47, ../sass/aether.css/objects/_tabs.scss */
 .primary a:link, .primary a:visited {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -1676,13 +1458,11 @@ input[type="file"] {
   padding: 0 1em;
   text-align: center;
 }
-/* line 57, ../sass/aether.css/objects/_tabs.scss */
 .primary a:hover, .primary a:focus {
   background-color: #e9e9e9;
   border-color: #f2f2f2;
   text-decoration: none;
 }
-/* line 62, ../sass/aether.css/objects/_tabs.scss */
 .primary a.active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, rgba(233, 233, 233, 0)));
   background-image: -webkit-linear-gradient(#e9e9e9, rgba(233, 233, 233, 0));
@@ -1691,7 +1471,6 @@ input[type="file"] {
   background-color: transparent;
   border-color: #fff;
 }
-/* line 66, ../sass/aether.css/objects/_tabs.scss */
 .ie6-8 .primary a.active {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE9E9E9', endColorstr='#FFFFFFFF');
@@ -1699,21 +1478,17 @@ input[type="file"] {
 }
 
 /* Secondary tabs */
-/* line 77, ../sass/aether.css/objects/_tabs.scss */
 .secondary {
   margin-top: -1.3em;
   font-size: 0.75em;
 }
-/* line 80, ../sass/aether.css/objects/_tabs.scss */
 .secondary li {
   margin-top: 0.122em;
   margin-bottom: 0.122em;
 }
-/* line 83, ../sass/aether.css/objects/_tabs.scss */
 .secondary li li {
   float: none;
 }
-/* line 87, ../sass/aether.css/objects/_tabs.scss */
 .secondary a {
   font-size: 12px;
   padding: 0 1em;
@@ -1727,7 +1502,6 @@ input[type="file"] {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   color: #666666;
 }
-/* line 5, ../sass-extensions/aether-components/stylesheets/aether-components/pills/_pseudo-states.scss */
 .secondary a:link, .secondary a:visited {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
@@ -1737,14 +1511,12 @@ input[type="file"] {
   text-shadow: 1px 1px 0 white;
   color: #666666;
 }
-/* line 19, ../sass-extensions/aether-components/stylesheets/aether-components/pills/_pseudo-states.scss */
 .secondary a:hover, .secondary a:focus {
   background-color: #999999;
   border-color: #666666;
   text-shadow: 1px 1px 0 #333333;
   color: white;
 }
-/* line 32, ../sass-extensions/aether-components/stylesheets/aether-components/pills/_pseudo-states.scss */
 .secondary a.active, .secondary a:active {
   background-color: #666666;
   border-color: black;
@@ -1761,7 +1533,6 @@ input[type="file"] {
  * ==================================================
  */
 /* Primary and Secondary menus */
-/* line 13, ../sass/aether.css/objects/_navigation.scss */
 #primary > li {
   list-style-image: none;
   list-style-type: none;
@@ -1772,36 +1543,29 @@ input[type="file"] {
   padding-left: 26px;
   padding-right: 26px;
 }
-/* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #primary > li:first-child, #primary > li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #primary > li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #primary > li.last {
   padding-right: 0;
 }
 
-/* line 18, ../sass/aether.css/objects/_navigation.scss */
 #secondary {
   float: right;
   margin: 0;
   padding: 0;
   border: 0;
 }
-/* line 20, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 #secondary:before, #secondary:after {
   content: " ";
   display: table;
 }
-/* line 24, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 #secondary:after {
   clear: both;
 }
-/* line 21, ../sass/aether.css/objects/_navigation.scss */
 #secondary > li {
   list-style-image: none;
   list-style-type: none;
@@ -1812,34 +1576,27 @@ input[type="file"] {
   padding-left: 26px;
   padding-right: 26px;
 }
-/* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary > li:first-child, #secondary > li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary > li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary > li.last {
   padding-right: 0;
 }
 
 /* Navigation bar */
-/* line 28, ../sass/aether.css/objects/_navigation.scss */
 #navigation, #main-menu {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
 }
-/* line 31, ../sass/aether.css/objects/_navigation.scss */
 #navigation a.active, #main-menu a.active {
   text-decoration: none;
 }
-/* line 35, ../sass/aether.css/objects/_navigation.scss */
 #navigation .block, #main-menu .block {
   margin-bottom: 0em;
 }
-/* line 40, ../sass/aether.css/objects/_navigation.scss */
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title, #main-menu .block-menu .block-title,
 #main-menu .block-menu-block .block-title {
@@ -1850,7 +1607,6 @@ input[type="file"] {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 45, ../sass/aether.css/objects/_navigation.scss */
 #navigation .links,
 #navigation .menu, #main-menu .links,
 #main-menu .menu {
@@ -1858,7 +1614,6 @@ input[type="file"] {
   text-align: left;
   /* LTR */
 }
-/* line 47, ../sass/aether.css/objects/_navigation.scss */
 #navigation .links li,
 #navigation .menu li, #main-menu .links li,
 #main-menu .menu li {
@@ -1872,14 +1627,12 @@ input[type="file"] {
 }
 
 /* Menus */
-/* line 58, ../sass/aether.css/objects/_navigation.scss */
 ul li.expanded {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
   *list-style-image: url(../images/menu-expanded.png);
   list-style-type: circle;
 }
 
-/* line 65, ../sass/aether.css/objects/_navigation.scss */
 ul li.collapsed {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC');
   /* LTR */
@@ -1887,7 +1640,6 @@ ul li.collapsed {
   list-style-type: disc;
 }
 
-/* line 72, ../sass/aether.css/objects/_navigation.scss */
 ul li.leaf {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
   *list-style-image: url(../images/menu-leaf.png);
@@ -1895,19 +1647,16 @@ ul li.leaf {
 }
 
 /* More Links */
-/* line 82, ../sass/aether.css/objects/_navigation.scss */
 .more-link {
   text-align: right;
   /* LTR */
 }
 
-/* line 86, ../sass/aether.css/objects/_navigation.scss */
 .more-help-link {
   text-align: right;
   /* LTR */
 }
 
-/* line 89, ../sass/aether.css/objects/_navigation.scss */
 .more-help-link a {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7UlEQVR42qWTPQqDQBCFcwSPkCNITpAj5AjeIm1uYpkyR7Cy2Mot7OwsBAsRwUKwmOwLGRle3EIy8PyBfZ/z3J2TiPylz8VWWZZpUB40BonRKyizaxkA88MYYiqCEgv4MTvnZJom0VqWRbz3FlJZgLYtqmEY1Lg9r+sKsIXcLSC3AC019H0vqLquLeC5AfiHYSGkcdAJimKIBQiJ4+CO92OAtm0FNc8zOjkMwE5Q63FAtbeg6zpAYvG8BWR7i5qmQYwY4MIHqYhE2DOPQWcGJBQF2XU72ZzyUeZ5GCNt5/hybJgYdAXsq5sOEE/jG6dC5IOqCXTmAAAAAElFTkSuQmCC');
   *background-image: url(../images/help.png);
@@ -1924,7 +1673,6 @@ ul li.leaf {
  * ==================================================
  */
 /* Pager */
-/* line 9, ../sass/aether.css/objects/_pagination.scss */
 .pager {
   /* A list of page numbers when more than 1 page of content is available. */
   clear: both;
@@ -1932,7 +1680,6 @@ ul li.leaf {
   text-align: center;
 }
 
-/* line 15, ../sass/aether.css/objects/_pagination.scss */
 .pager-item,
 .pager-first,
 .pager-previous,
@@ -1945,7 +1692,6 @@ ul li.leaf {
   padding: 0 0.5em;
 }
 
-/* line 27, ../sass/aether.css/objects/_pagination.scss */
 .pager-item,
 .pager-first,
 .pager-previous,
@@ -1955,7 +1701,6 @@ ul li.leaf {
   /* A concatenation of several list items using an ellipsis */
 }
 
-/* line 31, ../sass/aether.css/objects/_pagination.scss */
 .pager-current {
   /* The current page's list item. */
   font-weight: bold;
@@ -1967,39 +1712,31 @@ ul li.leaf {
  * ==================================================
  */
 /* Breadcrumbs */
-/* line 9, ../sass/aether.css/objects/_breadcrumbs.scss */
 .breadcrumb {
   color: #a0a0a0;
 }
-/* line 11, ../sass/aether.css/objects/_breadcrumbs.scss */
 .breadcrumb ul {
   margin-top: 0em;
   margin-bottom: 0em;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 17, ../sass/aether.css/objects/_breadcrumbs.scss */
 .breadcrumb li {
   display: inline;
 }
-/* line 20, ../sass/aether.css/objects/_breadcrumbs.scss */
 .breadcrumb a {
   color: #b9b9b9;
   padding: 0;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:visited {
   color: #b9b9b9;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:focus {
   color: #c6c6c6;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:hover {
   color: #c6c6c6;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:active {
   color: #dfdfdf;
 }
@@ -2009,14 +1746,12 @@ ul li.leaf {
  * Node Styling
  * ==================================================
  */
-/* line 9, ../sass/aether.css/objects/_nodes.scss */
 .node .submitted {
   font-size: 0.875em;
   line-height: 1.71429em;
   color: #acacac;
 }
 
-/* line 16, ../sass/aether.css/objects/_nodes.scss */
 .node-teaser .node-title {
   margin-bottom: 0.375em;
 }
@@ -2027,7 +1762,6 @@ ul li.leaf {
  * ==================================================
  */
 /* Base alerts */
-/* line 9, ../sass/aether.css/objects/_messages.scss */
 div.messages.status {
   border-color: #c5df9c #c5df9c #aed275;
   border-style: solid;
@@ -2046,7 +1780,6 @@ div.messages.status {
   color: #234600;
 }
 
-/* line 13, ../sass/aether.css/objects/_messages.scss */
 div.messages.warning {
   border-color: #f2dd92 #f2dd92 #edce64;
   border-style: solid;
@@ -2065,7 +1798,6 @@ div.messages.warning {
   color: #884400;
 }
 
-/* line 17, ../sass/aether.css/objects/_messages.scss */
 div.messages.error {
   border-color: #d43932 #d43932 #ae2a25;
   border-style: solid;
@@ -2084,7 +1816,6 @@ div.messages.error {
   color: white;
 }
 
-/* line 21, ../sass/aether.css/objects/_messages.scss */
 div.messages {
   margin-bottom: 1.5em;
   font-size: 1em;
@@ -2102,45 +1833,38 @@ div.messages {
  * Comments
  * ==================================================
  */
-/* line 7, ../sass/aether.css/objects/_comments.scss */
 #comments {
   /* drupal override */
   margin-top: 3em;
 }
 
-/* line 11, ../sass/aether.css/objects/_comments.scss */
 .comment-preview {
   /* Preview of the comment before submitting new or updated comment */
   background-color: #ffffea;
   /* Drupal core will use a #ffffea background. See #1110842 */
 }
 
-/* line 15, ../sass/aether.css/objects/_comments.scss */
 .comment-title {
   margin-bottom: 0em;
 }
 
-/* line 19, ../sass/aether.css/objects/_comments.scss */
 .comment {
   /* Wrapper for a single comment */
   border-top-style: solid;
   border-top-width: 0.0625em;
   padding-top: 0.3125em;
 }
-/* line 21, ../sass/aether.css/objects/_comments.scss */
 .comment .permalink {
   /* Comment's permalink wrapper */
   text-transform: uppercase;
   font-size: 75%;
 }
 
-/* line 27, ../sass/aether.css/objects/_comments.scss */
 .comment_forbidden {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
 
-/* line 31, ../sass/aether.css/objects/_comments.scss */
 .indented {
   /* Nested comments are indented */
   margin-left: 26px;
@@ -2157,11 +1881,9 @@ div.messages {
  *
  * @see progress.js
  */
-/* line 13, ../sass/aether.css/objects/_progress.scss */
 .progress {
   font-weight: bold;
 }
-/* line 16, ../sass/aether.css/objects/_progress.scss */
 .progress .bar {
   background: #ccc;
   border-color: #666;
@@ -2171,7 +1893,6 @@ div.messages {
   -ms-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 23, ../sass/aether.css/objects/_progress.scss */
 .progress .filled {
   background-color: #0072b9;
   background-image: url('data:image/gif;base64,R0lGODlhFAAUAJEDAMDAwN7c3P///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCAADACwAAAAAFAAUAAACN0QUqQntftZ6FCDJKsRZmyt5TYSJH2eSoahOLOh6rZLC9MsFOCrbtzb7VYKdoa9IIep6uV1JUwAAIfkEBQgAAwAsAAAAABQAFAAAAjeEI6Gr5o8YezTKRp29+aUbdBoYisA2mehinp/Urpgol/Sb3mCMs2rv69RsmeGPdNzplELgzFEAACH5BAUIAAMALAAAAAAUABQAAAI0hB0Sy3uPVGPwpUlrxE6Dy3mfhIkAOZlc54Gp6DYqmrU0q8V1fgdzCOv9gLxV0GhDFomAAgAh+QQFCAADACwAAAAAFAAUAAACNoQPIcHNCJVzEMn5qrlY74UFXgJ2HjeNKDWWqRqKqtuMZGiv2Unvmi7j4WZDocl4rACDyl6mAAAh+QQFCAADACwAAAAAFAAUAAACNYR/IcHNCJVzEMn5qrlY74UFHsBNY0l5aHOCneqaY5yqodiGI0lnsJ57/YSaFW4oQ9aKPUYBACH5BAUIAAMALAAAAAAUABQAAAI2DI4ZEu2W4novKkabRTPD3WXbEVIjUFZj6pystmJi7H3Wa1uy6dYnumu5gjDazMhDqpRCZqAAACH5BAUIAAMALAAAAAAUABQAAAI2jIGpIeanInsuykaDXThvNGXaF3pkR31AmZ7iuLGPKleuSKPzbX66TXqpVj9YrDisGS3KJKoAACH5BAUIAAMALAAAAAAUABQAAAI1jA2pG3K/ImjvSOZquIpqnngVOGUfJ46oqV4ptGpILIOvRZ8uC+/ylmtdeDjUj3QDBou+QAEAIfkEBQgAAwAsAAAAABQAFAAAAjSMH6DLIXiYBA6a2Z7Fq25OaRAYWgnojaioYmk7vchqni47c3Kk4/xdo5mEH+AQ5LuggqsCACH5BAUIAAMALAAAAAAUABQAAAI1VI4Hy53fIgjmBekqxIvay01aEopf6VnoiKxnmKpcvGE0ObNt/oG2ruC9fj0Y0Ce57YhDTAEAOw==');
@@ -2183,7 +1904,6 @@ div.messages {
  * Unpublished
  * ==================================================
  */
-/* line 8, ../sass/aether.css/objects/_unpublished.scss */
 p.unpublished {
   height: 0;
   overflow: visible;
@@ -2197,7 +1917,6 @@ p.unpublished {
   word-wrap: break-word;
 }
 
-/* line 22, ../sass/aether.css/objects/_unpublished.scss */
 .lt-ie8 .node-unpublished > *,
 .lt-ie8 .comment-unpublished > * {
   position: relative;
@@ -2211,7 +1930,6 @@ p.unpublished {
  * ==================================================
  */
 /* Vertical Rhythm */
-/* line 26, ../sass/style/_page.scss */
 .header-inner,
 .main-menu-inner,
 .navigation-inner,
@@ -2224,11 +1942,9 @@ p.unpublished {
   margin-bottom: 1.5em;
 }
 
-/* line 31, ../sass/style/_page.scss */
 #skip-link {
   margin: 0;
 }
-/* line 35, ../sass/style/_page.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -2240,20 +1956,17 @@ p.unpublished {
 }
 
 /* Header */
-/* line 47, ../sass/style/_page.scss */
 .name-and-slogan {
   display: table-cell;
   vertical-align: middle;
   margin-top: inherit;
   *clear: expression(style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),     style.clear = "none", 0     );
 }
-/* line 49, ../sass/style/_page.scss */
 .ie7 .name-and-slogan {
   display: inline;
   float: left;
 }
 
-/* line 54, ../sass/style/_page.scss */
 .logo {
   display: table-cell;
   vertical-align: middle;
@@ -2261,13 +1974,11 @@ p.unpublished {
   *clear: expression(style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),     style.clear = "none", 0     );
   padding: 0 10px 0 0;
 }
-/* line 57, ../sass/style/_page.scss */
 .ie7 .logo {
   display: inline;
   float: left;
 }
 
-/* line 62, ../sass/style/_page.scss */
 .site-name {
   font-size: 1.625em;
   line-height: 0.92308em;
@@ -2276,36 +1987,29 @@ p.unpublished {
   font-family: "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
   font-weight: bold;
 }
-/* line 68, ../sass/style/_page.scss */
 .site-name a {
   color: #222222;
   text-decoration: none;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:visited {
   color: #222222;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:focus {
   color: #222222;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:hover {
   color: #222222;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:active {
   color: #222222;
 }
 
-/* line 74, ../sass/style/_page.scss */
 .site-slogan {
   font-size: 1.375em;
   line-height: 1.09091em;
 }
 
 /* Themed Buttons */
-/* line 3, ../sass/style/_buttons.scss */
 .form-submit[type="submit"] {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF0F0F0', endColorstr='#FFBDBDBD');
@@ -2320,11 +2024,9 @@ p.unpublished {
   color: #222222;
   text-shadow: white 0 1px 0;
 }
-/* line 14, ../sass-extensions/aether-components/stylesheets/aether-components/buttons/_pseudo-states.scss */
 .form-submit[type="submit"]:hover {
   text-decoration: none;
 }
-/* line 27, ../sass-extensions/aether-components/stylesheets/aether-components/buttons/_pseudo-states.scss */
 .form-submit[type="submit"]:hover {
   background-color: #d6d6d6;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(50%, #d6d6d6), color-stop(100%, #c2c2c2));
@@ -2332,13 +2034,11 @@ p.unpublished {
   background: -moz-linear-gradient(#fafafa, #d6d6d6 50%, #c2c2c2);
   background: linear-gradient(#fafafa, #d6d6d6 50%, #c2c2c2);
 }
-/* line 31, ../sass-extensions/aether-components/stylesheets/aether-components/buttons/_pseudo-states.scss */
 .form-submit[type="submit"]:active {
   -webkit-box-shadow: #c2c2c2 0 1px 2px inset;
   -moz-box-shadow: #c2c2c2 0 1px 2px inset;
   box-shadow: #c2c2c2 0 1px 2px inset;
 }
-/* line 5, ../sass-extensions/aether-components/stylesheets/aether-components/buttons/_pseudo-states.scss */
 .form-submit[type="submit"].disabled, .form-submit[type="submit"][disabled] {
   opacity: 0.6;
   background: #d6d6d6;
@@ -2349,13 +2049,11 @@ p.unpublished {
 }
 
 /* Comment Styling */
-/* line 3, ../sass/style/_comments.scss */
 .comment {
   border-color: #D8D8D2;
 }
 
 /* Themed Fields */
-/* line 7, ../sass/style/_fields.scss */
 .form-select,
 .form-textarea,
 .form-text,
@@ -2385,7 +2083,6 @@ p.unpublished {
   border-width: 1px;
   color: #222222;
 }
-/* line 31, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 .form-select:hover,
 .form-textarea:hover,
 .form-text:hover,
@@ -2394,7 +2091,6 @@ p.unpublished {
   background-color: white;
   text-decoration: none;
 }
-/* line 35, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 .form-select:focus,
 .form-textarea:focus,
 .form-text:focus,
@@ -2406,7 +2102,6 @@ p.unpublished {
   box-shadow: #0066ff 0 0 7px 0;
   z-index: 1;
 }
-/* line 5, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 .form-select.disabled, .form-select[disabled],
 .form-textarea.disabled,
 .form-textarea[disabled],
@@ -2426,7 +2121,6 @@ p.unpublished {
   -moz-user-select: -moz-none;
   -webkit-user-select: none;
 }
-/* line 17, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 .form-select:-moz-placeholder,
 .form-textarea:-moz-placeholder,
 .form-text:-moz-placeholder,
@@ -2434,7 +2128,6 @@ p.unpublished {
 .email:-moz-placeholder {
   color: #bfbfbf;
 }
-/* line 20, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 ::-webkit-input-placeholder .form-select, ::-webkit-input-placeholder
 .form-textarea, ::-webkit-input-placeholder
 .form-text, ::-webkit-input-placeholder
@@ -2442,7 +2135,6 @@ p.unpublished {
 .email {
   color: #bfbfbf;
 }
-/* line 24, ../sass-extensions/aether-components/stylesheets/aether-components/forms/_pseudo-states.scss */
 .form-select:invalid, .form-select.error,
 .form-textarea:invalid,
 .form-textarea.error,
@@ -2457,7 +2149,6 @@ p.unpublished {
   box-shadow: none;
   border: 1px solid red;
 }
-/* line 83, ../sass-extensions/aether-components/stylesheets/aether-components/_forms.scss */
 .form-select::-moz-focus-inner,
 .form-textarea::-moz-focus-inner,
 .form-text::-moz-focus-inner,
@@ -2468,48 +2159,38 @@ p.unpublished {
 }
 
 /* Links */
-/* line 3, ../sass/style/_links.scss */
 a {
   color: #8b2004;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
   color: #8b2004;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
   color: #a42605;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #a42605;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
   color: #591503;
 }
-/* line 5, ../sass/style/_links.scss */
 a.active {
   color: #591503;
 }
 
 /* Backgrounds */
-/* line 4, ../sass/style/_backgrounds.scss */
 body.not-front, body.front, body .postscript-wrapper {
   background-color: #e6e6e6;
 }
 
-/* line 9, ../sass/style/_backgrounds.scss */
 #header, #main-menu, #main {
   background-color: #f4f4f4;
 }
 
-/* line 13, ../sass/style/_backgrounds.scss */
 #page {
   border-top: 6px solid #363636;
 }
 
-/* line 18, ../sass/style/_backgrounds.scss */
 footer .footer-columns, footer .footer {
   background-color: #575757;
   -webkit-border-radius: 5px;
@@ -2519,14 +2200,12 @@ footer .footer-columns, footer .footer {
 }
 
 /* Branding */
-/* line 5, ../sass/style/_branding.scss */
 .region-header-first,
 .region-header-second,
 .region-header-third {
-  margin-top: 0.75em;
+  padding-top: 0.75em;
 }
 
-/* line 9, ../sass/style/_branding.scss */
 .logo, .name-and-slogan {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2538,32 +2217,26 @@ footer .footer-columns, footer .footer {
   float: left;
 }
 
-/* line 13, ../sass/style/_branding.scss */
 .branding hgroup {
   margin-bottom: 0em;
 }
 
-/* line 17, ../sass/style/_branding.scss */
 .logo {
   margin-bottom: 0.75em;
 }
-/* line 18, ../sass/style/_branding.scss */
 .logo img {
   border-right: 1px solid #C7C7C7;
   padding-right: 10px;
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     padding-right: 0;
   }
-  /* line 25, ../sass/style/_branding.scss */
   .logo img {
     width: 90%;
   }
 }
 @media (max-width: 29.9375em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     border-left: 0;
     padding-left: 2em;
@@ -2572,7 +2245,6 @@ footer .footer-columns, footer .footer {
   }
 }
 @media (min-width: 72.5em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     margin-right: 1.80505%;
     width: 23.64621%;
@@ -2580,7 +2252,6 @@ footer .footer-columns, footer .footer {
     margin-right: -100%;
   }
 }
-/* line 40, ../sass/style/_branding.scss */
 .ie6-8 .logo {
   margin-right: 1.80505%;
   width: 23.64621%;
@@ -2588,7 +2259,6 @@ footer .footer-columns, footer .footer {
   margin-right: -100%;
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     margin-right: 1.80505%;
     width: 23.64621%;
@@ -2597,7 +2267,6 @@ footer .footer-columns, footer .footer {
   }
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     margin-right: 1.80505%;
     width: 32.12996%;
@@ -2606,48 +2275,40 @@ footer .footer-columns, footer .footer {
   }
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     margin-right: 1.80505%;
     width: 49.09747%;
     margin-left: 0%;
     margin-right: -100%;
   }
-  /* line 55, ../sass/style/_branding.scss */
   .logo img {
     border-right: 0 !important;
   }
 }
 @media (max-width: 29.9375em) {
-  /* line 17, ../sass/style/_branding.scss */
   .logo {
     margin-right: 1.80505%;
     width: 100%;
   }
-  /* line 61, ../sass/style/_branding.scss */
   .logo img {
     border-right: 0 !important;
   }
 }
 
-/* line 67, ../sass/style/_branding.scss */
 .name-and-slogan {
   color: #333;
 }
-/* line 69, ../sass/style/_branding.scss */
 .name-and-slogan.with-logo {
   padding-top: 5px;
   margin-top: 5px;
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
-  /* line 69, ../sass/style/_branding.scss */
   .name-and-slogan.with-logo {
     border-left: 0;
     font-size: 80%;
   }
 }
 @media (max-width: 29.9375em) {
-  /* line 69, ../sass/style/_branding.scss */
   .name-and-slogan.with-logo {
     border-left: 0;
     font-size: 90%;
@@ -2657,70 +2318,59 @@ footer .footer-columns, footer .footer {
   }
 }
 @media (min-width: 72.5em) {
-  /* line 67, ../sass/style/_branding.scss */
   .name-and-slogan {
     margin-right: 1.80505%;
     width: 83.03249%;
     margin-left: 16.96751%;
     margin-right: -100%;
   }
-  /* line 89, ../sass/style/_branding.scss */
   .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 12px;
   }
 }
-/* line 93, ../sass/style/_branding.scss */
 .ie6-8 .name-and-slogan {
   margin-right: 1.80505%;
   width: 83.03249%;
   margin-left: 16.96751%;
   margin-right: -100%;
 }
-/* line 96, ../sass/style/_branding.scss */
 .ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan {
   padding-left: 12px;
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
-  /* line 67, ../sass/style/_branding.scss */
   .name-and-slogan {
     margin-right: 1.80505%;
     width: 83.03249%;
     margin-left: 16.96751%;
     margin-right: -100%;
   }
-  /* line 103, ../sass/style/_branding.scss */
   .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 45px;
   }
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
-  /* line 67, ../sass/style/_branding.scss */
   .name-and-slogan {
     margin-right: 1.80505%;
     width: 74.54874%;
     margin-left: 25.45126%;
     margin-right: -100%;
   }
-  /* line 110, ../sass/style/_branding.scss */
   .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 20px;
   }
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
-  /* line 67, ../sass/style/_branding.scss */
   .name-and-slogan {
     margin-right: 1.80505%;
     width: 57.58123%;
     margin-left: 42.41877%;
     margin-right: -100%;
   }
-  /* line 117, ../sass/style/_branding.scss */
   .name-and-slogan .site-name, .name-and-slogan .site-slogan {
     padding-left: 20px;
   }
 }
 
-/* line 123, ../sass/style/_branding.scss */
 .site-name {
   padding-top: 0.27692em;
   margin-bottom: 0.27692em;
@@ -2729,36 +2379,29 @@ footer .footer-columns, footer .footer {
   font-variant: small-caps;
   letter-spacing: 1px;
 }
-/* line 130, ../sass/style/_branding.scss */
 .site-name a {
   color: #8b2004;
   text-decoration: none;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:visited {
   color: #8b2004;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:focus {
   color: #8b2004;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:hover {
   color: #8b2004;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .site-name a:active {
   color: #8b2004;
 }
 
-/* line 136, ../sass/style/_branding.scss */
 .site-slogan {
   font-variant: small-caps;
   letter-spacing: 1px;
   text-transform: lowercase;
 }
 
-/* line 142, ../sass/style/_branding.scss */
 .site-slogan {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: normal;
@@ -2766,25 +2409,25 @@ footer .footer-columns, footer .footer {
   line-height: 0.92727em;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 142, ../sass/style/_branding.scss */
   .site-slogan {
     font-size: 1.625em;
     line-height: 0.73846em;
   }
 }
-/* line 151, ../sass/style/_branding.scss */
 .site-slogan a, .site-slogan a:link, .site-slogan a:hover, .site-slogan a:active, .site-slogan a:focus, .site-slogan a:visited {
   color: #000;
 }
 
-/* line 159, ../sass/style/_branding.scss */
-.branding .name-and-slogan,
-.branding .name-and-slogan.with-logo,
-.branding .logo {
+.branding nav.menu {
+  padding-bottom: 1em;
+}
+
+.no-secondary-menu .name-and-slogan,
+.no-secondary-menu .name-and-slogan.with-logo,
+.no-secondary-menu .logo {
   padding-top: 1.5em;
 }
 
-/* line 9, ../sass/style/_nav.scss */
 #search-theme-form input.form-text,
 #search-box input.form-text,
 #search-block-form input.form-text,
@@ -2794,7 +2437,6 @@ footer .footer-columns, footer .footer {
 #ilives-solr-search-block-form input.form-text {
   color: #ccc;
 }
-/* line 11, ../sass/style/_nav.scss */
 #search-theme-form input.form-text:focus,
 #search-box input.form-text:focus,
 #search-block-form input.form-text:focus,
@@ -2805,7 +2447,6 @@ footer .footer-columns, footer .footer {
   color: #333;
 }
 
-/* line 18, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -2816,51 +2457,41 @@ footer .footer-columns, footer .footer {
   margin-left: -1.6em;
   position: relative;
 }
-/* line 22, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu:before, .main-menu-inner .main-menu:after {
   margin-top: 0.5em;
   content: "";
   float: left;
 }
 
-/* line 35, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu {
   border: 1em solid #ccc;
   border-left-color: transparent;
   border-right-width: 1.5em;
 }
 
-/* line 41, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu {
   padding-left: 0.75em;
 }
 
-/* line 49, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu li {
   margin-top: -0.75em;
 }
-/* line 52, ../sass/style/_nav.scss */
 .main-menu-inner .main-menu a {
   color: #333333;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-menu-inner .main-menu a:visited {
   color: #333333;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-menu-inner .main-menu a:focus {
   color: #404040;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-menu-inner .main-menu a:hover {
   color: #404040;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .main-menu-inner .main-menu a:active {
   color: #595959;
 }
 
-/* line 59, ../sass/style/_nav.scss */
 #secondary.links {
   background-color: #363636;
   -moz-border-radius-bottomleft: 5px;
@@ -2871,41 +2502,32 @@ footer .footer-columns, footer .footer {
   border-bottom-right-radius: 5px;
   padding: 0 26px 6px 26px;
 }
-/* line 64, ../sass/style/_nav.scss */
 #secondary.links > li a {
   text-transform: uppercase;
   color: #b9b9b9;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary.links > li a:visited {
   color: #b9b9b9;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary.links > li a:focus {
   color: #c6c6c6;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary.links > li a:hover {
   color: #c6c6c6;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary.links > li a:active {
   color: #dfdfdf;
 }
-/* line 67, ../sass/style/_nav.scss */
 #secondary.links > li a.active {
   color: #dfdfdf;
 }
 
-/* line 72, ../sass/style/_nav.scss */
 #secondary {
   float: right;
 }
-/* line 74, ../sass/style/_nav.scss */
 #secondary.links {
   margin: 0;
 }
-/* line 77, ../sass/style/_nav.scss */
 #secondary.links > li {
   margin: 0;
   padding: 0;
@@ -2922,44 +2544,35 @@ footer .footer-columns, footer .footer {
   line-height: 0.8em;
   border-right: 1px solid #b9b9b9;
 }
-/* line 20, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 #secondary.links > li:before, #secondary.links > li:after {
   content: " ";
   display: table;
 }
-/* line 24, ../sass-extensions/aether-grids/stylesheets/_aether-grids.scss */
 #secondary.links > li:after {
   clear: both;
 }
-/* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary.links > li:first-child, #secondary.links > li.first {
   padding-left: 0;
 }
-/* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary.links > li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #secondary.links > li.last {
   padding-right: 0;
 }
-/* line 82, ../sass/style/_nav.scss */
 #secondary.links > li.last {
   border-right: 0px;
 }
 @media (max-width: 47.9375em) {
-  /* line 72, ../sass/style/_nav.scss */
   #secondary {
     float: none;
   }
 }
 
-/* line 93, ../sass/style/_nav.scss */
 .footer-columns, .footer-wrapper .footer {
   padding-top: 1.5em;
   color: #ececec;
 }
-/* line 97, ../sass/style/_nav.scss */
 .footer-columns h2.block-title, .footer-columns h2.title, .footer-wrapper .footer h2.block-title, .footer-wrapper .footer h2.title {
   padding-left: 10px;
   background-color: #363636;
@@ -2970,37 +2583,29 @@ footer .footer-columns, footer .footer {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-/* line 104, ../sass/style/_nav.scss */
 .footer-columns a, .footer-wrapper .footer a {
   color: #b9b9b9;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer-columns a:visited, .footer-wrapper .footer a:visited {
   color: #b9b9b9;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer-columns a:focus, .footer-wrapper .footer a:focus {
   color: #c6c6c6;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer-columns a:hover, .footer-wrapper .footer a:hover {
   color: #c6c6c6;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer-columns a:active, .footer-wrapper .footer a:active {
   color: #dfdfdf;
 }
-/* line 107, ../sass/style/_nav.scss */
 .footer-columns ul, .footer-wrapper .footer ul {
   padding-left: 10px;
 }
-/* line 109, ../sass/style/_nav.scss */
 .footer-columns ul li, .footer-columns ul li.leaf, .footer-wrapper .footer ul li, .footer-wrapper .footer ul li.leaf {
   list-style: none;
 }
 
 /* Breadcrumbs */
-/* line 117, ../sass/style/_nav.scss */
 .breadcrumb {
   color: #a0a0a0;
   margin-top: 0em;
@@ -3008,95 +2613,77 @@ footer .footer-columns, footer .footer {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 123, ../sass/style/_nav.scss */
 .breadcrumb a {
   color: #b9b9b9;
   padding: 0;
 }
-/* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:visited {
   color: #b9b9b9;
 }
-/* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:focus {
   color: #c6c6c6;
 }
-/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:hover {
   color: #c6c6c6;
 }
-/* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .breadcrumb a:active {
   color: #dfdfdf;
 }
 
-/* line 1, ../sass/style/_patterns.scss */
 .margin-top {
   margin-top: 1.5em;
 }
 
-/* line 5, ../sass/style/_patterns.scss */
 .margin-bottom {
   margin-bottom: 1.5em;
 }
 
-/* line 9, ../sass/style/_patterns.scss */
 .margin-half-top {
   margin-top: 0.75em;
 }
 
-/* line 13, ../sass/style/_patterns.scss */
 .margin-half-bottom {
   margin-bottom: 0.75em;
 }
 
-/* line 17, ../sass/style/_patterns.scss */
 .pull-left {
   display: inline;
   float: left;
 }
 
-/* line 21, ../sass/style/_patterns.scss */
 .pull-right, blockquote.pull-right {
   display: inline;
   float: right;
 }
 
-/* line 2, ../sass/style/_upei-footer-layout.scss */
 .footer-message {
   font-size: 0.75em;
   line-height: 2em;
   text-align: right;
 }
 
-/* line 7, ../sass/style/_upei-footer-layout.scss */
 #main {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
 
-/* line 12, ../sass/style/_upei-footer-layout.scss */
 .content-wrapper {
   margin-bottom: 1.5em;
 }
 
-/* line 16, ../sass/style/_upei-footer-layout.scss */
 .footer-wrapper {
   margin-top: -1.5em;
   margin-bottom: 0.75em;
 }
 
 /* UPEI footer module */
-/* line 26, ../sass/style/_upei-footer-layout.scss */
 .ie6-8 .upei-footer .bottom-links, .not-responsive .upei-footer .bottom-links {
   margin-right: 1.80505%;
   width: 15.16245%;
 }
-/* line 28, ../sass/style/_upei-footer-layout.scss */
 .ie6-8 .upei-footer .bottom-links.menu-05, .not-responsive .upei-footer .bottom-links.menu-05 {
   margin-right: 0;
 }
-/* line 35, ../sass/style/_upei-footer-layout.scss */
 .upei-footer .bottom-links {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3108,67 +2695,55 @@ footer .footer-columns, footer .footer {
   float: left;
 }
 @media (min-width: 72.5em) {
-  /* line 40, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links {
     margin-right: 1.43885%;
     width: 18.84892%;
   }
-  /* line 42, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links.menu-05 {
     margin-right: 0;
   }
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
-  /* line 48, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links {
     margin-right: 1.43885%;
     width: 18.84892%;
   }
-  /* line 50, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links.menu-05 {
     margin-right: 0;
   }
 }
 @media (min-width: 48em) and (max-width: 61.1875em) {
-  /* line 56, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .menu-03, .upei-footer .menu-04, .upei-footer .menu-05 {
     margin-right: 1.43885%;
     width: 32.3741%;
   }
-  /* line 59, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .menu-01, .upei-footer .menu-02 {
     margin-right: 1.80505%;
     width: 49.09747%;
   }
-  /* line 62, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .menu-02, .upei-footer .menu-05 {
     margin-right: 0;
   }
 }
 @media (min-width: 30em) and (max-width: 47.9375em) {
-  /* line 67, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links {
     margin-right: 1.80505%;
     width: 49.09747%;
   }
-  /* line 70, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .menu-02, .upei-footer .menu-04 {
     margin-right: 0;
   }
-  /* line 73, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .menu-05 {
     margin-right: 1.80505%;
     width: 49.09747%;
   }
 }
 @media (max-width: 29.9375em) {
-  /* line 78, ../sass/style/_upei-footer-layout.scss */
   .upei-footer .bottom-links {
     margin-right: 1.80505%;
     width: 100%;
   }
 }
-/* line 82, ../sass/style/_upei-footer-layout.scss */
 .upei-footer .footeraddress {
   clear: left;
   width: 100%;
@@ -3176,12 +2751,10 @@ footer .footer-columns, footer .footer {
   line-height: 1.71429em;
 }
 
-/* line 88, ../sass/style/_upei-footer-layout.scss */
 .block-upei_footer {
   margin-bottom: 0.75em;
 }
 
-/* line 92, ../sass/style/_upei-footer-layout.scss */
 .inner-footeraddress {
   padding-top: 10px;
   background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
@@ -3190,13 +2763,11 @@ footer .footer-columns, footer .footer {
   line-height: 1.71429em;
 }
 @media (max-width: 47.9375em) {
-  /* line 92, ../sass/style/_upei-footer-layout.scss */
   .inner-footeraddress {
     background: none;
   }
 }
 
-/* line 104, ../sass/style/_upei-footer-layout.scss */
 .links-last {
   text-align: center;
   margin-top: 1.5em;

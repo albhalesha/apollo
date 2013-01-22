@@ -4,7 +4,6 @@
  * ==================================================
  */
 /* Wireframes */
-/* line 22, ../../sass/layout/layout-debug-wireframes.scss */
 .with-wireframes .user-columns-wrapper,
 .with-wireframes .branding-wrapper,
 .with-wireframes .header-columns-wrapper,
@@ -17,7 +16,6 @@
 .with-wireframes .footer-wrapper {
   outline: 1px solid #ddd;
 }
-/* line 35, ../../sass/layout/layout-debug-wireframes.scss */
 .with-wireframes .user-inner,
 .with-wireframes .header-inner,
 .with-wireframes .branding-inner,
@@ -31,11 +29,9 @@
 .with-wireframes .footer-inner {
   outline: 1px solid #666;
 }
-/* line 38, ../../sass/layout/layout-debug-wireframes.scss */
 .with-wireframes .g-all-row {
   outline: 1px solid #ccc;
 }
-/* line 41, ../../sass/layout/layout-debug-wireframes.scss */
 .with-wireframes .block {
   outline: 1px solid #aaa;
 }
