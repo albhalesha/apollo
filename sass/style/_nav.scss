@@ -47,7 +47,7 @@
   @extend %ribbon;
   @extend %ribbon-color-2;
   li {
-    margin-top: -0.67em;
+    margin-top: -0.75em;
   }
   a {
     @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
@@ -113,11 +113,6 @@
 }
 
 /* Breadcrumbs */
-
-.breadcrumb {
-  @include margin-leader(0);
-  @include margin-trailer(1);
-}
 
 .breadcrumb {
   color: adjust-color($link-color-alt, $lightness: -10);

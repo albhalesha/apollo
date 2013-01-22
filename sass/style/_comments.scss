@@ -1,6 +1,5 @@
 /* Comment Styling */
 
 .comment {
-  @include aether-message-structure;
-  @include aether-message-color($base-color: #d84d47);
+  border-color: #D8D8D2;
 }

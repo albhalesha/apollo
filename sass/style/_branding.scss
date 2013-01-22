@@ -10,6 +10,10 @@
   @include grid-item-base;
 }
 
+.branding hgroup {
+  @include trailer(0);
+}
+
 .logo {
   img {
     border-right: 1px solid #C7C7C7;
@@ -117,9 +121,7 @@
 }
 
 .site-name {
-//  @include adjust-font-size-to($font-size-xxl,0.8);
-  // Target webkit because of font size difference with small-caps
-  @include margin-leader(0);
+  @include padding-leader(0.3, $font-size-xxl);
   @include margin-trailer(0.3, $font-size-xxl);
   font-family: $site-name-font-family;
   font-weight: normal !important;
@@ -145,7 +147,7 @@
   font-family: $site-name-font-family;
   font-weight: normal;
   @include adjust-font-size-to($font-size-xl,0.85);
-  @include margin-trailer(0.185, $font-size-xl);
+//  @include margin-trailer(0.185, $font-size-xl);
   a, a:link, a:hover, a:active, a:focus, a:visited {
     color: #000;
   }

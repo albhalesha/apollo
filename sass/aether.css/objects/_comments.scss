@@ -4,6 +4,10 @@
  * ==================================================
  */
 
+#comments { /* drupal override */
+  @include leader(2);
+}
+
 .comment-preview { /* Preview of the comment before submitting new or updated comment */
   background-color: #ffffea; /* Drupal core will use a #ffffea background. See #1110842 */
 }
@@ -13,11 +17,15 @@
 }
 
 .comment { /* Wrapper for a single comment */
-
+  @include apply-side-rhythm-border(top, 1px, 0.25);
   .permalink { /* Comment's permalink wrapper */
     text-transform: uppercase;
     font-size: 75%;
   }
+}
+
+.comment_forbidden {
+  @include adjust-font-size-to($font-size-md);
 }
 
 .indented { /* Nested comments are indented */
