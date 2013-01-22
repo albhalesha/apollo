@@ -1,0 +1,22 @@
+/* Backgrounds */
+
+body {
+  &.not-front, &.front, .postscript-wrapper {
+    background-color: #e6e6e6;
+  }
+}
+
+#header, #main-menu, #main {
+  background-color: #f4f4f4;
+}
+
+#page {
+  border-top: 6px solid #363636;
+}
+
+footer {
+  .footer-columns, .footer {
+    background-color: rgb(87, 87, 87);
+    @include border-radius(5px);
+  }
+}

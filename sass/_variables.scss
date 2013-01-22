@@ -36,24 +36,43 @@ $font-size-h6:                 $font-size-sm;
 $typographic-indent:           $font-size-xxl;
 
 // Font Stacks
-$header-font-family:           Georgia,"Times New Roman",Times,serif;
-$text-font-family:             Georgia,"Times New Roman",Times,serif;
+$site-name-font-family:        Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+$header-font-family:           "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
+$text-font-family:             "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 $button-font-family:           "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
 $tab-font-family:              "Helvetica Neue", "Helvetica", Arial, "Liberation Sans", FreeSans, sans-serif;
-$input-font-family:            Arial, "Liberation Sans", FreeSans, sans-serif;
+$input-font-family:            "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $mono-font-family:             Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 // Main Link Colors
-$link-color:                   #06c;
-$link-color-hover:             adjust-color($link-color, $lightness: -10, $saturation: 10);
+$link-color:                   #8B2004;
+$link-color-hover:             adjust-color($link-color, $lightness: +5);
 $link-color-visited:           $link-color;
-$link-color-active:            adjust-color($link-color-hover, $lightness: -5);
+$link-color-active:            adjust-color($link-color, $lightness: -10);
 
 // Alternative Link Colors
-$link-color-alt:               #888;
-$link-color-hover-alt:         adjust-color($link-color-alt, $lightness: -10);
+$link-color-alt:               #b9b9b9;
+$link-color-hover-alt:         adjust-color($link-color-alt, $lightness: +5);
 $link-color-visited-alt:       $link-color-alt;
-$link-color-active-alt:        adjust-color($link-color-hover-alt, $lightness: -15);
+$link-color-active-alt:        adjust-color($link-color-hover-alt, $lightness: +10);
+
+// Alternative Link Colors
+$link-color-alt2:               #8b2004;
+$link-color-hover-alt2:         adjust-color($link-color-alt2, $lightness: +5);
+$link-color-visited-alt2:       $link-color-alt2;
+$link-color-active-alt2:        adjust-color($link-color-hover-alt2, $lightness: +10);
+
+// Alternative Link Colors
+$link-color-alt3:               #333;
+$link-color-hover-alt3:         adjust-color($link-color-alt3, $lightness: +5);
+$link-color-visited-alt3:       $link-color-alt3;
+$link-color-active-alt3:        adjust-color($link-color-hover-alt3, $lightness: +10);
+
+
+$link-color-alt4:               #888;
+$link-color-hover-alt4:         adjust-color($link-color-alt4, $lightness: +5);
+$link-color-visited-alt4:       $link-color-alt4;
+$link-color-active-alt4:        adjust-color($link-color-hover-alt4, $lightness: -10);
 
 // Text Colors
 $text-color:                   #222;
