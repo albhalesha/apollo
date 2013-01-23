@@ -91,7 +91,7 @@
 
 // Footer links
 .footer-columns, .footer-wrapper .footer {
-  @include padding-leader(1);
+  @include padding-leader(0.5);
   color: lighten($link-color-alt, 20);
   h2 {
     &.block-title, &.title {

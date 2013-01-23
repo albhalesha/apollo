@@ -2570,7 +2570,7 @@ footer .footer-columns, footer .footer {
 }
 
 .footer-columns, .footer-wrapper .footer {
-  padding-top: 1.5em;
+  padding-top: 0.75em;
   color: #ececec;
 }
 .footer-columns h2.block-title, .footer-columns h2.title, .footer-wrapper .footer h2.block-title, .footer-wrapper .footer h2.title {
