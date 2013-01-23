@@ -6,3 +6,9 @@ a {
     color: $link-color-active;
   }
 }
+
+.main-menu {
+  a {
+    @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+  }
+}

@@ -63,7 +63,7 @@ $link-color-visited-alt2:       $link-color-alt2;
 $link-color-active-alt2:        adjust-color($link-color-hover-alt2, $lightness: +10);
 
 // Alternative Link Colors
-$link-color-alt3:               #333;
+$link-color-alt3:               #555;
 $link-color-hover-alt3:         adjust-color($link-color-alt3, $lightness: +5);
 $link-color-visited-alt3:       $link-color-alt3;
 $link-color-active-alt3:        adjust-color($link-color-hover-alt3, $lightness: +10);

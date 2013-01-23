@@ -2178,6 +2178,22 @@ a.active {
   color: #591503;
 }
 
+.main-menu a {
+  color: #555555;
+}
+.main-menu a:visited {
+  color: #555555;
+}
+.main-menu a:focus {
+  color: #626262;
+}
+.main-menu a:hover {
+  color: #626262;
+}
+.main-menu a:active {
+  color: #7b7b7b;
+}
+
 /* Backgrounds */
 body.not-front, body.front, body .postscript-wrapper {
   background-color: #e6e6e6;
@@ -2475,21 +2491,6 @@ footer .footer-columns, footer .footer {
 
 .main-menu-inner .main-menu li {
   margin-top: -0.75em;
-}
-.main-menu-inner .main-menu a {
-  color: #333333;
-}
-.main-menu-inner .main-menu a:visited {
-  color: #333333;
-}
-.main-menu-inner .main-menu a:focus {
-  color: #404040;
-}
-.main-menu-inner .main-menu a:hover {
-  color: #404040;
-}
-.main-menu-inner .main-menu a:active {
-  color: #595959;
 }
 
 #secondary.links {

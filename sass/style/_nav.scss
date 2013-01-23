@@ -49,9 +49,6 @@
   li {
     margin-top: -0.75em;
   }
-  a {
-    @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
-  }
 }
 
 // Secondary links get a default styling and must be in upper right region
