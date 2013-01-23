@@ -84,6 +84,9 @@
   @include breakpoint-at($break-handheld-all) {
     float: none;
   }
+  .responsive-off & {
+    float: right;
+  }
 }
 
 // Footer links

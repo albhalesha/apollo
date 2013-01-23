@@ -37,9 +37,13 @@
     @include position(1);
 
   }
-  .ie6-8 & {
+  .ie6-8 &, .responsive-off & {
     @include span-columns(3);
     @include position(1);
+    padding-left: 0;
+    img {
+      width: auto;
+    }
   }
   @include breakpoint-at($break-tablet-landscape) {
     @include span-columns(3);
@@ -90,7 +94,7 @@
       padding-left: 12px;
     }
   }
-  .ie6-8 & {
+  .ie6-8 &, .responsive-off & {
     @include span-columns(10);
     @include position(3);
     .site-name, .site-slogan {

@@ -2268,11 +2268,15 @@ footer .footer-columns, footer .footer {
     margin-right: -100%;
   }
 }
-.ie6-8 .logo {
+.ie6-8 .logo, .responsive-off .logo {
   margin-right: 1.80505%;
   width: 23.64621%;
   margin-left: 0%;
   margin-right: -100%;
+  padding-left: 0;
+}
+.ie6-8 .logo img, .responsive-off .logo img {
+  width: auto;
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
   .logo {
@@ -2344,13 +2348,13 @@ footer .footer-columns, footer .footer {
     padding-left: 12px;
   }
 }
-.ie6-8 .name-and-slogan {
+.ie6-8 .name-and-slogan, .responsive-off .name-and-slogan {
   margin-right: 1.80505%;
   width: 83.03249%;
   margin-left: 16.96751%;
   margin-right: -100%;
 }
-.ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan {
+.ie6-8 .name-and-slogan .site-name, .ie6-8 .name-and-slogan .site-slogan, .responsive-off .name-and-slogan .site-name, .responsive-off .name-and-slogan .site-slogan {
   padding-left: 12px;
 }
 @media (min-width: 61.25em) and (max-width: 72.4375em) {
@@ -2569,6 +2573,9 @@ footer .footer-columns, footer .footer {
     float: none;
   }
 }
+.responsive-off #secondary {
+  float: right;
+}
 
 .footer-columns, .footer-wrapper .footer {
   padding-top: 0.75em;
@@ -2678,11 +2685,11 @@ footer .footer-columns, footer .footer {
 }
 
 /* UPEI footer module */
-.ie6-8 .upei-footer .bottom-links, .not-responsive .upei-footer .bottom-links {
-  margin-right: 1.80505%;
-  width: 15.16245%;
+.ie6-8 .upei-footer .bottom-links, .responsive-off .upei-footer .bottom-links {
+  margin-right: 1.43885%;
+  width: 18.84892%;
 }
-.ie6-8 .upei-footer .bottom-links.menu-05, .not-responsive .upei-footer .bottom-links.menu-05 {
+.ie6-8 .upei-footer .bottom-links.menu-05, .responsive-off .upei-footer .bottom-links.menu-05 {
   margin-right: 0;
 }
 .upei-footer .bottom-links {

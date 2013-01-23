@@ -22,9 +22,9 @@
 
 .upei-footer {
   // IE6-8
-  .ie6-8 &, .not-responsive & {
+  .ie6-8 &, .responsive-off & {
     .bottom-links {
-      @include span-columns(2);
+      @include span-columns(3,15);
       &.menu-05 {
         margin-right: 0;
       }
@@ -94,8 +94,6 @@
   background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
   @include breakpoint-at($break-handheld-all) {
     background: none;
-  }
-  .not-responsive & {
   }
   color: $link-color-hover-alt;
   @include adjust-font-size-to($font-size-md);

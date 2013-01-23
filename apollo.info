@@ -90,7 +90,9 @@ settings[wireframe_mode] = 0
 settings[clear_registry] = 0
 
 ; Responsive javascript.
-settings[aether_polyfills][] = respond
+; settings[aether_polyfills][] = respond
+settings[aether_polyfills][] = fixedie7
+settings[aether_polyfills][] = fixedie8
 settings[aether_polyfills][] = html5
 settings[aether_polyfills][] = meta
 settings[aether_polyfills][] = selectivizr
