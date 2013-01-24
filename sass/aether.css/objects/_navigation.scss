@@ -28,10 +28,6 @@
 #navigation, #main-menu {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 
-  a.active {
-    text-decoration: none;
-  }
-
   .block {
     @include trailer(0);
   }

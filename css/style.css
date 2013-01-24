@@ -1591,9 +1591,6 @@ input[type="file"] {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
 }
-#navigation a.active, #main-menu a.active {
-  text-decoration: none;
-}
 #navigation .block, #main-menu .block {
   margin-bottom: 0em;
 }
