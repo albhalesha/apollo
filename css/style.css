@@ -2182,13 +2182,19 @@ a.active {
   color: #555555;
 }
 .main-menu a:focus {
-  color: #626262;
+  color: #3b3b3b;
 }
 .main-menu a:hover {
-  color: #626262;
+  color: #3b3b3b;
 }
 .main-menu a:active {
-  color: #7b7b7b;
+  color: #2f2f2f;
+}
+.main-menu a.active {
+  color: #2f2f2f;
+}
+.main-menu a:hover, .main-menu a.active {
+  text-decoration: none;
 }
 
 /* Backgrounds */
