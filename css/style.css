@@ -2188,10 +2188,10 @@ a.active {
   color: #3b3b3b;
 }
 .main-menu a:active {
-  color: #2f2f2f;
+  color: #2c2c2c;
 }
 .main-menu a.active {
-  color: #2f2f2f;
+  color: #2c2c2c;
 }
 .main-menu a:hover, .main-menu a.active, .main-menu a:focus {
   text-decoration: none;
