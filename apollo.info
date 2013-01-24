@@ -153,9 +153,14 @@ settings[theme_grid5] = grid12-1148
 settings[theme_grid_options5][] = grid12-1148
 
 ; Grid_sidebars
+; Options are:
+; splits, sidebars_first, sidebars_last
+; s1left_s2bottom, s1right_s2bottom
+; s1left_s2bottom_full, s1right_s2bottom_full
+; stacked_right, full
 settings[grid_sidebars_tiny] = 'full'
 settings[grid_sidebars_small] = 'full'
-settings[grid_sidebars_narrow] = 'stacked_right'
+settings[grid_sidebars_narrow] = 's1left_s2bottom'
 settings[grid_sidebars_large] = 'splits'
 settings[grid_sidebars_wide] = 'splits'
 
