@@ -2,7 +2,7 @@
 ; Theme information
 ; --------------------------------------------------------------------------------
 
-name = apollo
+name = Apollo
 description = Aether starterkit for Aether, use drush to create a new subtheme using: drush aether newthemename
 screenshot = images/screenshot.png
 core = "7.x"
