@@ -83,8 +83,11 @@ compass[css_dir] = css
 ; Theme Settings Defaults.
 ; --------------------------------------------------------------------------------
 
+; Branding Options
+settings[apollo_logo_path] = 'http://www.upei.ca'
+settings[apollo_logo_title] = 'Go to University of Prince Edward Island'
+
 ; Standard defaults.
-settings[aether_tabs] = 1
 settings[aether_breadcrumb_separator] = ' » '
 settings[wireframe_mode] = 0
 settings[clear_registry] = 0
