@@ -3,7 +3,7 @@
 ; --------------------------------------------------------------------------------
 
 name = Apollo
-description = Aether starterkit for Aether, use drush to create a new subtheme using: drush aether newthemename
+description = A Subtheme of Aether created for research websites at Robertson Library. 
 screenshot = images/screenshot.png
 core = "7.x"
 engine = phptemplate
