@@ -139,8 +139,8 @@ settings[exclude_stylesheets][] = modules/system/system.theme.css
 ; Amount of media queries to use, must equal 5 for now.
 settings[media_queries] = '5'
 
-; Responsive or fixed (no mediaqueries)
-settings[responsive_toggle] = responsive
+; Responsive '1' or fixed '0' (no mediaqueries)
+settings[responsive_toggle] = '1'
 
 ; Grid debugging css, '0' for off, '1' for on.
 settings[grid_background][] = '0'
