@@ -47,8 +47,17 @@ function apollo_process_region(&$variables) {
       'html' => TRUE));
   }
 
-  $variables['linked_logo_img'] = $variables['logo'] ? $variables['apollo_logo_path'] : '';
+  if (theme_get_setting('apollo_slogan_path')) {
+    $variables['site_slogan'] = l($variables['site_slogan'], theme_get_setting('apollo_slogan_path'),
+      array('attributes' => array(
+        'rel' => 'ext',
+        'title' => theme_get_setting('apollo_slogan_title') ? check_plain(theme_get_setting('apollo_slogan_title')) : check_plain($variables['site_name'])),
+      'html' => TRUE));
+  } else {
+    $variables['apollo_slogan_path'] = $variables['site_slogan'];
+  }
 
+  $variables['linked_logo_img'] = $variables['logo'] ? $variables['apollo_logo_path'] : '';
 }
 
 /**

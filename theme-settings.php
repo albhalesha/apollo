@@ -32,4 +32,16 @@ function apollo_form_system_theme_settings_alter(&$form,&$form_state) {
     '#default_value' => theme_get_setting('apollo_logo_title'),
     '#description'   => t('This will override the default logo alt title.'),
   );
+  $form['aether_settings']['branding']['branding_links']['apollo_slogan_path'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Logo Path'),
+    '#default_value' => theme_get_setting('apollo_slogan_path'),
+    '#description'   => t('This will override the default slogan path.'),
+  );
+  $form['aether_settings']['branding']['branding_links']['apollo_slogan_title'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Logo Title'),
+    '#default_value' => theme_get_setting('apollo_slogan_title'),
+    '#description'   => t('This will override the default slogan alt title.'),
+  );
 }

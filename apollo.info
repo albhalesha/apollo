@@ -86,6 +86,8 @@ compass[css_dir] = css
 ; Branding Options
 settings[apollo_logo_path] = 'http://www.upei.ca'
 settings[apollo_logo_title] = 'Go to University of Prince Edward Island'
+settings[apollo_slogan_path] = ''
+settings[apollo_slogan_title] = ''
 
 ; Standard defaults.
 settings[aether_breadcrumb_separator] = ' » '
@@ -129,6 +131,11 @@ settings[exclude_stylesheets][] = modules/system/system.theme.css
 ; settings[exclude_stylesheets][] = modules/tracker/tracker.css
 ; settings[exclude_stylesheets][] = modules/update/update.css
 
+; --------------------------------------------------------------------------------
+; Grid Theme Settings Defaults.
+; Note: Gutter and Grid numbers must match sass variables.
+; --------------------------------------------------------------------------------
+
 ; Amount of media queries to use, must equal 5 for now.
 settings[media_queries] = '5'
 
@@ -137,8 +144,6 @@ settings[responsive_toggle] = responsive
 
 ; Grid debugging css, '0' for off, '1' for on.
 settings[grid_background][] = '0'
-
-; Gutter and Grid numbers must match sass variables.
 
 ; Gutter width choices in pixels.
 settings[gutter_width] = 20
