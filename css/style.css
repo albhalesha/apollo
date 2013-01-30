@@ -2438,6 +2438,7 @@ footer .footer-columns, footer .footer {
   }
 }
 .site-slogan a, .site-slogan a:link, .site-slogan a:hover, .site-slogan a:active, .site-slogan a:focus, .site-slogan a:visited {
+  text-decoration: none;
   color: #000;
 }
 

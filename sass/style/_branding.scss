@@ -153,6 +153,7 @@
   @include adjust-font-size-to($font-size-xl,0.85);
 //  @include margin-trailer(0.185, $font-size-xl);
   a, a:link, a:hover, a:active, a:focus, a:visited {
+    text-decoration: none;
     color: #000;
   }
 }
