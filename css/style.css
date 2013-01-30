@@ -2668,6 +2668,10 @@ footer .footer-columns, footer .footer {
   float: right;
 }
 
+#islandora-solr-advanced-search-form .form-submit[type="submit"] {
+  margin-bottom: 0;
+}
+
 .footer-message {
   font-size: 0.75em;
   line-height: 2em;
