@@ -61,7 +61,8 @@ html.js input.throbbing {
 
 fieldset {
   border-color: $text-border-alt;
-  margin: 0 2px;
+  margin-left: 2px;
+  margin-right: 2px;
   // Apply borders and padding that keep the vertical rhythm.
   @include rhythm-borders(1px, 0.65);
 }
