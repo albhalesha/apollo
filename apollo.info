@@ -24,6 +24,7 @@ regions[header_first] = Header first
 regions[header_second] = Header second
 regions[header_third] = Header third
 regions[main_menu] = Main Menu
+regions[navigation] = Navigation
 regions[navigation_first] = Navigation first
 regions[navigation_second] = Navigation second
 regions[feature] = Feature
