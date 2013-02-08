@@ -14,16 +14,16 @@ body {
 }
 
 #page {
-  border-top: 6px solid darken($secondary_color, 4);
+  border-top: 6px solid $secondary_color;
 }
 
 #secondary.links {
-  background-color: darken($secondary_color, 4);
+  background-color: $secondary_color;
 }
 
 footer {
   .footer-columns, .footer {
-    background-color: $secondary_color;
+    background-color: #94b5a1;
     @include border-radius(5px);
   }
 }
@@ -32,7 +32,8 @@ footer {
 .footer-columns h2.title,
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
-  background-color: darken($secondary_color, 5);
+  background-color: darken(#94b5a1, 15);
+  color: darken($link-color-alt3, 5);
 }
 
 .main-menu-inner,
@@ -40,4 +41,11 @@ footer {
   border-top-color: adjust-color($primary_color, $alpha: -0.3);
   border-right-color: adjust-color($primary_color, $alpha: -0.3);
   border-bottom-color: adjust-color($primary_color, $alpha: -0.3);
+}
+
+// Footer links
+.footer-columns, .footer-wrapper .footer {
+  a {
+    @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
+  }
 }
