@@ -910,7 +910,8 @@ footer .footer-columns, footer .footer {
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
   background-color: #6f947d;
-  color: #262626;
+  color: #EAEAEA;
+  font-weight: 500;
 }
 
 .main-menu-inner,
