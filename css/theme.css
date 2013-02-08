@@ -898,7 +898,7 @@ body.not-front, body.front, body .postscript-wrapper {
 }
 
 footer .footer-columns, footer .footer {
-  background-color: #94b5a1;
+  background-color: #9bb5a5;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -909,7 +909,7 @@ footer .footer-columns, footer .footer {
 .footer-columns h2.title,
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
-  background-color: #679579;
+  background-color: #6f947d;
   color: #262626;
 }
 

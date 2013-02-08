@@ -23,7 +23,7 @@ body {
 
 footer {
   .footer-columns, .footer {
-    background-color: #94b5a1;
+    background-color: #9bb5a5;
     @include border-radius(5px);
   }
 }
@@ -32,7 +32,7 @@ footer {
 .footer-columns h2.title,
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
-  background-color: darken(#94b5a1, 15);
+  background-color: darken(#9bb5a5, 15);
   color: darken($link-color-alt3, 5);
 }
 
