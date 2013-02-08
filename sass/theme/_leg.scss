@@ -26,6 +26,14 @@ footer {
     background-color: #9bb5a5;
     @include border-radius(5px);
   }
+  @include breakpoint-at($break-tablet) {
+    .region-footer-second {
+      clear: right;
+    }
+    .region-footer-third {
+      clear: left;
+    }
+  }
 }
 
 .footer-columns h2.block-title,

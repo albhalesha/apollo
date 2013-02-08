@@ -904,6 +904,14 @@ footer .footer-columns, footer .footer {
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
+@media (min-width: 48em) and (max-width: 61.1875em) {
+  .responsive footer .region-footer-second {
+    clear: right;
+  }
+  .responsive footer .region-footer-third {
+    clear: left;
+  }
+}
 
 .footer-columns h2.block-title,
 .footer-columns h2.title,
