@@ -32,9 +32,13 @@ footer {
 .footer-columns h2.title,
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
-  background-color: darken(#9bb5a5, 15);
+  background-color: darken(#9bb5a5, 20);
   color: #EAEAEA;
   font-weight: 500;
+}
+
+.view-id-footer_logos .views-field-field-logo-image-fid {
+  text-align: center;
 }
 
 .main-menu-inner,

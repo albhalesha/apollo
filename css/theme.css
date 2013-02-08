@@ -909,9 +909,13 @@ footer .footer-columns, footer .footer {
 .footer-columns h2.title,
 .footer-wrapper .footer h2.block-title,
 .footer-wrapper .footer h2.title {
-  background-color: #6f947d;
+  background-color: #648671;
   color: #EAEAEA;
   font-weight: 500;
+}
+
+.view-id-footer_logos .views-field-field-logo-image-fid {
+  text-align: center;
 }
 
 .main-menu-inner,
