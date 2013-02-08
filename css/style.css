@@ -2054,7 +2054,7 @@ body.not-front, body.front, body .postscript-wrapper {
   background-color: #e6e6e6;
 }
 
-#header, #main-menu, #main, .navigation-columns-wrapper {
+#header, #main-menu, #main, .navigation-columns-wrapper, #feature {
   background-color: #f4f4f4;
 }
 
