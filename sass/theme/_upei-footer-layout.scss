@@ -13,7 +13,7 @@
   @include trailer(1);
 }
 
-.footer-wrapper {
+.footer-wrapper, .footer-columns-wrapper {
   @include leader(-1);
   @include trailer(0.5);
 }
