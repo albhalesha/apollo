@@ -66,6 +66,7 @@ stylesheets[all][] = css/theme.css
 ; --------------------------------------------------------------------------------
 ; Optionally add some JavaScripts to your theme.
 ; --------------------------------------------------------------------------------
+scripts[] = js/jquery.mobilemenu.js
 scripts[] = js/jquery_example/jquery.example.min.js
 scripts[] = js/searchtext.js
 

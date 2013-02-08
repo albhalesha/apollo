@@ -122,49 +122,102 @@ footer .footer-columns, footer .footer {
   color: #333;
 }
 
-.main-menu-inner .main-menu {
-  -moz-border-radius-topright: 5px;
-  -webkit-border-top-right-radius: 5px;
+.main-menu-inner,
+.navigation-inner {
+  width: 100%;
+  height: 0px;
+  border-left: 18px solid transparent;
+  border-top: 18px solid #ccc;
+  border-right: 18px solid #ccc;
+  border-bottom: 18px solid #ccc;
+  border-top-left-radius: 0px;
   border-top-right-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0px;
   border-bottom-right-radius: 5px;
-  margin-left: -1.6em;
-  position: relative;
 }
-.main-menu-inner .main-menu:before, .main-menu-inner .main-menu:after {
-  margin-top: 0.5em;
-  content: "";
+
+.main-menu-inner .main-menu,
+.navigation-inner .block {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-left: 1em;
+}
+.main-menu-inner .main-menu:before, .main-menu-inner .main-menu:after,
+.navigation-inner .block:before,
+.navigation-inner .block:after {
+  content: " ";
+  display: table;
+}
+.main-menu-inner .main-menu:after,
+.navigation-inner .block:after {
+  clear: both;
+}
+.main-menu-inner .main-menu li,
+.navigation-inner .block li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
   float: left;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-
-.main-menu-inner .main-menu {
-  border: 1em solid #ccc;
-  border-left-color: transparent;
-  border-right-width: 1.5em;
+.main-menu-inner .main-menu li:first-child, .main-menu-inner .main-menu li.first,
+.navigation-inner .block li:first-child,
+.navigation-inner .block li.first {
+  padding-left: 0;
 }
-
-.main-menu-inner .main-menu {
-  padding-left: 0.75em;
+.main-menu-inner .main-menu li:last-child,
+.navigation-inner .block li:last-child {
+  padding-right: 0;
 }
-
-.main-menu-inner .main-menu li {
-  margin-top: -0.67em;
+.main-menu-inner .main-menu li.last,
+.navigation-inner .block li.last {
+  padding-right: 0;
 }
-.main-menu-inner .main-menu a {
+.main-menu-inner .main-menu a,
+.navigation-inner .block a {
   color: #333333;
 }
-.main-menu-inner .main-menu a:visited {
+.main-menu-inner .main-menu a:visited,
+.navigation-inner .block a:visited {
   color: #333333;
 }
-.main-menu-inner .main-menu a:focus {
+.main-menu-inner .main-menu a:focus,
+.navigation-inner .block a:focus {
   color: #404040;
 }
-.main-menu-inner .main-menu a:hover {
+.main-menu-inner .main-menu a:hover,
+.navigation-inner .block a:hover {
   color: #404040;
 }
-.main-menu-inner .main-menu a:active {
+.main-menu-inner .main-menu a:active,
+.navigation-inner .block a:active {
   color: #595959;
+}
+
+.main-menu-inner .main-menu {
+  margin-top: -12px;
+}
+
+.navigation-inner .block {
+  margin-top: -8px;
+}
+
+.main-menu-inner select {
+  margin-top: -25px;
+  width: 100%;
+  display: none;
+}
+@media (max-width: 48em) {
+  .responsive .main-menu-inner ul {
+    display: none;
+  }
+  .responsive .main-menu-inner select {
+    display: inline-block;
+  }
 }
 
 #secondary.links {
@@ -649,123 +702,6 @@ footer .footer-columns, footer .footer {
   margin-top: 1.5em;
 }
 
-.footer-message {
-  font-size: 0.75em;
-  line-height: 2em;
-  text-align: right;
-}
-
-#main {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-
-.content-wrapper {
-  margin-bottom: 1.5em;
-}
-
-.footer-wrapper {
-  margin-top: -1.5em;
-  margin-bottom: 0.75em;
-}
-
-/* UPEI footer module */
-.ie6-8 .upei-footer .bottom-links, .not-responsive .upei-footer .bottom-links {
-  margin-right: 1.80505%;
-  width: 15.16245%;
-}
-.ie6-8 .upei-footer .bottom-links.menu-05, .not-responsive .upei-footer .bottom-links.menu-05 {
-  margin-right: 0;
-}
-.upei-footer .bottom-links {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  display: inline;
-  float: left;
-}
-@media (min-width: 72.5em) {
-  .responsive .upei-footer .bottom-links {
-    margin-right: 1.43885%;
-    width: 18.84892%;
-  }
-  .responsive .upei-footer .bottom-links.menu-05 {
-    margin-right: 0;
-  }
-}
-@media (min-width: 61.25em) and (max-width: 72.4375em) {
-  .responsive .upei-footer .bottom-links {
-    margin-right: 1.43885%;
-    width: 18.84892%;
-  }
-  .responsive .upei-footer .bottom-links.menu-05 {
-    margin-right: 0;
-  }
-}
-@media (min-width: 48em) and (max-width: 61.1875em) {
-  .responsive .upei-footer .menu-03, .responsive .upei-footer .menu-04, .responsive .upei-footer .menu-05 {
-    margin-right: 1.43885%;
-    width: 32.3741%;
-  }
-  .responsive .upei-footer .menu-01, .responsive .upei-footer .menu-02 {
-    margin-right: 1.80505%;
-    width: 49.09747%;
-  }
-  .responsive .upei-footer .menu-02, .responsive .upei-footer .menu-05 {
-    margin-right: 0;
-  }
-}
-@media (min-width: 30em) and (max-width: 47.9375em) {
-  .responsive .upei-footer .bottom-links {
-    margin-right: 1.80505%;
-    width: 49.09747%;
-  }
-  .responsive .upei-footer .menu-02, .responsive .upei-footer .menu-04 {
-    margin-right: 0;
-  }
-  .responsive .upei-footer .menu-05 {
-    margin-right: 1.80505%;
-    width: 49.09747%;
-  }
-}
-@media (max-width: 29.9375em) {
-  .responsive .upei-footer .bottom-links {
-    margin-right: 1.80505%;
-    width: 100%;
-  }
-}
-.upei-footer .footeraddress {
-  clear: left;
-  width: 100%;
-  font-size: 0.875em;
-  line-height: 1.71429em;
-}
-
-.block-upei_footer {
-  margin-bottom: 0.75em;
-}
-
-.inner-footeraddress {
-  padding-top: 10px;
-  background: url("http://students.upei.ca/files/misc/shieldfooter.png") no-repeat right top;
-  color: #c6c6c6;
-  font-size: 0.875em;
-  line-height: 1.71429em;
-}
-@media (max-width: 47.9375em) {
-  .responsive .inner-footeraddress {
-    background: none;
-  }
-}
-
-.links-last {
-  text-align: center;
-  margin-top: 1.5em;
-}
-
 /*
  * ==================================================
  * Views Slideshow
@@ -942,4 +878,25 @@ footer .footer-columns, footer .footer {
   .responsive .scholar-slideshow--subtitle {
     display: none;
   }
+}
+
+/* Backgrounds */
+body.not-front, body.front, body .postscript-wrapper {
+  background-color: #e6e6e6;
+}
+
+#header, #main-menu, #main {
+  background-color: #f4f4f4;
+}
+
+#page {
+  border-top: 6px solid #363636;
+}
+
+footer .footer-columns, footer .footer {
+  background-color: #575757;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }

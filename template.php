@@ -95,9 +95,9 @@ function apollo_preprocess(&$vars, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
 function apollo_preprocess_page(&$vars, $hook) {
-  $vars['sample_variable'] = t('Lorem ipsum.');
+  drupal_add_js('$(document).ready(function() {$(\'#primary\').mobileMenu({menuID:1,combine:false,prependTo:\'div.main-menu-inner\'}); });', 'inline');
+  $variables['scripts'] = drupal_get_js();
 
   // To remove a class from $classes_array, use array_diff().
   //$vars['classes_array'] = array_diff($vars['classes_array'], array('class-to-remove'));
