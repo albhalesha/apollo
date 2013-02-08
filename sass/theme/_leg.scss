@@ -1,22 +1,43 @@
 /* Backgrounds */
 
+$secondary_color: #025a2f;
+$primary_color: #d1c8b1;
+
 body {
   &.not-front, &.front, .postscript-wrapper {
-    background-color: #e6e6e6;
+    background-color: adjust-color($primary_color, $alpha: -0.3);
   }
 }
 
 #header, #main-menu, #main {
-  background-color: #f4f4f4;
+  background-color: #f8f5ed;
 }
 
 #page {
-  border-top: 6px solid #363636;
+  border-top: 6px solid darken($secondary_color, 4);
+}
+
+#secondary.links {
+  background-color: darken($secondary_color, 4);
 }
 
 footer {
   .footer-columns, .footer {
-    background-color: rgb(87, 87, 87);
+    background-color: $secondary_color;
     @include border-radius(5px);
   }
+}
+
+.footer-columns h2.block-title,
+.footer-columns h2.title,
+.footer-wrapper .footer h2.block-title,
+.footer-wrapper .footer h2.title {
+  background-color: darken($secondary_color, 5);
+}
+
+.main-menu-inner,
+.navigation-inner {
+  border-top-color: adjust-color($primary_color, $alpha: -0.3);
+  border-right-color: adjust-color($primary_color, $alpha: -0.3);
+  border-bottom-color: adjust-color($primary_color, $alpha: -0.3);
 }

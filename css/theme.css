@@ -882,21 +882,39 @@ footer .footer-columns, footer .footer {
 
 /* Backgrounds */
 body.not-front, body.front, body .postscript-wrapper {
-  background-color: #e6e6e6;
+  background-color: rgba(209, 200, 177, 0.7);
 }
 
 #header, #main-menu, #main {
-  background-color: #f4f4f4;
+  background-color: #f8f5ed;
 }
 
 #page {
-  border-top: 6px solid #363636;
+  border-top: 6px solid #024625;
+}
+
+#secondary.links {
+  background-color: #024625;
 }
 
 footer .footer-columns, footer .footer {
-  background-color: #575757;
+  background-color: #025a2f;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
+}
+
+.footer-columns h2.block-title,
+.footer-columns h2.title,
+.footer-wrapper .footer h2.block-title,
+.footer-wrapper .footer h2.title {
+  background-color: #014122;
+}
+
+.main-menu-inner,
+.navigation-inner {
+  border-top-color: rgba(209, 200, 177, 0.7);
+  border-right-color: rgba(209, 200, 177, 0.7);
+  border-bottom-color: rgba(209, 200, 177, 0.7);
 }
