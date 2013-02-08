@@ -5,10 +5,25 @@ a {
   &.active { color: $link-color-active; }
 }
 
-.main-menu {
+.main-menu, .region-navigation {
   a {
     @include link-colors($link-color-alt3, $hover: $link-color-hover-alt3, $focus: $link-color-hover-alt3, $visited: $link-color-visited-alt3, $active: $link-color-active-alt3);
     &.active { color: $link-color-active-alt3; }
     &:hover, &.active, &:focus { text-decoration: none; }
+  }
+}
+
+// Skip link is hidden until it's tabbed to.
+#skip-link {
+  margin: 0;
+
+  a,
+  a:visited {
+    display: block;
+    width: 100%;
+    padding: 2px 0 3px 0;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
   }
 }

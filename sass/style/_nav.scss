@@ -13,42 +13,49 @@
   }
 }
 
-// Primary nav Ribbon
 
 %ribbon {
-  @include border-right-radius(5px);
-  margin-left: -1.6em;
-  position: relative;
-  &:before, &:after {
-    margin-top:0.5em;
-    content: "";
-    float:left;
+  width: 100%;
+  height: 0px;
+  border-left: 18px solid transparent;
+  border-top: 18px solid #ccc;
+  border-right: 18px solid #ccc;
+  border-bottom: 18px solid #ccc;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 5px;
+}
+
+.main-menu-inner,
+.navigation-inner {
+  @extend %ribbon;
+//  li {
+//    margin-top: -0.75em;
+//  }
+}
+
+
+.main-menu-inner .main-menu,
+.navigation-inner .block {
+  @include horizontal-list-container;
+  margin-left: 1em;
+  li {
+    @include horizontal-list-item(1em, left);
   }
-}
-
-%ribbon-color-1 {
-  border: 1em solid #363636;
-  border-left-color: transparent;
-  border-right-width: 1.5em;
-}
-
-%ribbon-color-2 {
-  border: 1em solid #ccc;
-  border-left-color: transparent;
-  border-right-width: 1.5em;
-}
-
-%ribbon-text {
-  padding-left: 0.75em;
 }
 
 .main-menu-inner .main-menu {
-  @extend %ribbon-text;
-  @extend %ribbon;
-  @extend %ribbon-color-2;
-  li {
-    margin-top: -0.75em;
-  }
+  margin-top: -12px;
+}
+
+.navigation-inner .block {
+  margin-top: -8px;
+}
+
+.roblib-responsive-menu-1 select {
+  margin-top: -12px;
+  width: 100%;
 }
 
 // Secondary links get a default styling and must be in upper right region

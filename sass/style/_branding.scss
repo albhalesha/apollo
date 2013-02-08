@@ -6,6 +6,35 @@
   @include padding-leader(0.5);
 }
 
+/* Header */
+
+.name-and-slogan {
+  @include center-vertically;
+  .ie7 & {
+    @include float(left);
+  }
+}
+
+.logo {
+  @include center-vertically;
+  padding: 0 10px 0 0;
+    .ie7 & {
+      @include float(left);
+    }
+}
+
+.site-name {
+  @include adjust-font-size-to($font-size-xxl,1);
+  @include margin-leader(0);
+  @include margin-trailer(0.31, $font-size-xxl);
+  font-family: $header-font-family;
+  font-weight: bold;
+  a {
+    @include link-colors($text-color, $hover: $text-color, $focus: $text-color, $visited: $text-color, $active: $text-color);
+    text-decoration: none;
+  }
+}
+
 .logo, .name-and-slogan {
   @include grid-item-base;
 }
