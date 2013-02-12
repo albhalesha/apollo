@@ -90,6 +90,10 @@ settings[apollo_logo_title] = 'Go to University of Prince Edward Island'
 settings[apollo_slogan_path] = ''
 settings[apollo_slogan_title] = ''
 
+; Responsive Menu Options
+settings[apollo_main_menu] = 1
+settings[apollo_resp_main_menu_width] = '800px'
+
 ; Standard defaults.
 settings[aether_breadcrumb_separator] = ' » '
 settings[wireframe_mode] = 0

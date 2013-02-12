@@ -68,14 +68,57 @@ function apollo_process_region(&$variables) {
  * @param $hook
  *   The name of the template being rendered ("html" in this case.)
  */
-/* -- Delete this line if you want to use this function
 function apollo_preprocess_html(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+  global $theme_key;
+
+  if ((theme_get_setting('apollo_main_menu')) && (theme_get_setting('toggle_main_menu'))) {
+    if (module_exists('roblib_responsive_menu')) {
+      drupal_add_js(drupal_get_path('module', 'roblib_responsive_menu') .'/js/jquery.mobilemenu.js',
+        array(
+          'scope' => 'footer',
+          'weight' => 6
+          )
+        );
+    } else {
+      drupal_add_js(drupal_get_path('theme', $theme_key) .'/js/jquery.mobilemenu.js',
+        array(
+          'scope' => 'footer',
+          'weight' => 6
+          )
+        );
+    }
+
+    drupal_add_js('jQuery(function(){jQuery(\'#primary\').mobileMenu({menuID:999,combine:false,prependTo:\'div.main-menu-inner\'}); });',
+          array(
+            'type' => 'inline',
+            'scope' => 'footer',
+            'weight' => 7
+            )
+          );
+    // Then load the media queries.
+    drupal_add_css(drupal_get_path('theme', $theme_key) . '/css/menu/apollo-responsive-select-menu-mq.css',
+      array(
+        'group' => CSS_THEME,
+        'every_page' => FALSE,
+        'media' => 'screen and (max-width: ' . theme_get_setting('apollo_resp_main_menu_width') . ')',
+        'preprocess' => FALSE,
+        'weight' => '0',
+      )
+    );
+    drupal_add_css(drupal_get_path('theme', $theme_key) . '/css/menu/apollo-responsive-select-menu.css',
+      array(
+        'group' => CSS_THEME,
+        'preprocess' => TRUE,
+        'every_page' => TRUE,
+        'weight' => '1',
+      )
+    );
+  }
 
   // The body tag's classes are controlled by the $classes_array variable. To
   // remove a class from $classes_array, use array_diff().
 }
-*/
+
 
 /**
  * Override or insert variables into the page templates.
