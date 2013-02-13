@@ -1,0 +1,18 @@
+/* This will be the default if "none" is selected in a superfish menu */
+
+.sf-style-none {
+  a { // Overall links
+    padding: 0.64em 0.75em;
+    margin: -0.64em -0.75em;
+    &.active, &:hover {
+      background-color: darken($secondary-color, 5);
+    }
+  }
+  ul li { // Dropdowns
+    top: -5px;
+    left: 8px;
+    a {
+      background-color: darken($secondary-color, 2);
+    }
+  }
+}

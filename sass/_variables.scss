@@ -44,6 +44,11 @@ $tab-font-family:              "Helvetica Neue", "Helvetica", Arial, "Liberation
 $input-font-family:            "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $mono-font-family:             Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
+// Colors
+$primary-color:                #f4f4f4;
+$secondary-color:              #cccccc;
+$tertiary-color:               #363636;
+
 // Main Link Colors
 $link-color:                   #8B2004;
 $link-color-hover:             adjust-color($link-color, $lightness: +5);

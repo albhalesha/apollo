@@ -2360,7 +2360,7 @@ footer .footer-columns, footer .footer {
 #ilives-solr-simple-search-block-form input.form-text,
 #google-cse-searchbox-form input.form-text,
 #ilives-solr-search-block-form input.form-text {
-  color: #ccc;
+  color: #cccccc;
 }
 #search-theme-form input.form-text:focus,
 #search-box input.form-text:focus,
@@ -2369,7 +2369,7 @@ footer .footer-columns, footer .footer {
 #ilives-solr-simple-search-block-form input.form-text:focus,
 #google-cse-searchbox-form input.form-text:focus,
 #ilives-solr-search-block-form input.form-text:focus {
-  color: #333;
+  color: #363636;
 }
 
 .main-menu-inner,
@@ -2377,9 +2377,9 @@ footer .footer-columns, footer .footer {
   width: 100%;
   height: 0px;
   border-left: 18px solid transparent;
-  border-top: 18px solid #ccc;
-  border-right: 18px solid #ccc;
-  border-bottom: 18px solid #ccc;
+  border-top: 18px solid #cccccc;
+  border-right: 18px solid #cccccc;
+  border-bottom: 18px solid #cccccc;
   border-top-left-radius: 0px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 0px;
@@ -2413,6 +2413,7 @@ footer .footer-columns, footer .footer {
   float: left;
   padding-left: 1em;
   padding-right: 1em;
+  padding-left: 0.5em;
 }
 .main-menu-inner .main-menu li:first-child, .main-menu-inner .main-menu li.first,
 .navigation-inner .block li:first-child,
@@ -2431,14 +2432,16 @@ footer .footer-columns, footer .footer {
 .main-menu-inner .main-menu {
   margin-top: -12px;
 }
+.main-menu-inner .main-menu a {
+  padding: 0.5em 0.75em;
+  margin: -0.5em -0.75em;
+}
+.main-menu-inner .main-menu a.active, .main-menu-inner .main-menu a:hover {
+  background-color: #bfbfbf;
+}
 
 .navigation-inner .block {
   margin-top: -8px;
-}
-
-.roblib-responsive-menu-1 select {
-  margin-top: -12px;
-  width: 100%;
 }
 
 #secondary.links {
@@ -2610,6 +2613,22 @@ footer .footer-columns, footer .footer {
 
 #islandora-solr-advanced-search-form .form-submit[type="submit"] {
   margin-bottom: 0;
+}
+
+/* This will be the default if "none" is selected in a superfish menu */
+.sf-style-none a {
+  padding: 0.64em 0.75em;
+  margin: -0.64em -0.75em;
+}
+.sf-style-none a.active, .sf-style-none a:hover {
+  background-color: #bfbfbf;
+}
+.sf-style-none ul li {
+  top: -5px;
+  left: 8px;
+}
+.sf-style-none ul li a {
+  background-color: #c7c7c7;
 }
 
 .footer-message {
