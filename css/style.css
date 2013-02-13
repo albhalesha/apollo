@@ -2385,6 +2385,7 @@ footer .footer-columns, footer .footer {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 5px;
+  margin-left: -36px;
 }
 
 .main-menu-inner .main-menu,
