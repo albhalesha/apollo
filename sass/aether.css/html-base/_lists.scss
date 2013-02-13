@@ -19,6 +19,9 @@ ul,
 ul ul, ul ol,
 ol ul, ol ol {
   margin: 0; /* Turn off margins on nested lists. */
+  .item-list & {
+    margin: 0;
+  }
 }
 
 /* Description Lists */

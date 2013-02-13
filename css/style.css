@@ -784,6 +784,10 @@ ol ul, ol ol {
   margin: 0;
   /* Turn off margins on nested lists. */
 }
+.item-list ul ul, .item-list ul ol, .item-list
+ol ul, .item-list ol ol {
+  margin: 0;
+}
 
 /* Description Lists */
 dl {
