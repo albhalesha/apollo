@@ -779,13 +779,9 @@ ul,
   padding: 0 0 0 26px;
 }
 
-li > ul,
-li > ol {
+ol ul, ol ol {
   margin: 0;
-}
-.item-list li > ul, .item-list
-li > ol {
-  margin: 0;
+  /* Turn off margins on nested lists. */
 }
 
 /* Description Lists */

@@ -16,14 +16,8 @@ ul,
 }
 
 // Turn off margins on nested lists.
-li {
-  > ul,
-  > ol {
-    margin: 0; 
-    .item-list & { // Drupal override
-      margin: 0;
-    }
-  }
+ol ul, ol ol {
+  margin: 0; /* Turn off margins on nested lists. */
 }
 
 /* Description Lists */
