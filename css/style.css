@@ -770,15 +770,6 @@ ul.action-links li.last {
  * ==================================================
  */
 /* Lists */
-li > ul,
-li > ol {
-  margin: 0;
-}
-.item-list li > ul, .item-list
-li > ol {
-  margin: 0;
-}
-
 menu,
 ol,
 ul,
@@ -786,6 +777,15 @@ ul,
   margin: 1.5em 0;
   /* LTR */
   padding: 0 0 0 26px;
+}
+
+li > ul,
+li > ol {
+  margin: 0;
+}
+.item-list li > ul, .item-list
+li > ol {
+  margin: 0;
 }
 
 /* Description Lists */

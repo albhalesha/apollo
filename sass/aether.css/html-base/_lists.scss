@@ -6,6 +6,15 @@
 
 /* Lists */
 
+menu,
+ol,
+ul,
+.item-list ul /* Drupal override */ {
+  margin: rhythm(1) 0; // Sets 1 unit of vertical rhythm on the top and bottom margin of lists.
+  /* LTR */
+  padding: 0 0 0 $typographic-indent; // Addresses list paddings set differently in IE6/7.
+}
+
 // Turn off margins on nested lists.
 li {
   > ul,
@@ -15,15 +24,6 @@ li {
       margin: 0;
     }
   }
-}
-
-menu,
-ol,
-ul,
-.item-list ul /* Drupal override */ {
-  margin: rhythm(1) 0; // Sets 1 unit of vertical rhythm on the top and bottom margin of lists.
-  /* LTR */
-  padding: 0 0 0 $typographic-indent; // Addresses list paddings set differently in IE6/7.
 }
 
 /* Description Lists */
