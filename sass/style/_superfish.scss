@@ -1,18 +1,25 @@
 /* This will be the default if "none" is selected in a superfish menu */
 
-.sf-style-none {
+.sf-menu.sf-style-none {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
   a { // Overall links
-    padding: 0.64em 0.75em;
-    margin: -0.64em -0.75em;
+    padding: 0.5em 0.75em;
     &.active, &:hover {
       background-color: darken($secondary-color, 5);
     }
   }
   ul li { // Dropdowns
-    top: -5px;
-    left: 8px;
+    top: -7px;
     a {
-      background-color: darken($secondary-color, 2);
+      background-color: lighten($secondary-color, 5);
     }
   }
+}
+
+.sf-menu.sf-horizontal.sf-shadow ul,
+.sf-menu.sf-vertical.sf-shadow ul,
+.sf-menu.sf-navbar.sf-shadow ul ul {
+  padding-bottom: 3px !important;
 }

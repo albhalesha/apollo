@@ -17,15 +17,15 @@
 %ribbon {
   width: 100%;
   height: 0px;
-  border-left: 18px solid transparent;
-  border-top: 18px solid $secondary-color;
-  border-right: 18px solid $secondary-color;
-  border-bottom: 18px solid $secondary-color;
+  border-left: 1.1em solid transparent;
+  border-top: 1.1em solid $secondary-color;
+  border-right: 1.1em solid $secondary-color;
+  border-bottom: 1.1em solid $secondary-color;
   border-top-left-radius: 0px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 5px;
-  margin-left: -36px;
+  margin-left: -2.2em;
 }
 
 .main-menu-inner,
@@ -33,21 +33,15 @@
   @extend %ribbon;
 }
 
-.main-menu-inner .main-menu,
-.navigation-inner .block {
-  @include horizontal-list-container;
-  margin-left: 1em;
-  li {
-    @include horizontal-list-item(1em, left);
-    padding-left: 0.5em; // override for superfish support
-  }
-}
-
 .main-menu-inner .main-menu {
+  @include horizontal-list-container;
   margin-top: -12px;
+  margin-left: 10px;
+  li {
+    @include horizontal-list-item(0, left);
+  }
   a { // Overall links in main-menu region
     padding: 0.5em 0.75em;
-    margin: -0.5em -0.75em;
     &.active, &:hover {
       background-color: darken($secondary-color, 5);
     }
@@ -55,7 +49,8 @@
 }
 
 .navigation-inner .block {
-  margin-top: -8px;
+  margin-top: -1em;
+  margin-left: 10px;
 }
 
 .roblib-responsive-menu-1,
@@ -63,7 +58,7 @@
 .roblib-responsive-menu-3,
 .roblib-responsive-menu-4 {
    select {
-    margin-top: -12px;
+    margin-top: 0.25em;
     width: 100%;
   }
 }
