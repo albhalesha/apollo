@@ -57,6 +57,16 @@
   margin-top: -8px;
 }
 
+.roblib-responsive-menu-1,
+.roblib-responsive-menu-2,
+.roblib-responsive-menu-3,
+.roblib-responsive-menu-4 {
+   select {
+    margin-top: -12px;
+    width: 100%;
+  }
+}
+
 // Secondary links get a default styling and must be in upper right region
 
 %round-bottom-menu {

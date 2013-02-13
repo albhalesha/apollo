@@ -2444,6 +2444,14 @@ footer .footer-columns, footer .footer {
   margin-top: -8px;
 }
 
+.roblib-responsive-menu-1 select,
+.roblib-responsive-menu-2 select,
+.roblib-responsive-menu-3 select,
+.roblib-responsive-menu-4 select {
+  margin-top: -12px;
+  width: 100%;
+}
+
 #secondary.links {
   background-color: #363636;
   -moz-border-radius-bottomleft: 5px;
