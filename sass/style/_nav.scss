@@ -41,7 +41,7 @@
     @include horizontal-list-item(0, left);
   }
   a { // Overall links in main-menu region
-    padding: 0.5em 0.75em;
+    padding: 0.45em 0.75em;
     &.active, &:hover {
       background-color: darken($secondary-color, 5);
     }

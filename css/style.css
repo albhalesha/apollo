@@ -2422,7 +2422,7 @@ footer .footer-columns, footer .footer {
   padding-right: 0;
 }
 .main-menu-inner .main-menu a {
-  padding: 0.5em 0.75em;
+  padding: 0.45em 0.75em;
 }
 .main-menu-inner .main-menu a.active, .main-menu-inner .main-menu a:hover {
   background-color: #bfbfbf;
