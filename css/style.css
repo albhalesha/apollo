@@ -383,6 +383,10 @@ select[multiple] {
   float: left;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .muted {
   color: #acacac;
 }

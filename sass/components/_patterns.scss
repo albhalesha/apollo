@@ -31,6 +31,10 @@
   @include float(left);
 }
 
+.center-text {
+  text-align: center;
+}
+
 .muted {
   color: $text-color-light;
 }
