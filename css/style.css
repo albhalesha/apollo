@@ -2637,6 +2637,14 @@ footer .footer-columns, footer .footer {
   padding-bottom: 3px !important;
 }
 
+.flexslider {
+  margin-bottom: 0;
+}
+
+.flex-nav-container {
+  margin-bottom: 0;
+}
+
 .footer-message {
   font-size: 0.75em;
   line-height: 2em;
