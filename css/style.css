@@ -2644,10 +2644,11 @@ footer .footer-columns, footer .footer {
 .flexslider .views-field-title {
   background-color: #363636;
   color: #ccc;
+  padding: 5px;
 }
 
 .flex-nav-container {
-  margin-bottom: 0;
+  margin-bottom: 1.5em;
 }
 
 .footer-message {
