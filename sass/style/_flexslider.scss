@@ -3,10 +3,11 @@
 .flexslider {
   margin-bottom: 0;
   border: 4px solid #363636;
-  .views-field-title {
+  .views-field-title, .flex-caption {
     background-color: #363636;
     color: #ccc;
     padding: 5px;
+    margin: 0;
   }
 }
 

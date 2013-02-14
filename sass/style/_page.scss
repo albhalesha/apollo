@@ -10,6 +10,7 @@
 
 // Add and/or remove page elements as your grid needs. 
 
+.node-teaser,
 .header-inner,
 .main-menu-inner,
 .navigation-inner,
@@ -20,4 +21,9 @@
 .sidebar-inner,
 .footer-inner {
   @include margin-trailer(1, $base-font-size);
+}
+
+.node-teaser {
+  @include padding-trailer(1);
+  border-bottom: 1px solid $secondary-color;
 }
