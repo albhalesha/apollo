@@ -661,6 +661,7 @@ blockquote.pull-right {
 }
 blockquote.pull-right p,
 blockquote.pull-right small {
+  margin-top: 0;
   text-align: right;
 }
 
