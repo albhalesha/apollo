@@ -695,30 +695,28 @@ a:hover, a:active, a:focus, a.active {
 }
 
 /* Drupal inline Links */
-ul.inline,
-ul.links {
-  border: 0 none;
-  margin: 0;
+.inline,
+.links {
   padding: 0;
 }
-ul.inline.inline,
-ul.links.inline {
+.inline.inline,
+.links.inline {
   margin: 0;
   padding: 0;
   border: 0;
 }
-ul.inline.inline:before, ul.inline.inline:after,
-ul.links.inline:before,
-ul.links.inline:after {
+.inline.inline:before, .inline.inline:after,
+.links.inline:before,
+.links.inline:after {
   content: " ";
   display: table;
 }
-ul.inline.inline:after,
-ul.links.inline:after {
+.inline.inline:after,
+.links.inline:after {
   clear: both;
 }
-ul.inline.inline li,
-ul.links.inline li {
+.inline.inline li,
+.links.inline li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -728,33 +726,33 @@ ul.links.inline li {
   padding-left: 1em;
   padding-right: 1em;
 }
-ul.inline.inline li:first-child, ul.inline.inline li.first,
-ul.links.inline li:first-child,
-ul.links.inline li.first {
+.inline.inline li:first-child, .inline.inline li.first,
+.links.inline li:first-child,
+.links.inline li.first {
   padding-left: 0;
 }
-ul.inline.inline li:last-child,
-ul.links.inline li:last-child {
+.inline.inline li:last-child,
+.links.inline li:last-child {
   padding-right: 0;
 }
-ul.inline.inline li.last,
-ul.links.inline li.last {
+.inline.inline li.last,
+.links.inline li.last {
   padding-right: 0;
 }
 
-ul.action-links {
+.action-links {
   margin: 0;
   padding: 0;
   border: 0;
 }
-ul.action-links:before, ul.action-links:after {
+.action-links:before, .action-links:after {
   content: " ";
   display: table;
 }
-ul.action-links:after {
+.action-links:after {
   clear: both;
 }
-ul.action-links li {
+.action-links li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -764,13 +762,13 @@ ul.action-links li {
   padding-left: 1em;
   padding-right: 1em;
 }
-ul.action-links li:first-child, ul.action-links li.first {
+.action-links li:first-child, .action-links li.first {
   padding-left: 0;
 }
-ul.action-links li:last-child {
+.action-links li:last-child {
   padding-right: 0;
 }
-ul.action-links li.last {
+.action-links li.last {
   padding-right: 0;
 }
 
