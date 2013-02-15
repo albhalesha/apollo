@@ -695,23 +695,29 @@ a:hover, a:active, a:focus, a.active {
 }
 
 /* Drupal inline Links */
+ul.inline,
 ul.links {
   border: 0 none;
   margin: 0;
   padding: 0;
 }
+ul.inline.inline,
 ul.links.inline {
   margin: 0;
   padding: 0;
   border: 0;
 }
-ul.links.inline:before, ul.links.inline:after {
+ul.inline.inline:before, ul.inline.inline:after,
+ul.links.inline:before,
+ul.links.inline:after {
   content: " ";
   display: table;
 }
+ul.inline.inline:after,
 ul.links.inline:after {
   clear: both;
 }
+ul.inline.inline li,
 ul.links.inline li {
   list-style-image: none;
   list-style-type: none;
@@ -722,12 +728,16 @@ ul.links.inline li {
   padding-left: 1em;
   padding-right: 1em;
 }
-ul.links.inline li:first-child, ul.links.inline li.first {
+ul.inline.inline li:first-child, ul.inline.inline li.first,
+ul.links.inline li:first-child,
+ul.links.inline li.first {
   padding-left: 0;
 }
+ul.inline.inline li:last-child,
 ul.links.inline li:last-child {
   padding-right: 0;
 }
+ul.inline.inline li.last,
 ul.links.inline li.last {
   padding-right: 0;
 }
