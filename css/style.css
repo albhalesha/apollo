@@ -2296,7 +2296,8 @@ footer .footer-columns, footer .footer {
 }
 
 .header .block-delta-blocks .site-name {
-  padding-top: 0.3em;
+  padding-top: 0.225em;
+  margin-bottom: 0.375em;
 }
 
 @media (max-width: 47.9375em) {
