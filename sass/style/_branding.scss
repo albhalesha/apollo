@@ -227,8 +227,8 @@
 
 @include breakpoint-at($break-handheld-all) {
   .region-header-first,
-  .region-header-third,
-  .region-header-third form {
+  .region-header-second,
+  .region-header-third {
     margin-bottom:0;
   }
 }

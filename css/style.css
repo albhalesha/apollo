@@ -2305,8 +2305,8 @@ footer .footer-columns, footer .footer {
 
 @media (max-width: 47.9375em) {
   .region-header-first,
-  .region-header-third,
-  .region-header-third form {
+  .region-header-second,
+  .region-header-third {
     margin-bottom: 0;
   }
 }
