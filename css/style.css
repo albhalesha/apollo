@@ -2294,6 +2294,10 @@ footer .footer-columns, footer .footer {
   float: right;
   padding-top: 0.75em;
 }
+.block .header #search-block-form, .block
+.header #islandora-solr-simple-search-form {
+  margin-bottom: 0em;
+}
 
 .header .block-delta-blocks .site-name {
   padding-top: 0.225em;

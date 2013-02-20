@@ -212,6 +212,9 @@
   #islandora-solr-simple-search-form {
     @include float(right);
     @include padding-leader(0.5);
+    .block & {
+      @include trailer(0);
+    }
   }
 }
 
