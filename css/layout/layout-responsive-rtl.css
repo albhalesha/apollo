@@ -180,12 +180,10 @@
   }
 
   .g-all-right, .g-h-right {
-    display: inline;
     float: left;
   }
 
   .g-all-left, .g-h-left {
-    display: inline;
     float: right;
   }
 
@@ -381,12 +379,10 @@
   }
 
   .g-all-right, .g-hl-right {
-    display: inline;
     float: left;
   }
 
   .g-all-left, .g-hl-left {
-    display: inline;
     float: right;
   }
 
@@ -582,12 +578,10 @@
   }
 
   .g-all-right, .g-t-right {
-    display: inline;
     float: left;
   }
 
   .g-all-left, .g-t-left {
-    display: inline;
     float: right;
   }
 
@@ -783,12 +777,10 @@
   }
 
   .g-all-right, .g-tl-right {
-    display: inline;
     float: left;
   }
 
   .g-all-left, .g-tl-left {
-    display: inline;
     float: right;
   }
 
@@ -984,12 +976,10 @@
   }
 
   .g-all-right, .g-d-right {
-    display: inline;
     float: left;
   }
 
   .g-all-left, .g-d-left {
-    display: inline;
     float: right;
   }
 
@@ -1116,11 +1106,9 @@
   margin-left: -100%;
 }
 .ie6-8 .g-all-right, .ie6-8 .g-d-right {
-  display: inline;
   float: left;
 }
 .ie6-8 .g-all-left, .ie6-8 .g-d-left {
-  display: inline;
   float: right;
 }
 .ie6-8 .g-all-f, .ie6-8 .g-d-f {

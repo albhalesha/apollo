@@ -53,7 +53,6 @@ body.toolbar .g-all-row:first-child:before:after {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  display: inline;
   float: left;
 }
 
@@ -121,13 +120,11 @@ body.toolbar .g-all-row:first-child:before:after {
   margin-left: auto;
   margin-right: auto;
   float: none;
-  display: block;
 }
 
 .g-all-center-text, .g-d-center-text {
   text-align: center;
   float: none;
-  display: block;
 }
 
 .g-d-c12, .g-all-clear, .g-d-clear {
@@ -195,12 +192,10 @@ body.toolbar .g-all-row:first-child:before:after {
 }
 
 .g-all-right, .g-d-right {
-  display: inline;
   float: right;
 }
 
 .g-all-left, .g-d-left {
-  display: inline;
   float: left;
 }
 

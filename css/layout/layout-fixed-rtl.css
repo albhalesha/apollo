@@ -136,12 +136,10 @@
 }
 
 .g-all-right, .g-d-right {
-  display: inline;
   float: left;
 }
 
 .g-all-left, .g-d-left {
-  display: inline;
   float: right;
 }
 

@@ -54,7 +54,6 @@ html {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    display: inline;
     float: left;
   }
 
@@ -122,13 +121,11 @@ html {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    display: block;
   }
 
   .g-all-center-text, .g-h-center-text {
     text-align: center;
     float: none;
-    display: block;
   }
 
   .g-h-c12, .g-all-clear, .g-h-clear {
@@ -196,12 +193,10 @@ html {
   }
 
   .g-all-right, .g-h-right {
-    display: inline;
     float: right;
   }
 
   .g-all-left, .g-h-left {
-    display: inline;
     float: left;
   }
 
@@ -271,7 +266,6 @@ html {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    display: inline;
     float: left;
   }
 
@@ -339,13 +333,11 @@ html {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    display: block;
   }
 
   .g-all-center-text, .g-hl-center-text {
     text-align: center;
     float: none;
-    display: block;
   }
 
   .g-hl-c12, .g-all-clear, .g-hl-clear {
@@ -413,12 +405,10 @@ html {
   }
 
   .g-all-right, .g-hl-right {
-    display: inline;
     float: right;
   }
 
   .g-all-left, .g-hl-left {
-    display: inline;
     float: left;
   }
 
@@ -483,7 +473,6 @@ html {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    display: inline;
     float: left;
   }
 
@@ -551,13 +540,11 @@ html {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    display: block;
   }
 
   .g-all-center-text, .g-t-center-text {
     text-align: center;
     float: none;
-    display: block;
   }
 
   .g-t-c12, .g-all-clear, .g-t-clear {
@@ -625,12 +612,10 @@ html {
   }
 
   .g-all-right, .g-t-right {
-    display: inline;
     float: right;
   }
 
   .g-all-left, .g-t-left {
-    display: inline;
     float: left;
   }
 
@@ -695,7 +680,6 @@ html {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    display: inline;
     float: left;
   }
 
@@ -763,13 +747,11 @@ html {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    display: block;
   }
 
   .g-all-center-text, .g-tl-center-text {
     text-align: center;
     float: none;
-    display: block;
   }
 
   .g-tl-c12, .g-all-clear, .g-tl-clear {
@@ -837,12 +819,10 @@ html {
   }
 
   .g-all-right, .g-tl-right {
-    display: inline;
     float: right;
   }
 
   .g-all-left, .g-tl-left {
-    display: inline;
     float: left;
   }
 
@@ -907,7 +887,6 @@ html {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    display: inline;
     float: left;
   }
 
@@ -975,13 +954,11 @@ html {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    display: block;
   }
 
   .g-all-center-text, .g-d-center-text {
     text-align: center;
     float: none;
-    display: block;
   }
 
   .g-d-c12, .g-all-clear, .g-d-clear {
@@ -1049,12 +1026,10 @@ html {
   }
 
   .g-all-right, .g-d-right {
-    display: inline;
     float: right;
   }
 
   .g-all-left, .g-d-left {
-    display: inline;
     float: left;
   }
 
@@ -1117,7 +1092,6 @@ body.toolbar .ie6-8 .g-all-row:first-child:before:after {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  display: inline;
   float: left;
 }
 .ie6-8 .g-d-c1, .ie6-8 .g-all-c1 {
@@ -1172,12 +1146,10 @@ body.toolbar .ie6-8 .g-all-row:first-child:before:after {
   margin-left: auto;
   margin-right: auto;
   float: none;
-  display: block;
 }
 .ie6-8 .g-all-center-text, .ie6-8 .g-d-center-text {
   text-align: center;
   float: none;
-  display: block;
 }
 .ie6-8 .g-d-c12, .ie6-8 .g-all-clear, .ie6-8 .g-d-clear {
   clear: both;
@@ -1231,11 +1203,9 @@ body.toolbar .ie6-8 .g-all-row:first-child:before:after {
   margin-right: -100%;
 }
 .ie6-8 .g-all-right, .ie6-8 .g-d-right {
-  display: inline;
   float: right;
 }
 .ie6-8 .g-all-left, .ie6-8 .g-d-left {
-  display: inline;
   float: left;
 }
 .ie6-8 .g-all-f, .ie6-8 .g-d-f {

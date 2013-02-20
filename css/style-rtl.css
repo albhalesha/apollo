@@ -62,12 +62,11 @@ ul.links.inline li {
   list-style-type: none;
   margin-left: 0;
   white-space: nowrap;
-  display: inline;
   float: right;
   padding-left: 1em;
   padding-right: 1em;
 }
-ul.links.inline li:first-child, ul.links.inline li.first {
+ul.links.inline li:first-child {
   padding-right: 0;
 }
 ul.links.inline li:last-child {
@@ -82,12 +81,11 @@ ul.action-links li {
   list-style-type: none;
   margin-left: 0;
   white-space: nowrap;
-  display: inline;
   float: right;
   padding-left: 1em;
   padding-right: 1em;
 }
-ul.action-links li:first-child, ul.action-links li.first {
+ul.action-links li:first-child {
   padding-right: 0;
 }
 ul.action-links li:last-child {
@@ -103,14 +101,11 @@ ul.action-links li.last {
  * ==================================================
  */
 .grid-dis-header #hgroup-first {
-  display: inline;
   float: right;
 }
 .grid-dis-header #hgroup-second {
-  display: inline;
   float: right;
 }
 .grid-dis-header #hgroup-third {
-  display: inline;
   float: left;
 }

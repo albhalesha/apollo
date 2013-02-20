@@ -172,7 +172,9 @@
   text-transform: lowercase;
 }
 
-.site-slogan {
+.site-slogan, h6.site-slogan {
+  color: #000;
+  @include trailer(0);
   @extend %uppercase;
   @media screen and (-webkit-min-device-pixel-ratio:0) {
     @include adjust-font-size-to($font-size-xxl,0.8);
@@ -196,5 +198,25 @@
   .name-and-slogan.with-logo,
   .logo {
     @include padding-leader(1);
+  }
+}
+
+/* Delta blocks branding */
+
+.header .block-delta-blocks {
+  @include trailer(0);
+}
+
+.header #search-block-form {
+  @include float(right);
+}
+
+.header .block-delta-blocks .site-name {
+  padding-top: 0em;
+}
+
+@include breakpoint-at($break-handheld-all) {
+  .region-header-third, .region-header-third form {
+    margin-bottom:0;
   }
 }
