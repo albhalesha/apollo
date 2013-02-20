@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
  * ==================================================
  * aether.css
@@ -2293,6 +2292,7 @@ footer .footer-columns, footer .footer {
 .header #search-block-form,
 .header #islandora-solr-simple-search-form {
   float: right;
+  padding-top: 0.75em;
 }
 
 .header .block-delta-blocks .site-name {

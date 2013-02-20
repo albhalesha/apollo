@@ -211,6 +211,7 @@
   #search-block-form,
   #islandora-solr-simple-search-form {
     @include float(right);
+    @include padding-leader(0.5);
   }
 }
 
