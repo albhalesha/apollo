@@ -216,7 +216,7 @@
 
 .header .block-delta-blocks .site-name {
   @include padding-leader(0.15);
-  @include trailer(0.25);
+  @include trailer(0.15);
 }
 
 @include breakpoint-at($break-handheld-all) {
