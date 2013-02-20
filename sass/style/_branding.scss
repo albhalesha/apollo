@@ -207,12 +207,11 @@
   @include trailer(0);
 }
 
-.header #search-block-form {
-  @include float(right);
-}
-
-.header .block-delta-blocks .site-name {
-  padding-top: 0em;
+.header {
+  #search-block-form,
+  #islandora-solr-simple-search-form {
+    @include float(right);
+  }
 }
 
 @include breakpoint-at($break-handheld-all) {

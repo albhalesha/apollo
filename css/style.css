@@ -2290,12 +2290,9 @@ footer .footer-columns, footer .footer {
   margin-bottom: 0em;
 }
 
-.header #search-block-form {
+.header #search-block-form,
+.header #islandora-solr-simple-search-form {
   float: right;
-}
-
-.header .block-delta-blocks .site-name {
-  padding-top: 0em;
 }
 
 @media (max-width: 47.9375em) {
