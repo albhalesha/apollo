@@ -2294,7 +2294,7 @@ footer .footer-columns, footer .footer {
   float: right;
   padding-top: 0.75em;
 }
-.header #block-islandora_solr-simple .block {
+.header #block-islandora_solr-simple {
   margin-bottom: 0em;
 }
 
