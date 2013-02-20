@@ -2295,8 +2295,14 @@ footer .footer-columns, footer .footer {
   float: right;
 }
 
+.header .block-delta-blocks .site-name {
+  padding-top: 0.3em;
+}
+
 @media (max-width: 47.9375em) {
-  .region-header-third, .region-header-third form {
+  .region-header-first,
+  .region-header-third,
+  .region-header-third form {
     margin-bottom: 0;
   }
 }

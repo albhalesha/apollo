@@ -214,8 +214,14 @@
   }
 }
 
+.header .block-delta-blocks .site-name {
+  @include padding-leader(0.2);
+}
+
 @include breakpoint-at($break-handheld-all) {
-  .region-header-third, .region-header-third form {
+  .region-header-first,
+  .region-header-third,
+  .region-header-third form {
     margin-bottom:0;
   }
 }
