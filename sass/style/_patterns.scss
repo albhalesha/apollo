@@ -47,5 +47,5 @@
 }
 
 .break-word {
-  word-wrap: break-word;
+  @include word-break(break-all);
 }
