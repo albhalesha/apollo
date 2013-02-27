@@ -2559,6 +2559,10 @@ footer .footer-columns, footer .footer {
   float: right;
 }
 
+.break-word {
+  word-wrap: break-word;
+}
+
 #islandora-solr-advanced-search-form .form-submit[type="submit"] {
   margin-bottom: 0;
 }
