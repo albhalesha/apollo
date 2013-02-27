@@ -2551,6 +2551,30 @@ footer .footer-columns, footer .footer {
   margin-bottom: 0.75em;
 }
 
+.padding-top {
+  padding-top: 1.5em;
+}
+
+.padding-bottom {
+  padding-bottom: 1.5em;
+}
+
+.padding-half-top {
+  padding-top: 0.75em;
+}
+
+.padding-half-bottom {
+  padding-bottom: 0.75em;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-left: 0;
+}
+
 .pull-left {
   float: left;
 }
