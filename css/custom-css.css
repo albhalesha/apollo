@@ -30,13 +30,16 @@
     display: inline;
 }
 
-/* New prperties added by Alkarim Bhalesha(AB) /25/july/2013: boder-style, box-shadow, background */
+/* New prperties added by Alkarim Bhalesha(AB) /25/july/2013: boder-style, box-shadow, background & Email:hover {}*/
 .email {
     background: none;
     border-style: none;
     box-shadow: none;
 }
 
+.email:hover {
+    background: none;
+}
 
 
 .tel:before {
