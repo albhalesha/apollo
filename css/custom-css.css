@@ -23,21 +23,21 @@
     font-style: normal;
 }
 
-/* New prperties added by Alkarim Bhalesha(AB) /24/july/2013: boder-style, box-shadow, background-color */
 .email:before {
     font-family: entypo;
     font-size: 2.5em;
     content: '\2709';
     display: inline;
-    border-style: none;
-    box-shadow: none;
-    background-color: none;
 }
 
-/* New element added by AB /24/july/2013 */
-.emial:hover {
-    display: none;
+/* New prperties added by Alkarim Bhalesha(AB) /25/july/2013: boder-style, box-shadow, background */
+.email {
+    background: none;
+    border-style: none;
+    box-shadow: none;
 }
+
+
 
 .tel:before {
     font-family: entypo;
